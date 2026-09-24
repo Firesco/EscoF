@@ -1,12 +1,9 @@
-<!--
-GÖRSEL ALANI
-Logonuzu docs/images/escof-logo.png yoluna koyun.
-Ardından aşağıdaki <p>...</p> bloğunu bu yorumun dışına çıkarın.
+
 
 <p align="center">
   <img src="docs/images/escof-logo.png" alt="EscoF" width="480">
 </p>
--->
+
 
 <h1 align="center">EscoF</h1>
 

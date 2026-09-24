@@ -1,0 +1,105 @@
+{
+  "started_utc": "2026-09-22T05:31:43Z",
+  "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+  "os": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "actual_os_cpu_count": 9,
+  "jvm_active_processor_count": 8,
+  "cpu_affinity_pinned": false,
+  "heap": "2 GiB fixed",
+  "collector": "G1",
+  "spark_enabled": false,
+  "leaf_sha256": "bfc308dc53560fe2d0158564b5382c81bc2c22cc1d714a40ee6304d7e40c385e",
+  "esco_sha256": "5a195a8db7069f91519ab5bae2024f4a8039c6a6b4dd6a498a86e24bdf2bd92e",
+  "harness_sha256": "8d260d5efd03a20ec31b4524689d20653dbe20da4979d46563bcaf19f1aad417",
+  "java_version": "openjdk version \"25.0.4.1\" 2026-08-18 LTS\nOpenJDK Runtime Environment Temurin-25.0.4.1+1 (build 25.0.4.1+1-LTS)\nOpenJDK 64-Bit Server VM Temurin-25.0.4.1+1 (build 25.0.4.1+1-LTS, mixed mode, sharing)\n",
+  "warmup_ticks": 120,
+  "sample_ticks": 120,
+  "cases": {
+    "activation_dense": {
+      "mode": "activation",
+      "entities": 16384,
+      "players": 32,
+      "repeats": 4
+    },
+    "sensor_dense": {
+      "mode": "sensor",
+      "entities": 8192,
+      "players": 0,
+      "repeats": 4
+    },
+    "sensor_large": {
+      "mode": "sensor",
+      "entities": 32768,
+      "players": 0,
+      "repeats": 4
+    },
+    "potential_dense": {
+      "mode": "potential",
+      "entities": 8192,
+      "players": 0,
+      "repeats": 32
+    },
+    "potential_large": {
+      "mode": "potential",
+      "entities": 65536,
+      "players": 0,
+      "repeats": 32
+    },
+    "natural_ai": {
+      "mode": "natural-ai",
+      "entities": 256,
+      "players": 0,
+      "repeats": 1
+    }
+  },
+  "schedule": [
+    {
+      "case": "potential_large",
+      "variant": "leaf",
+      "repeat": 1
+    },
+    {
+      "case": "potential_large",
+      "variant": "esco4",
+      "repeat": 1
+    },
+    {
+      "case": "potential_large",
+      "variant": "esco_all",
+      "repeat": 1
+    },
+    {
+      "case": "potential_large",
+      "variant": "ablation8",
+      "repeat": 1
+    },
+    {
+      "case": "sensor_large",
+      "variant": "leaf",
+      "repeat": 1
+    },
+    {
+      "case": "sensor_large",
+      "variant": "esco4",
+      "repeat": 1
+    },
+    {
+      "case": "sensor_large",
+      "variant": "esco_all",
+      "repeat": 1
+    },
+    {
+      "case": "sensor_large",
+      "variant": "ablation8",
+      "repeat": 1
+    }
+  ],
+  "leaf_profile_for_all_variants": "async4: async mob spawning, pathfinding=4, tracker=4; parallel-world-ticking=false",
+  "ablation_properties": [
+    "compute.caller-participates=false",
+    "sensors.pipeline=false",
+    "sensors.parallel-threshold=8192",
+    "spawning.separate-arrays=false"
+  ],
+  "limitation": "Fresh flat worlds, fake player positions, forced repeated sensor/density calls; no connected clients. Natural AI is stochastic. Ablation is this JAR with old-style dispatch settings, not the unavailable 0.6 binary."
+}

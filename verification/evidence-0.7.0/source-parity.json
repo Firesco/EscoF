@@ -1,0 +1,26 @@
+{
+  "leaf-server/src/minecraft/java": {
+    "files": 5354,
+    "rebuilt_files": 5354,
+    "differences": [],
+    "sha256_of_sorted_source_hashes": "95436be2c7788de282f9353b4c6d38bc3b9692e688bd6e391561e6594255f270"
+  },
+  "paper-api/src/main/java": {
+    "files": 1866,
+    "rebuilt_files": 1866,
+    "differences": [],
+    "sha256_of_sorted_source_hashes": "4a664998787ab956844e1e17121c2ca02b789933e47e370c03f36ea52537296b"
+  },
+  "paper-server/src/main/java": {
+    "files": 1156,
+    "rebuilt_files": 1156,
+    "differences": [],
+    "sha256_of_sorted_source_hashes": "d4abfb1c1e69467828d3e5170cf16c79bf0925089d30aca0e1305c6ec93f5114"
+  },
+  "leaf-server/src/main/java": {
+    "files": 435,
+    "rebuilt_files": 435,
+    "differences": [],
+    "sha256_of_sorted_source_hashes": "fd305381d8d76e3228fbf4cca59f346c89667831d86474b69c1403d477baf2c2"
+  }
+}

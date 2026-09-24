@@ -1,0 +1,4 @@
+name: EscoPaperProbe
+version: '0.2.0'
+main: dev.escos.verify.PaperProbe
+api-version: '26.2'

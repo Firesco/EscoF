@@ -1,0 +1,18 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Dreeam <61569423+Dreeam-qwq@users.noreply.github.com>
+Date: Mon, 4 Nov 2024 23:07:27 -0500
+Subject: [PATCH] Leaf Commands
+
+
+diff --git a/net/minecraft/server/dedicated/DedicatedServer.java b/net/minecraft/server/dedicated/DedicatedServer.java
+index 8afb64f84789110b657b97e5262610a87f152460..300f11471cd409f864b5f3d7a52b9d21ba60aec4 100644
+--- a/net/minecraft/server/dedicated/DedicatedServer.java
++++ b/net/minecraft/server/dedicated/DedicatedServer.java
+@@ -273,6 +273,7 @@ public class DedicatedServer extends MinecraftServer implements ServerInterface
+         }
+         org.purpurmc.purpur.PurpurConfig.registerCommands();
+         */// Purpur end - Purpur config files // Purpur end - Migrate Setting to reintroduce end void rings
++        org.dreeam.leaf.command.LeafCommands.registerCommands(this); // Leaf - Leaf commands
+         com.destroystokyo.paper.VersionHistoryManager.INSTANCE.getClass(); // Paper - load version history now
+ 
+         // this.worldData.setGameType(properties.gameMode.get()); // CraftBukkit - moved to world loading

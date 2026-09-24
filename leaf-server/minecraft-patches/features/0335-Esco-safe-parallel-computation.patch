@@ -1,0 +1,222 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Esco Fork Build <build@escos-fork.invalid>
+Date: Tue, 22 Sep 2026 00:00:00 +0000
+Subject: [PATCH] Esco snapshot computation and exact lookup optimizations
+
+SPDX-License-Identifier: GPL-3.0-only
+
+diff --git a/ca/spottedleaf/moonrise/patches/chunk_system/level/entity/EntityLookup.java b/ca/spottedleaf/moonrise/patches/chunk_system/level/entity/EntityLookup.java
+index 2a9032f..3d9d643 100644
+--- a/ca/spottedleaf/moonrise/patches/chunk_system/level/entity/EntityLookup.java
++++ b/ca/spottedleaf/moonrise/patches/chunk_system/level/entity/EntityLookup.java
+@@ -203,6 +203,17 @@ public abstract class EntityLookup implements LevelEntityGetter<Entity> {
+         }
+     }
+ 
++    // Esco start - caller-owned entity capture, protected by the upstream collection lock
++    public int esco$copyAllInto(final Entity[] target) {
++        synchronized (this.accessibleEntities) {
++            final int size = this.accessibleEntities.size();
++            if (target.length < size) return -size;
++            System.arraycopy(this.accessibleEntities.getRawData(), 0, target, 0, size);
++            return size;
++        }
++    }
++    // Esco end - caller-owned entity capture
++
+     public Entity[] getAllCopy() {
+         synchronized (this.accessibleEntities) {
+             return Arrays.copyOf(this.accessibleEntities.getRawData(), this.accessibleEntities.size(), Entity[].class);
+diff --git a/ca/spottedleaf/moonrise/patches/poi_lookup/PoiAccess.java b/ca/spottedleaf/moonrise/patches/poi_lookup/PoiAccess.java
+index ddf8c37..820f89f 100644
+--- a/ca/spottedleaf/moonrise/patches/poi_lookup/PoiAccess.java
++++ b/ca/spottedleaf/moonrise/patches/poi_lookup/PoiAccess.java
+@@ -31,6 +31,26 @@ public final class PoiAccess {
+ 
+     public static final boolean LOAD_FOR_SEARCHING = true;
+ 
++    // Esco start - prove an empty search from currently loaded data, with no result cache
++    private static boolean esco$loadedAreaEmpty(final PoiManager storage, final int lowerX, final int upperX,
++                                                final int lowerZ, final int upperZ) {
++        if (!dev.escos.fork.EscoConfig.POI_EMPTY_SEARCH
++            || !ca.spottedleaf.moonrise.common.util.TickThread.isTickThreadFor(storage.moonrise$getWorld())) return false;
++        final long width = (long) upperX - lowerX + 1, depth = (long) upperZ - lowerZ + 1;
++        if (width <= 0 || depth <= 0 || width > 64 || depth > 64) return false;
++        final var manager = storage.moonrise$getWorld().moonrise$getChunkTaskScheduler().chunkHolderManager;
++        for (int x = lowerX; x <= upperX; ++x) {
++            for (int z = lowerZ; z <= upperZ; ++z) {
++                final ca.spottedleaf.moonrise.patches.chunk_system.level.poi.PoiChunk chunk = manager.getPoiChunkIfLoaded(x, z, false);
++                if (chunk == null || !chunk.isLoaded() || !chunk.isEmpty()) return false;
++            }
++        }
++        dev.escos.fork.EscoMetrics.POI_EMPTY_SEARCHES.increment();
++        return true;
++    }
++    // Esco end - loaded empty POI search
++
++
+     public static int compareDistances(final double d1, final double d2) {
+         // we assume that the values are reasonably finite
+ 
+@@ -111,6 +131,8 @@ public final class PoiAccess {
+         final int upperY = WorldUtil.getMaxSection(poiStorage.levelHeightAccessor);
+         final int upperZ = Mth.floor(sourcePosition.getZ() + range) >> 4;
+ 
++        if (esco$loadedAreaEmpty(poiStorage, lowerX, upperX, lowerZ, upperZ)) return; // Esco - empty proof
++
+         final int centerX = sourcePosition.getX() >> 4;
+         final int centerY = Mth.clamp(sourcePosition.getY() >> 4, lowerY, upperY);
+         final int centerZ = sourcePosition.getZ() >> 4;
+@@ -406,6 +428,8 @@ public final class PoiAccess {
+         final int upperY = WorldUtil.getMaxSection(poiStorage.levelHeightAccessor);
+         final int upperZ = Mth.floor(sourcePosition.getZ() + range) >> 4;
+ 
++        if (esco$loadedAreaEmpty(poiStorage, lowerX, upperX, lowerZ, upperZ)) return; // Esco - empty proof
++
+         final int centerX = sourcePosition.getX() >> 4;
+         final int centerY = Mth.clamp(sourcePosition.getY() >> 4, lowerY, upperY);
+         final int centerZ = sourcePosition.getZ() >> 4;
+diff --git a/io/papermc/paper/entity/activation/ActivationRange.java b/io/papermc/paper/entity/activation/ActivationRange.java
+index 4d5c38c..6862187 100644
+--- a/io/papermc/paper/entity/activation/ActivationRange.java
++++ b/io/papermc/paper/entity/activation/ActivationRange.java
+@@ -156,6 +156,8 @@ public final class ActivationRange {
+         maxRange = Math.max(maxRange, villagerActivationRange);
+         maxRange = Math.min((world.spigotConfig.simulationDistance << 4) - 8, maxRange);
+ 
++        if (dev.escos.fork.entity.ParallelActivation.tryActivate(world, maxRange)) return; // Esco - primitive activation barrier
++
+         // Leaf start - optimize entity activation
+         final boolean tickMarkers = world.paperConfig().entities.markers.tick;
+         final boolean dab = org.dreeam.leaf.config.modules.opt.DynamicActivationofBrain.enabled;
+diff --git a/net/minecraft/commands/Commands.java b/net/minecraft/commands/Commands.java
+index b62e6d5..4e8ae25 100644
+--- a/net/minecraft/commands/Commands.java
++++ b/net/minecraft/commands/Commands.java
+@@ -297,6 +297,7 @@ public class Commands {
+             SaveOffCommand.register(this.dispatcher);
+             SaveOnCommand.register(this.dispatcher);
+             SetPlayerIdleTimeoutCommand.register(this.dispatcher);
++            dev.escos.fork.EscoCommand.register(this.dispatcher); // Esco - compute counters
+             StopCommand.register(this.dispatcher);
+             TransferCommand.register(this.dispatcher);
+             WhitelistCommand.register(this.dispatcher);
+diff --git a/net/minecraft/world/entity/ai/memory/NearestVisibleLivingEntities.java b/net/minecraft/world/entity/ai/memory/NearestVisibleLivingEntities.java
+index fd97abd..3dc368a 100644
+--- a/net/minecraft/world/entity/ai/memory/NearestVisibleLivingEntities.java
++++ b/net/minecraft/world/entity/ai/memory/NearestVisibleLivingEntities.java
+@@ -23,9 +23,17 @@ public class NearestVisibleLivingEntities {
+ 
+     public NearestVisibleLivingEntities(final ServerLevel level, final LivingEntity body, final List<LivingEntity> livingEntities) {
+         this.nearbyEntities = livingEntities;
+-        Object2BooleanOpenHashMap<LivingEntity> cache = new Object2BooleanOpenHashMap<>(livingEntities.size());
+-        Predicate<LivingEntity> targetTest = targetEntity -> Sensor.isEntityTargetable(level, body, targetEntity);
+-        this.lineOfSightTest = otherEntity -> cache.computeIfAbsent(otherEntity, targetTest);
++        // Esco start - allocate visibility cache only when a visibility result is requested
++        this.lineOfSightTest = new Predicate<LivingEntity>() {
++            private Object2BooleanOpenHashMap<LivingEntity> cache;
++            private final Predicate<LivingEntity> targetTest = target -> Sensor.isEntityTargetable(level, body, target);
++            @Override
++            public boolean test(final LivingEntity otherEntity) {
++                if (this.cache == null) this.cache = new Object2BooleanOpenHashMap<>(livingEntities.size());
++                return this.cache.computeIfAbsent(otherEntity, this.targetTest);
++            }
++        };
++        // Esco end - lazy visibility cache
+     }
+ 
+     public static NearestVisibleLivingEntities empty() {
+diff --git a/net/minecraft/world/entity/ai/sensing/NearestLivingEntitySensor.java b/net/minecraft/world/entity/ai/sensing/NearestLivingEntitySensor.java
+index 3bf67d9..a4dcff4 100644
+--- a/net/minecraft/world/entity/ai/sensing/NearestLivingEntitySensor.java
++++ b/net/minecraft/world/entity/ai/sensing/NearestLivingEntitySensor.java
+@@ -13,14 +13,22 @@ import net.minecraft.world.entity.ai.memory.NearestVisibleLivingEntities;
+ import net.minecraft.world.phys.AABB;
+ 
+ public class NearestLivingEntitySensor<T extends LivingEntity> extends Sensor<T> {
++    private int esco$lastSize; // Esco - capacity hint only; published lists always have their own storage
+     @Override
+     protected void doTick(final ServerLevel level, final T body) {
+         double followRange = body.getAttributeValue(Attributes.FOLLOW_RANGE);
+         AABB boundingBox = body.getBoundingBox().inflate(followRange, followRange, followRange);
+         // Leaf start - fast bit radix sort
+-        it.unimi.dsi.fastutil.objects.ObjectArrayList<LivingEntity> livingEntities = new it.unimi.dsi.fastutil.objects.ObjectArrayList<>();
++        it.unimi.dsi.fastutil.objects.ObjectArrayList<LivingEntity> livingEntities = new it.unimi.dsi.fastutil.objects.ObjectArrayList<>(Math.min(this.esco$lastSize, 65536));
+         ((ca.spottedleaf.moonrise.patches.chunk_system.level.ChunkSystemLevel) level).moonrise$getEntityLookup().getEntities(LivingEntity.class, body, boundingBox, livingEntities, LivingEntity::isAlive);
+-        level.fastBitRadixSort.sort(livingEntities.elements(), livingEntities.size(), body.position());
++        // Esco start - capture distances on caller, sort primitive indices, publish after join
++        this.esco$lastSize = livingEntities.size();
++        if (dev.escos.fork.EscoConfig.SENSORS && livingEntities.size() >= 8192) {
++            final net.minecraft.world.phys.Vec3 position = body.position();
++            dev.escos.fork.ai.DistanceOrder.sort(livingEntities,
++                entity -> entity.distanceToSqr(position.x, position.y, position.z));
++        } else level.fastBitRadixSort.sort(livingEntities.elements(), livingEntities.size(), body.position());
++        // Esco end - distance ordering
+         // Leaf end - fast bit radix sort
+         Brain<?> brain = body.getBrain();
+         brain.setMemory(MemoryModuleType.NEAREST_LIVING_ENTITIES, livingEntities);
+diff --git a/net/minecraft/world/level/PotentialCalculator.java b/net/minecraft/world/level/PotentialCalculator.java
+index 9c1a668..59122bb 100644
+--- a/net/minecraft/world/level/PotentialCalculator.java
++++ b/net/minecraft/world/level/PotentialCalculator.java
+@@ -7,9 +7,19 @@ import net.minecraft.core.BlockPos;
+ public class PotentialCalculator {
+     private final List<PotentialCalculator.PointCharge> charges = Lists.newArrayList();
+ 
++    // Paper start - Esco parallel spawn potential
++    private boolean esco$plainPositions = true;
++    private boolean esco$immutablePositions = true;
++    private dev.escos.fork.entity.@org.jspecify.annotations.Nullable PotentialWork esco$potential;
++    // Paper end - Esco parallel spawn potential
++
+     public void addCharge(final BlockPos pos, final double charge) {
+         if (charge != 0.0) {
+             this.charges.add(new PotentialCalculator.PointCharge(pos, charge));
++            // Paper start - Esco parallel spawn potential; preserve custom NMS distance overrides
++            this.esco$plainPositions &= pos.getClass() == BlockPos.class || pos.getClass() == BlockPos.MutableBlockPos.class;
++            this.esco$immutablePositions &= pos.getClass() == BlockPos.class;
++            // Paper end - Esco parallel spawn potential
+         }
+     }
+ 
+@@ -18,6 +28,21 @@ public class PotentialCalculator {
+             return 0.0;
+         }
+ 
++        // Paper start - Esco parallel spawn potential
++        if (dev.escos.fork.EscoConfig.POTENTIAL && this.esco$plainPositions
++            && (pos.getClass() == BlockPos.class || pos.getClass() == BlockPos.MutableBlockPos.class)
++            && this.charges.size() >= dev.escos.fork.EscoConfig.POTENTIAL_THRESHOLD) {
++            if (this.esco$potential == null) this.esco$potential = new dev.escos.fork.entity.PotentialWork();
++            return this.esco$potential.sum(this.charges.size(), pos.getX(), pos.getY(), pos.getZ(),
++                (index, target, offset) -> {
++                    final PotentialCalculator.PointCharge point = this.charges.get(index);
++                    target[offset] = point.pos.getX();
++                    target[offset + 1] = point.pos.getY();
++                    target[offset + 2] = point.pos.getZ();
++                    target[offset + 3] = point.charge;
++                }, this.esco$immutablePositions) * charge;
++        }
++        // Paper end - Esco parallel spawn potential
+         double potentialChange = 0.0;
+ 
+         for (PotentialCalculator.PointCharge point : this.charges) {
+diff --git a/net/minecraft/world/level/pathfinder/PathFinder.java b/net/minecraft/world/level/pathfinder/PathFinder.java
+index 8497dbb..163eebc 100644
+--- a/net/minecraft/world/level/pathfinder/PathFinder.java
++++ b/net/minecraft/world/level/pathfinder/PathFinder.java
+@@ -224,6 +224,14 @@ public class PathFinder {
+     }
+ 
+     private Path reconstructPath(final Node closest, final BlockPos target, final boolean reached) {
++        // Esco start - linear path reconstruction; retain upstream null failure behavior
++        if (dev.escos.fork.EscoConfig.LINEAR_PATHS && closest != null) {
++            final List<Node> ordered = new java.util.ArrayList<>();
++            for (Node current = closest; current != null; current = current.cameFrom) ordered.add(current);
++            java.util.Collections.reverse(ordered);
++            return new Path(ordered, target, reached);
++        }
++        // Esco end - linear path reconstruction
+         List<Node> nodes = Lists.newArrayList();
+         Node node = closest;
+         nodes.add(0, node);

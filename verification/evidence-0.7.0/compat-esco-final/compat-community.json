@@ -1,0 +1,9 @@
+{
+  "LuckPerms": "5.5.85",
+  "Vault": "1.7.3-b131",
+  "WorldEdit": "7.4.5+7590-b8dc4c1",
+  "vault_permission_bridge": true,
+  "worldedit_block_edit": true,
+  "luckperms_group_persistence": true,
+  "status": "passed"
+}

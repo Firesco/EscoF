@@ -1,0 +1,301 @@
+{
+  "started_utc": "2026-09-22T06:08:20Z",
+  "host_cpu": "AMD EPYC 9V74 80-Core Processor",
+  "os": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "actual_os_cpu_count": 9,
+  "jvm_active_processor_count": 8,
+  "cpu_affinity_pinned": false,
+  "heap": "2 GiB fixed",
+  "collector": "G1",
+  "spark_enabled": false,
+  "leaf_sha256": "bfc308dc53560fe2d0158564b5382c81bc2c22cc1d714a40ee6304d7e40c385e",
+  "esco_sha256": "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8",
+  "harness_sha256": "8d260d5efd03a20ec31b4524689d20653dbe20da4979d46563bcaf19f1aad417",
+  "java_version": "openjdk version \"25.0.4.1\" 2026-08-18 LTS\nOpenJDK Runtime Environment Temurin-25.0.4.1+1 (build 25.0.4.1+1-LTS)\nOpenJDK 64-Bit Server VM Temurin-25.0.4.1+1 (build 25.0.4.1+1-LTS, mixed mode, sharing)\n",
+  "warmup_ticks": 200,
+  "sample_ticks": 200,
+  "cases": {
+    "activation_dense": {
+      "mode": "activation",
+      "entities": 16384,
+      "players": 32,
+      "repeats": 4
+    },
+    "sensor_dense": {
+      "mode": "sensor",
+      "entities": 8192,
+      "players": 0,
+      "repeats": 4
+    },
+    "sensor_large": {
+      "mode": "sensor",
+      "entities": 32768,
+      "players": 0,
+      "repeats": 4
+    },
+    "potential_dense": {
+      "mode": "potential",
+      "entities": 8192,
+      "players": 0,
+      "repeats": 32
+    },
+    "potential_large": {
+      "mode": "potential",
+      "entities": 65536,
+      "players": 0,
+      "repeats": 32
+    },
+    "potential_xlarge": {
+      "mode": "potential",
+      "entities": 262144,
+      "players": 0,
+      "repeats": 32
+    },
+    "natural_ai": {
+      "mode": "natural-ai",
+      "entities": 256,
+      "players": 0,
+      "repeats": 1
+    }
+  },
+  "schedule": [
+    {
+      "case": "activation_dense",
+      "variant": "leaf",
+      "repeat": 1
+    },
+    {
+      "case": "activation_dense",
+      "variant": "esco4",
+      "repeat": 1
+    },
+    {
+      "case": "activation_dense",
+      "variant": "esco_all",
+      "repeat": 1
+    },
+    {
+      "case": "activation_dense",
+      "variant": "esco0",
+      "repeat": 1
+    },
+    {
+      "case": "activation_dense",
+      "variant": "esco0",
+      "repeat": 2
+    },
+    {
+      "case": "activation_dense",
+      "variant": "esco_all",
+      "repeat": 2
+    },
+    {
+      "case": "activation_dense",
+      "variant": "esco4",
+      "repeat": 2
+    },
+    {
+      "case": "activation_dense",
+      "variant": "leaf",
+      "repeat": 2
+    },
+    {
+      "case": "sensor_dense",
+      "variant": "leaf",
+      "repeat": 1
+    },
+    {
+      "case": "sensor_dense",
+      "variant": "esco4",
+      "repeat": 1
+    },
+    {
+      "case": "sensor_dense",
+      "variant": "esco_all",
+      "repeat": 1
+    },
+    {
+      "case": "sensor_dense",
+      "variant": "esco_all",
+      "repeat": 2
+    },
+    {
+      "case": "sensor_dense",
+      "variant": "esco4",
+      "repeat": 2
+    },
+    {
+      "case": "sensor_dense",
+      "variant": "leaf",
+      "repeat": 2
+    },
+    {
+      "case": "sensor_large",
+      "variant": "leaf",
+      "repeat": 1
+    },
+    {
+      "case": "sensor_large",
+      "variant": "esco4",
+      "repeat": 1
+    },
+    {
+      "case": "sensor_large",
+      "variant": "esco_all",
+      "repeat": 1
+    },
+    {
+      "case": "sensor_large",
+      "variant": "esco_all",
+      "repeat": 2
+    },
+    {
+      "case": "sensor_large",
+      "variant": "esco4",
+      "repeat": 2
+    },
+    {
+      "case": "sensor_large",
+      "variant": "leaf",
+      "repeat": 2
+    },
+    {
+      "case": "potential_dense",
+      "variant": "leaf",
+      "repeat": 1
+    },
+    {
+      "case": "potential_dense",
+      "variant": "esco4",
+      "repeat": 1
+    },
+    {
+      "case": "potential_dense",
+      "variant": "esco_all",
+      "repeat": 1
+    },
+    {
+      "case": "potential_dense",
+      "variant": "esco_all",
+      "repeat": 2
+    },
+    {
+      "case": "potential_dense",
+      "variant": "esco4",
+      "repeat": 2
+    },
+    {
+      "case": "potential_dense",
+      "variant": "leaf",
+      "repeat": 2
+    },
+    {
+      "case": "potential_large",
+      "variant": "leaf",
+      "repeat": 1
+    },
+    {
+      "case": "potential_large",
+      "variant": "esco4",
+      "repeat": 1
+    },
+    {
+      "case": "potential_large",
+      "variant": "esco_all",
+      "repeat": 1
+    },
+    {
+      "case": "potential_large",
+      "variant": "esco_all",
+      "repeat": 2
+    },
+    {
+      "case": "potential_large",
+      "variant": "esco4",
+      "repeat": 2
+    },
+    {
+      "case": "potential_large",
+      "variant": "leaf",
+      "repeat": 2
+    },
+    {
+      "case": "potential_xlarge",
+      "variant": "leaf",
+      "repeat": 1
+    },
+    {
+      "case": "potential_xlarge",
+      "variant": "esco4",
+      "repeat": 1
+    },
+    {
+      "case": "potential_xlarge",
+      "variant": "esco_all",
+      "repeat": 1
+    },
+    {
+      "case": "potential_xlarge",
+      "variant": "esco0",
+      "repeat": 1
+    },
+    {
+      "case": "potential_xlarge",
+      "variant": "esco0",
+      "repeat": 2
+    },
+    {
+      "case": "potential_xlarge",
+      "variant": "esco_all",
+      "repeat": 2
+    },
+    {
+      "case": "potential_xlarge",
+      "variant": "esco4",
+      "repeat": 2
+    },
+    {
+      "case": "potential_xlarge",
+      "variant": "leaf",
+      "repeat": 2
+    },
+    {
+      "case": "natural_ai",
+      "variant": "leaf",
+      "repeat": 1
+    },
+    {
+      "case": "natural_ai",
+      "variant": "esco4",
+      "repeat": 1
+    },
+    {
+      "case": "natural_ai",
+      "variant": "esco_all",
+      "repeat": 1
+    },
+    {
+      "case": "natural_ai",
+      "variant": "esco_all",
+      "repeat": 2
+    },
+    {
+      "case": "natural_ai",
+      "variant": "esco4",
+      "repeat": 2
+    },
+    {
+      "case": "natural_ai",
+      "variant": "leaf",
+      "repeat": 2
+    }
+  ],
+  "leaf_profile_for_all_variants": "async4: async mob spawning, pathfinding=4, tracker=4; parallel-world-ticking=false",
+  "ablation_properties": [
+    "compute.caller-participates=false",
+    "sensors.pipeline=false",
+    "sensors.parallel-threshold=8192",
+    "spawning.separate-arrays=false"
+  ],
+  "limitation": "Fresh flat worlds, fake player positions, forced repeated sensor/density calls; no connected clients. Natural AI is stochastic. Ablation is this JAR with old-style dispatch settings, not the unavailable 0.6 binary."
+}

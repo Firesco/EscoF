@@ -1,0 +1,140 @@
+[
+  {
+    "kind": "sensor",
+    "size": 8192,
+    "mean_us": 210.0157,
+    "p50_us": 189.124,
+    "p95_us": 278.543,
+    "warmup": 1500,
+    "samples": 1000,
+    "variant": "default4",
+    "flags": [
+      "-Descos.workers=4"
+    ],
+    "metrics": "{configured_workers=4, observed_workers=0, peak_parallel_workers=0, live_workers=0, peak_live_workers=0, active_workers=0, activation_buffer_grows=0, sort_buffer_grows=1, parallel_batches=0, worker_tasks=0, caller_compute_tasks=0, external_pool_entries=0, worker_wall_nanos_sum=0, activation_batches=0, activation_entities=0, activation_nanos=0, activation_verifications=0, activation_mismatches=0, poi_empty_searches=0, sensor_sorts=2500, sensor_sorted_items=20480000, sensor_parallel_merge_passes=0, potential_buffer_grows=0, potential_queries=0, potential_points=0}"
+  },
+  {
+    "kind": "sensor",
+    "size": 8192,
+    "mean_us": 205.3233,
+    "p50_us": 192.168,
+    "p95_us": 247.189,
+    "warmup": 1500,
+    "samples": 1000,
+    "variant": "default8",
+    "flags": [
+      "-Descos.workers=8"
+    ],
+    "metrics": "{configured_workers=8, observed_workers=0, peak_parallel_workers=0, live_workers=0, peak_live_workers=0, active_workers=0, activation_buffer_grows=0, sort_buffer_grows=1, parallel_batches=0, worker_tasks=0, caller_compute_tasks=0, external_pool_entries=0, worker_wall_nanos_sum=0, activation_batches=0, activation_entities=0, activation_nanos=0, activation_verifications=0, activation_mismatches=0, poi_empty_searches=0, sensor_sorts=2500, sensor_sorted_items=20480000, sensor_parallel_merge_passes=0, potential_buffer_grows=0, potential_queries=0, potential_points=0}"
+  },
+  {
+    "kind": "sensor",
+    "size": 8192,
+    "mean_us": 321.1149,
+    "p50_us": 273.857,
+    "p95_us": 500.436,
+    "warmup": 1500,
+    "samples": 1000,
+    "variant": "oldsort8",
+    "flags": [
+      "-Descos.workers=8",
+      "-Descos.sensors.parallel-threshold=8192",
+      "-Descos.sensors.pipeline=false",
+      "-Descos.compute.caller-participates=false",
+      "-Descos.spawning.separate-arrays=false"
+    ],
+    "metrics": "{configured_workers=8, observed_workers=7, peak_parallel_workers=4, live_workers=7, peak_live_workers=7, active_workers=0, activation_buffer_grows=0, sort_buffer_grows=1, parallel_batches=5000, worker_tasks=15000, caller_compute_tasks=0, external_pool_entries=5000, worker_wall_nanos_sum=610834879, activation_batches=0, activation_entities=0, activation_nanos=0, activation_verifications=0, activation_mismatches=0, poi_empty_searches=0, sensor_sorts=2500, sensor_sorted_items=20480000, sensor_parallel_merge_passes=2500, potential_buffer_grows=0, potential_queries=0, potential_points=0}"
+  },
+  {
+    "kind": "sensor",
+    "size": 32768,
+    "mean_us": 926.1311,
+    "p50_us": 894.357,
+    "p95_us": 1065.445,
+    "warmup": 1500,
+    "samples": 1000,
+    "variant": "default4",
+    "flags": [
+      "-Descos.workers=4"
+    ],
+    "metrics": "{configured_workers=4, observed_workers=0, peak_parallel_workers=0, live_workers=0, peak_live_workers=0, active_workers=0, activation_buffer_grows=0, sort_buffer_grows=1, parallel_batches=0, worker_tasks=0, caller_compute_tasks=0, external_pool_entries=0, worker_wall_nanos_sum=0, activation_batches=0, activation_entities=0, activation_nanos=0, activation_verifications=0, activation_mismatches=0, poi_empty_searches=0, sensor_sorts=2500, sensor_sorted_items=81920000, sensor_parallel_merge_passes=0, potential_buffer_grows=0, potential_queries=0, potential_points=0}"
+  },
+  {
+    "kind": "sensor",
+    "size": 32768,
+    "mean_us": 889.8322,
+    "p50_us": 861.983,
+    "p95_us": 1014.529,
+    "warmup": 1500,
+    "samples": 1000,
+    "variant": "default8",
+    "flags": [
+      "-Descos.workers=8"
+    ],
+    "metrics": "{configured_workers=8, observed_workers=0, peak_parallel_workers=0, live_workers=0, peak_live_workers=0, active_workers=0, activation_buffer_grows=0, sort_buffer_grows=1, parallel_batches=0, worker_tasks=0, caller_compute_tasks=0, external_pool_entries=0, worker_wall_nanos_sum=0, activation_batches=0, activation_entities=0, activation_nanos=0, activation_verifications=0, activation_mismatches=0, poi_empty_searches=0, sensor_sorts=2500, sensor_sorted_items=81920000, sensor_parallel_merge_passes=0, potential_buffer_grows=0, potential_queries=0, potential_points=0}"
+  },
+  {
+    "kind": "sensor",
+    "size": 32768,
+    "mean_us": 1337.1989,
+    "p50_us": 1164.297,
+    "p95_us": 2139.156,
+    "warmup": 1500,
+    "samples": 1000,
+    "variant": "oldsort8",
+    "flags": [
+      "-Descos.workers=8",
+      "-Descos.sensors.parallel-threshold=8192",
+      "-Descos.sensors.pipeline=false",
+      "-Descos.compute.caller-participates=false",
+      "-Descos.spawning.separate-arrays=false"
+    ],
+    "metrics": "{configured_workers=8, observed_workers=8, peak_parallel_workers=8, live_workers=8, peak_live_workers=8, active_workers=0, activation_buffer_grows=0, sort_buffer_grows=1, parallel_batches=10000, worker_tasks=140000, caller_compute_tasks=0, external_pool_entries=10000, worker_wall_nanos_sum=3859427319, activation_batches=0, activation_entities=0, activation_nanos=0, activation_verifications=0, activation_mismatches=0, poi_empty_searches=0, sensor_sorts=2500, sensor_sorted_items=81920000, sensor_parallel_merge_passes=7500, potential_buffer_grows=0, potential_queries=0, potential_points=0}"
+  },
+  {
+    "kind": "potential",
+    "size": 65536,
+    "mean_us": 247.634,
+    "p50_us": 229.959,
+    "p95_us": 420.8,
+    "warmup": 1500,
+    "samples": 1000,
+    "variant": "default4",
+    "flags": [
+      "-Descos.workers=4"
+    ],
+    "metrics": "{configured_workers=4, observed_workers=4, peak_parallel_workers=3, live_workers=4, peak_live_workers=4, active_workers=0, activation_buffer_grows=0, sort_buffer_grows=0, parallel_batches=2500, worker_tasks=7500, caller_compute_tasks=2500, external_pool_entries=2500, worker_wall_nanos_sum=728603370, activation_batches=0, activation_entities=0, activation_nanos=0, activation_verifications=0, activation_mismatches=0, poi_empty_searches=0, sensor_sorts=0, sensor_sorted_items=0, sensor_parallel_merge_passes=0, potential_buffer_grows=1, potential_queries=2500, potential_points=163840000}"
+  },
+  {
+    "kind": "potential",
+    "size": 65536,
+    "mean_us": 247.7184,
+    "p50_us": 216.349,
+    "p95_us": 305.03,
+    "warmup": 1500,
+    "samples": 1000,
+    "variant": "default8",
+    "flags": [
+      "-Descos.workers=8"
+    ],
+    "metrics": "{configured_workers=8, observed_workers=5, peak_parallel_workers=3, live_workers=5, peak_live_workers=5, active_workers=0, activation_buffer_grows=0, sort_buffer_grows=0, parallel_batches=2500, worker_tasks=7500, caller_compute_tasks=2500, external_pool_entries=2500, worker_wall_nanos_sum=783715222, activation_batches=0, activation_entities=0, activation_nanos=0, activation_verifications=0, activation_mismatches=0, poi_empty_searches=0, sensor_sorts=0, sensor_sorted_items=0, sensor_parallel_merge_passes=0, potential_buffer_grows=1, potential_queries=2500, potential_points=163840000}"
+  },
+  {
+    "kind": "potential",
+    "size": 65536,
+    "mean_us": 239.9506,
+    "p50_us": 197.802,
+    "p95_us": 385.819,
+    "warmup": 1500,
+    "samples": 1000,
+    "variant": "oldsort8",
+    "flags": [
+      "-Descos.workers=8",
+      "-Descos.sensors.parallel-threshold=8192",
+      "-Descos.sensors.pipeline=false",
+      "-Descos.compute.caller-participates=false",
+      "-Descos.spawning.separate-arrays=false"
+    ],
+    "metrics": "{configured_workers=8, observed_workers=8, peak_parallel_workers=8, live_workers=8, peak_live_workers=8, active_workers=0, activation_buffer_grows=0, sort_buffer_grows=0, parallel_batches=2500, worker_tasks=40000, caller_compute_tasks=0, external_pool_entries=2500, worker_wall_nanos_sum=783581453, activation_batches=0, activation_entities=0, activation_nanos=0, activation_verifications=0, activation_mismatches=0, poi_empty_searches=0, sensor_sorts=0, sensor_sorted_items=0, sensor_parallel_merge_passes=0, potential_buffer_grows=1, potential_queries=2500, potential_points=163840000}"
+  }
+]

@@ -1,0 +1,28 @@
+[05:55:43 INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.4.1+1-LTS; Eclipse Adoptium Temurin-25.0.4.1+1) on Linux 6.18.44 (amd64)
+[05:55:50 ERROR]: Failed to request yggdrasil public key
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to api.minecraftservices.com
+Caused by: java.net.UnknownHostException: api.minecraftservices.com
+[05:55:51 INFO]: Starting minecraft server version 26.2
+[05:56:14 INFO]: Done (31.664s)! For help, type "help"
+[05:56:16 INFO]: [EscoBenchmark] BENCH_READY mode=activation entities=2048 synthetic_player_positions=16
+[05:56:31 INFO]: [EscoBenchmark] BENCH_COMPLETE activation mean_mspt=15.56346785
+bukkit {'status': 'passed', 'checks': 19}
+paper {'status': 'passed', 'checks': 1598}
+community {'LuckPerms': '5.5.85', 'Vault': '1.7.3-b131', 'WorldEdit': '7.4.5+7590-b8dc4c1', 'vault_permission_bridge': True, 'worldedit_block_edit': True, 'luckperms_group_persistence': True, 'status': 'passed'}
+{
+  "work": "/local-build/runs/compat-leaf-final",
+  "tick_ms": {
+    "max": 113.881854,
+    "mean": 15.56346785,
+    "p95": 21.184899,
+    "p50": 11.986658
+  },
+  "call_ms": {
+    "max": 19.4146225,
+    "mean": 0.8644445749999999,
+    "p95": 0.976582,
+    "p50": 0.6362695
+  },
+  "checksum": 1027079,
+  "metrics": {}
+}

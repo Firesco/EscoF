@@ -1,0 +1,63 @@
+# Mac filesystem dust
+.DS_Store/
+.DS_Store
+
+# Linux temp files
+*~
+
+# vim
+.*.sw[a-p]
+
+# IntelliJ
+*.iml
+.idea
+!.idea/icon.svg
+
+# Gradle
+!gradle/wrapper/gradle-wrapper.jar
+.gradle
+build
+
+# Leaf
+build-data/dev-imports.txt
+leaf-archived-patches/todo
+run
+
+leaf-api/build.gradle.kts
+leaf-server/build.gradle.kts
+leaf-server/src/minecraft
+paper-api
+paper-server
+
+.codegraph
+
+# Esco local build products
+.esco-build-tmp/
+dist/
+
+__pycache__/
+*.pyc
+.esco-build-state.json
+
+# Local credentials and private ownership material
+.env
+.env.*
+!.env.example
+Firesco-SECRET.json
+Firesco-PRIVATE-owner-kit.zip
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local servers and profiling recordings
+/logs/
+/world/
+/world_nether/
+/world_the_end/
+/plugins/
+/libraries/
+/versions/
+/cache/
+/eula.txt
+*.jfr

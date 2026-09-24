@@ -1,0 +1,16 @@
+{
+  "project": "Leaf",
+  "minecraft": "26.2",
+  "build": 118,
+  "channel": "ALPHA",
+  "release_published_at": "2026-09-20T04:43:36Z",
+  "source_commit": "4b38592a41f9df8fd9b656c21ac1df3f4ada9473",
+  "upstream_paper_commit": "e5fe71723e2ffde7cc9fafc085ac3bb73e63175e",
+  "release_url": "https://github.com/Winds-Studio/Leaf/releases/tag/ver-26.2",
+  "source_url": "https://github.com/Winds-Studio/Leaf/tree/4b38592a41f9df8fd9b656c21ac1df3f4ada9473",
+  "jar_url": "https://github.com/Winds-Studio/Leaf/releases/download/ver-26.2/leaf-26.2-118.jar",
+  "sha256": "bfc308dc53560fe2d0158564b5382c81bc2c22cc1d714a40ee6304d7e40c385e",
+  "bytes": 85226525,
+  "runtime_reported_version": "26.2-118-4b38592 (MC: 26.2)",
+  "note": "Release asset SHA-256 verified against GitHub digest. Mutable release tag; use the pinned SHA when reproducing. Upstream describes this as an early development build for testing."
+}

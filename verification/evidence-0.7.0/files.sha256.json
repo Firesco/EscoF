@@ -1,0 +1,3632 @@
+[
+  {
+    "path": "compat-esco-final/benchmark-result.json",
+    "sha256": "0f99ec0c5b4e16fc6f39389e56909b0561d09acf008f04eea4d84c56816b85be",
+    "bytes": 8725
+  },
+  {
+    "path": "compat-esco-final/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "compat-esco-final/compat-bukkit.json",
+    "sha256": "c3ff665d6a64d1db3bd6884c08392fe8d692cbb2c87ea4dc437efe9ea029a0d0",
+    "bytes": 31
+  },
+  {
+    "path": "compat-esco-final/compat-community.json",
+    "sha256": "6d1146436c87d7cdfa5a462d96eed7eead9f21796018d32b6120be25f4bf0bed",
+    "bytes": 217
+  },
+  {
+    "path": "compat-esco-final/compat-paper.json",
+    "sha256": "083f21d2f29e825ba727427d4ece9c81dbe85fae1852cfb7df6a25bd233cc9db",
+    "bytes": 33
+  },
+  {
+    "path": "compat-esco-final/config/escos.properties",
+    "sha256": "1643ea0962969dae0f382124716937707c8ee0e0f805f87cff1279d57479f617",
+    "bytes": 697
+  },
+  {
+    "path": "compat-esco-final/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "compat-esco-final/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "compat-esco-final/config/leaf-global.yml",
+    "sha256": "270426948066a5955929815fbc9f00eec36567d12685909bda8988000645c3c6",
+    "bytes": 16030
+  },
+  {
+    "path": "compat-esco-final/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "compat-esco-final/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "compat-esco-final/console.log",
+    "sha256": "46a9055dada95d003758e6cc590f282ae18caecff7ee1e0d020b8c57931b7fb0",
+    "bytes": 17338
+  },
+  {
+    "path": "compat-esco-final/run-manifest.json",
+    "sha256": "766778690454211ae30c48f5ee3d7bae09c3ee51a925854abd8a1b1bf89a7bae",
+    "bytes": 873
+  },
+  {
+    "path": "compat-esco-final/server.properties",
+    "sha256": "6355d067ad4ec69760eb226d00c70dccb5253b7560d24cb1941964d5c0ec4c6b",
+    "bytes": 2023
+  },
+  {
+    "path": "compat-esco-final/spigot.yml",
+    "sha256": "e488430a28972b23962426e902f93e047a37db3978f329f35e4b2be196902f1a",
+    "bytes": 4888
+  },
+  {
+    "path": "compat-esco-final.log",
+    "sha256": "88ceec47c5841c5515deddcde7f6930e32a2d310d8b18a363d7b91c52e50445a",
+    "bytes": 2119
+  },
+  {
+    "path": "compat-leaf-final/benchmark-result.json",
+    "sha256": "9cfb5a77775ed4fd50ab5c1fa952e97d1a86a7a0cf58b4c46347fdd7f1b99344",
+    "bytes": 7791
+  },
+  {
+    "path": "compat-leaf-final/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "compat-leaf-final/compat-bukkit.json",
+    "sha256": "c3ff665d6a64d1db3bd6884c08392fe8d692cbb2c87ea4dc437efe9ea029a0d0",
+    "bytes": 31
+  },
+  {
+    "path": "compat-leaf-final/compat-community.json",
+    "sha256": "6d1146436c87d7cdfa5a462d96eed7eead9f21796018d32b6120be25f4bf0bed",
+    "bytes": 217
+  },
+  {
+    "path": "compat-leaf-final/compat-paper.json",
+    "sha256": "083f21d2f29e825ba727427d4ece9c81dbe85fae1852cfb7df6a25bd233cc9db",
+    "bytes": 33
+  },
+  {
+    "path": "compat-leaf-final/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "compat-leaf-final/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "compat-leaf-final/config/leaf-global.yml",
+    "sha256": "796a1cee971e1cad683b03ff5d5cc299d49a55cf78e3e2b22d4665170eb7baef",
+    "bytes": 16016
+  },
+  {
+    "path": "compat-leaf-final/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "compat-leaf-final/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "compat-leaf-final/console.log",
+    "sha256": "caab632d19ba263f87b79ead7f51d7d474d51d329ce38828f2694bf558cc3a42",
+    "bytes": 17309
+  },
+  {
+    "path": "compat-leaf-final/run-manifest.json",
+    "sha256": "cea63ef2c90a3543863cf8cd6d344722464d89f492d85e104bca11839401c124",
+    "bytes": 857
+  },
+  {
+    "path": "compat-leaf-final/server.properties",
+    "sha256": "eef668bb2beb3574e358529bc50046528a6579dd3b0838c44af3575bd9f15749",
+    "bytes": 2023
+  },
+  {
+    "path": "compat-leaf-final/spigot.yml",
+    "sha256": "e488430a28972b23962426e902f93e047a37db3978f329f35e4b2be196902f1a",
+    "bytes": 4888
+  },
+  {
+    "path": "compat-leaf-final.log",
+    "sha256": "ffdcc326dcbca43d12c1793057f8cc97aaea5e41c22560427a7dad7474b6a7f5",
+    "bytes": 1342
+  },
+  {
+    "path": "diagnostics-notes.md",
+    "sha256": "7a18091ae40652e5010b3239006dda3147ceaf3f3aae7830675bb370a61df59a",
+    "bytes": 798
+  },
+  {
+    "path": "final-070/activation_dense/esco0-1/benchmark-result.json",
+    "sha256": "cedb3c1686b6e3d1c790d08784e30b2da2843146a5a94074f5d5e1e77b492caf",
+    "bytes": 12140
+  },
+  {
+    "path": "final-070/activation_dense/esco0-1/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/activation_dense/esco0-1/config/escos.properties",
+    "sha256": "87c423bca1bbe1f5f667ce3f9901cd72c95ab384b6595ad7da5bba74dadb1175",
+    "bytes": 697
+  },
+  {
+    "path": "final-070/activation_dense/esco0-1/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/activation_dense/esco0-1/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/activation_dense/esco0-1/config/leaf-global.yml",
+    "sha256": "df2675d1ca2665fca7e89a2a2d5d3d450c00bcff556109f1dca1b24d6862ca27",
+    "bytes": 16031
+  },
+  {
+    "path": "final-070/activation_dense/esco0-1/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/activation_dense/esco0-1/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/activation_dense/esco0-1/console.log",
+    "sha256": "ee2669e2ada7364a1347d60e446e9d589bdd2c5d14ebb0e0f759f4f07181f899",
+    "bytes": 11926
+  },
+  {
+    "path": "final-070/activation_dense/esco0-1/run-manifest.json",
+    "sha256": "c497facd4078c2d00ba418de5045b4b53cc5ca9c5ec5d74e3461e3e6f855bea6",
+    "bytes": 916
+  },
+  {
+    "path": "final-070/activation_dense/esco0-1/server.properties",
+    "sha256": "d7af8a47dd5738cb80c126389cbe1ee906705c26517ef9f8c467b57b7dea8dcc",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/activation_dense/esco0-1/spigot.yml",
+    "sha256": "ef41ae04c27be17b3684152b450d507e89885bd9022c327f017982d570365209",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/activation_dense/esco0-2/benchmark-result.json",
+    "sha256": "197b700cb319663922b04b26184fa15bc741df3fa44def4533519defdd561b14",
+    "bytes": 12161
+  },
+  {
+    "path": "final-070/activation_dense/esco0-2/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/activation_dense/esco0-2/config/escos.properties",
+    "sha256": "cdf5bd45bdc740545a4b82de48dda21dc7dd34804b82a08c010fff8e3c187305",
+    "bytes": 697
+  },
+  {
+    "path": "final-070/activation_dense/esco0-2/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/activation_dense/esco0-2/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/activation_dense/esco0-2/config/leaf-global.yml",
+    "sha256": "03443db16c405b22bfeea53f838c336cd05099a4c3c927e02b68c722aa4c95ef",
+    "bytes": 16030
+  },
+  {
+    "path": "final-070/activation_dense/esco0-2/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/activation_dense/esco0-2/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/activation_dense/esco0-2/console.log",
+    "sha256": "2008476020dc05e3cbd51811467553ccccbf399f33e11f2d0cca3e0d4d9675d5",
+    "bytes": 11932
+  },
+  {
+    "path": "final-070/activation_dense/esco0-2/run-manifest.json",
+    "sha256": "c45126fd1089c143aa9cd7d13e1e3a64c8f3540ef07227f0393ccb3231d4131b",
+    "bytes": 916
+  },
+  {
+    "path": "final-070/activation_dense/esco0-2/server.properties",
+    "sha256": "a931981b43b3d0c4c56b3edcd39ea2e288c1fabb5bd05ef021b789b5e6ef47cd",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/activation_dense/esco0-2/spigot.yml",
+    "sha256": "e4c01495236483b727d4a1107a18d4f0b181afc6efb0499faf01348f7ccfbe56",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/activation_dense/esco4-1/benchmark-result.json",
+    "sha256": "69df20285aed587e5e58a0db89b097a5c26a6708dc8b7c1c909e75adcf3d8c85",
+    "bytes": 12257
+  },
+  {
+    "path": "final-070/activation_dense/esco4-1/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/activation_dense/esco4-1/config/escos.properties",
+    "sha256": "4f43fc6b1f9cbd22d52fc0a4eb365707159af30939589772afa1d57be1e9a0ec",
+    "bytes": 697
+  },
+  {
+    "path": "final-070/activation_dense/esco4-1/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/activation_dense/esco4-1/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/activation_dense/esco4-1/config/leaf-global.yml",
+    "sha256": "dbb028d9ac4bf8400c1b1b814b8cfa9dcd01a1b932f675e21d7a9929c23d5f93",
+    "bytes": 16029
+  },
+  {
+    "path": "final-070/activation_dense/esco4-1/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/activation_dense/esco4-1/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/activation_dense/esco4-1/console.log",
+    "sha256": "0542d048d8089df3acfb4ee1c10abe4dde9ad30281b656e75af45e76aa45b90a",
+    "bytes": 11926
+  },
+  {
+    "path": "final-070/activation_dense/esco4-1/run-manifest.json",
+    "sha256": "52053e4245ea7faa39e04ad1df31d1965c6b0290e953ba5664477e50250f6aa8",
+    "bytes": 916
+  },
+  {
+    "path": "final-070/activation_dense/esco4-1/server.properties",
+    "sha256": "3e2d2af938fb085b937903db2e0b844a5f875ba5eb2be06fe05d3936bae1735a",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/activation_dense/esco4-1/spigot.yml",
+    "sha256": "e4c01495236483b727d4a1107a18d4f0b181afc6efb0499faf01348f7ccfbe56",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/activation_dense/esco4-2/benchmark-result.json",
+    "sha256": "7e9d5ea2ce783f6f331bd45d973dae9a6e3769348fba7d0a73cd03a0653e6f23",
+    "bytes": 12275
+  },
+  {
+    "path": "final-070/activation_dense/esco4-2/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/activation_dense/esco4-2/config/escos.properties",
+    "sha256": "5922b1b02768908a0f34bfd185394eeb1770633e3a6ec8c0c011b0d424905421",
+    "bytes": 697
+  },
+  {
+    "path": "final-070/activation_dense/esco4-2/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/activation_dense/esco4-2/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/activation_dense/esco4-2/config/leaf-global.yml",
+    "sha256": "5dabe1439c6f89bb7e0617e486ebe4b63c7cb800145bf286b99b12e452b2d5c7",
+    "bytes": 16029
+  },
+  {
+    "path": "final-070/activation_dense/esco4-2/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/activation_dense/esco4-2/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/activation_dense/esco4-2/console.log",
+    "sha256": "bc5b78e425f2b9caf23dcc9a8620df8894d6b69e1c7cc44ad9dfd3daa4358d4b",
+    "bytes": 11926
+  },
+  {
+    "path": "final-070/activation_dense/esco4-2/run-manifest.json",
+    "sha256": "b879bc8fe592c0115760555512870fbbe207bcd15800a5c5afbad54308fcc6be",
+    "bytes": 916
+  },
+  {
+    "path": "final-070/activation_dense/esco4-2/server.properties",
+    "sha256": "5721db71c3864219e7ae37c359814c2389f1972fd6272399ad3483e43238d3d3",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/activation_dense/esco4-2/spigot.yml",
+    "sha256": "e4c01495236483b727d4a1107a18d4f0b181afc6efb0499faf01348f7ccfbe56",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/activation_dense/esco_all-1/benchmark-result.json",
+    "sha256": "30210dabe9d032e4da00cbebea94cd2d4a5297abe66cda00f7a652c8df51bd34",
+    "bytes": 12414
+  },
+  {
+    "path": "final-070/activation_dense/esco_all-1/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/activation_dense/esco_all-1/config/escos.properties",
+    "sha256": "1c6a429cb27cc5266764ef45e2a568464a23497e9bd736d5f3ce31d871cd6b8a",
+    "bytes": 697
+  },
+  {
+    "path": "final-070/activation_dense/esco_all-1/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/activation_dense/esco_all-1/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/activation_dense/esco_all-1/config/leaf-global.yml",
+    "sha256": "61fe2bef40b08d680fa9259ff70fb07c854a41f826333cd2ec3f5a5868201f18",
+    "bytes": 16029
+  },
+  {
+    "path": "final-070/activation_dense/esco_all-1/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/activation_dense/esco_all-1/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/activation_dense/esco_all-1/console.log",
+    "sha256": "6d5f56bf0256ad885c042bc8627f561110f6257bf9916ff17db53791c8075fc5",
+    "bytes": 11935
+  },
+  {
+    "path": "final-070/activation_dense/esco_all-1/run-manifest.json",
+    "sha256": "65755967460b45feb5ae28db526560cdc86ef3ef065a3d107baf451034eec924",
+    "bytes": 921
+  },
+  {
+    "path": "final-070/activation_dense/esco_all-1/server.properties",
+    "sha256": "36fe7139536bc4b5d674d5a9a2adc78d7f11e846e8655bf0786abd5409c7c4c2",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/activation_dense/esco_all-1/spigot.yml",
+    "sha256": "e4c01495236483b727d4a1107a18d4f0b181afc6efb0499faf01348f7ccfbe56",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/activation_dense/esco_all-2/benchmark-result.json",
+    "sha256": "b2988cbade99a76787b224db70f3c7b56b781d767514819d1bac192661b55474",
+    "bytes": 12422
+  },
+  {
+    "path": "final-070/activation_dense/esco_all-2/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/activation_dense/esco_all-2/config/escos.properties",
+    "sha256": "c2540153922cea472f28144de1ae885f5138bda5a295607ea371f362e5edc8ae",
+    "bytes": 697
+  },
+  {
+    "path": "final-070/activation_dense/esco_all-2/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/activation_dense/esco_all-2/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/activation_dense/esco_all-2/config/leaf-global.yml",
+    "sha256": "2916e751ba97267715586da8f2bc60fa3611db210a07a5196c8a527f6da4f63a",
+    "bytes": 16029
+  },
+  {
+    "path": "final-070/activation_dense/esco_all-2/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/activation_dense/esco_all-2/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/activation_dense/esco_all-2/console.log",
+    "sha256": "5e876eb3bd9e7ed5d1aad8d38729e32d5b6a3647b45a943998e691c52e176222",
+    "bytes": 11929
+  },
+  {
+    "path": "final-070/activation_dense/esco_all-2/run-manifest.json",
+    "sha256": "4175c25c0aed332d6fd0317ebf5cadbda090647f5b16a0cd2decb4c8300a1a8f",
+    "bytes": 921
+  },
+  {
+    "path": "final-070/activation_dense/esco_all-2/server.properties",
+    "sha256": "a34cbf4ea8c0602fec8de0d528b712cf4d4441858dd4c82e4959105abdd0756d",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/activation_dense/esco_all-2/spigot.yml",
+    "sha256": "3e2f5939d16b84114ff3f868549b30e379e9f294ee0b60da21308979358327a2",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/activation_dense/leaf-1/benchmark-result.json",
+    "sha256": "4851df6e97a68a31a1f49404476c8b79659f9d119153898ec420490225ccde5d",
+    "bytes": 11614
+  },
+  {
+    "path": "final-070/activation_dense/leaf-1/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/activation_dense/leaf-1/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/activation_dense/leaf-1/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/activation_dense/leaf-1/config/leaf-global.yml",
+    "sha256": "effb8e6af99239ab87d29eedaa474cb8e3b93d89d0f83720997831421dbdd929",
+    "bytes": 16015
+  },
+  {
+    "path": "final-070/activation_dense/leaf-1/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/activation_dense/leaf-1/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/activation_dense/leaf-1/console.log",
+    "sha256": "e2cb472a323030e484208acb35446195f724b1a5006086713e8b011bcfd657c3",
+    "bytes": 11909
+  },
+  {
+    "path": "final-070/activation_dense/leaf-1/run-manifest.json",
+    "sha256": "66d27961794b07792717c175f173543f8a6d507f66099d007360d5868ee88d5a",
+    "bytes": 898
+  },
+  {
+    "path": "final-070/activation_dense/leaf-1/server.properties",
+    "sha256": "baedff401aaf4e6ea47dc0ef77224027d5750536dd0de710de64ce1cb512d7be",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/activation_dense/leaf-1/spigot.yml",
+    "sha256": "e4c01495236483b727d4a1107a18d4f0b181afc6efb0499faf01348f7ccfbe56",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/activation_dense/leaf-2/benchmark-result.json",
+    "sha256": "61328e7bceed512bb9a6691665208216c0316cd57fa1db6efa5d95ebe43a86f2",
+    "bytes": 11597
+  },
+  {
+    "path": "final-070/activation_dense/leaf-2/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/activation_dense/leaf-2/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/activation_dense/leaf-2/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/activation_dense/leaf-2/config/leaf-global.yml",
+    "sha256": "08ee430eff97b00b94e8ef0c8a19cfb6a0bbcd83b7b93edd39d6dcf099833b7a",
+    "bytes": 16017
+  },
+  {
+    "path": "final-070/activation_dense/leaf-2/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/activation_dense/leaf-2/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/activation_dense/leaf-2/console.log",
+    "sha256": "640a6d161a1d5136621af3dd9a41bf7f3511408cb62468a5b27c42578d68a144",
+    "bytes": 11911
+  },
+  {
+    "path": "final-070/activation_dense/leaf-2/run-manifest.json",
+    "sha256": "a315ffab1d6839f4fdd612f5723e9bad7637931ed9a25f02b2a104ce0b8a26c2",
+    "bytes": 898
+  },
+  {
+    "path": "final-070/activation_dense/leaf-2/server.properties",
+    "sha256": "199f422b1a0ac77ddf3b71f06decea6ca6e894c6dc6cf6b2299eadc3e09409a1",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/activation_dense/leaf-2/spigot.yml",
+    "sha256": "d572b05045134919a2db96713c99a325ae793850411954f8bcfd521cf07f2978",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/audit-result.json",
+    "sha256": "222ea31708ea687e9a82f5811431f4f7cc8be6b6fb775da4d9d2bc3c09ed9120",
+    "bytes": 38072
+  },
+  {
+    "path": "final-070/natural_ai/esco4-1/benchmark-result.json",
+    "sha256": "768d1803601af1719fb0be2c3f15254873017b1648e7450d9f2d78b0cffee171",
+    "bytes": 10283
+  },
+  {
+    "path": "final-070/natural_ai/esco4-1/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/natural_ai/esco4-1/config/escos.properties",
+    "sha256": "62f0a54455c8e9227cf871b9fc276b0e293bbe661040ae569976ac8a5bd2d6d6",
+    "bytes": 697
+  },
+  {
+    "path": "final-070/natural_ai/esco4-1/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/natural_ai/esco4-1/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/natural_ai/esco4-1/config/leaf-global.yml",
+    "sha256": "4cb096ba83fdd39c4b9f6070ff9bfd7e925f4d75d8faf300ed068654d985014d",
+    "bytes": 16031
+  },
+  {
+    "path": "final-070/natural_ai/esco4-1/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/natural_ai/esco4-1/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/natural_ai/esco4-1/console.log",
+    "sha256": "71bd9b4b16a9d2989530d3a519c598042d359ecf97c1c2b1cccaf7aac8f6ce4d",
+    "bytes": 360762
+  },
+  {
+    "path": "final-070/natural_ai/esco4-1/run-manifest.json",
+    "sha256": "b13860686f7e6c734ee96b9c3273a0a1de3cd23b36fea05d862cf0cbc106ab79",
+    "bytes": 907
+  },
+  {
+    "path": "final-070/natural_ai/esco4-1/server.properties",
+    "sha256": "9bb9e752b12631c184f4e2214c572683d646a70167b65b6df5dd05f592a3ca27",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/natural_ai/esco4-1/spigot.yml",
+    "sha256": "e4c01495236483b727d4a1107a18d4f0b181afc6efb0499faf01348f7ccfbe56",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/natural_ai/esco4-2/benchmark-result.json",
+    "sha256": "d66229fcdca4e8e1fb91fbdb5f5a05e5f6e5e18774dbde9ff094953f1a1f7651",
+    "bytes": 10337
+  },
+  {
+    "path": "final-070/natural_ai/esco4-2/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/natural_ai/esco4-2/config/escos.properties",
+    "sha256": "2e013211a7b57676b3c38e8c784103937aa71e6ffb4a96c9da6af69e67949bc6",
+    "bytes": 697
+  },
+  {
+    "path": "final-070/natural_ai/esco4-2/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/natural_ai/esco4-2/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/natural_ai/esco4-2/config/leaf-global.yml",
+    "sha256": "b1628fcfbc04f4b6a1181f9864ea3eb130c20f11b22e0fc72b0c190b38ddec50",
+    "bytes": 16031
+  },
+  {
+    "path": "final-070/natural_ai/esco4-2/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/natural_ai/esco4-2/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/natural_ai/esco4-2/console.log",
+    "sha256": "9960f7dd6f99c2809a44082e1f83fd5499c28ad2840b76e46ace30e1f28534f1",
+    "bytes": 360756
+  },
+  {
+    "path": "final-070/natural_ai/esco4-2/run-manifest.json",
+    "sha256": "988aa2c876a01de48db1f3df7e227f4103ec366063e0d3660702bb10a54f86c6",
+    "bytes": 907
+  },
+  {
+    "path": "final-070/natural_ai/esco4-2/server.properties",
+    "sha256": "49d8b17684c64e424d7314aa025c1d92a9ce81288d3159f991f33251ed0eca39",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/natural_ai/esco4-2/spigot.yml",
+    "sha256": "287f4d2ede82d2271c4f0c1777c2d5c5f04ee3530c74b1a65c2d2ece1676a252",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/natural_ai/esco_all-1/benchmark-result.json",
+    "sha256": "e81af24df0b6eeaa0c385ab7b4745f6710c2140427ab430d233d9607a8245095",
+    "bytes": 10227
+  },
+  {
+    "path": "final-070/natural_ai/esco_all-1/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/natural_ai/esco_all-1/config/escos.properties",
+    "sha256": "8b868d284c600880fb2766548797fc5927a68e1bb670e444f91cfb0c63d75fe8",
+    "bytes": 697
+  },
+  {
+    "path": "final-070/natural_ai/esco_all-1/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/natural_ai/esco_all-1/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/natural_ai/esco_all-1/config/leaf-global.yml",
+    "sha256": "f9dd943e6475ef225616ce5423310ec8434a29e857a628da78d6b55cede295a7",
+    "bytes": 16030
+  },
+  {
+    "path": "final-070/natural_ai/esco_all-1/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/natural_ai/esco_all-1/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/natural_ai/esco_all-1/console.log",
+    "sha256": "7cbb64b40180273f019bfbfb914b0f63479c31682d4b57394c33232d9ca10ef4",
+    "bytes": 360759
+  },
+  {
+    "path": "final-070/natural_ai/esco_all-1/run-manifest.json",
+    "sha256": "3cb6abdccf2479e44445b1157c7c7d5b2163578814a501b980b5a07bb1b9cdbe",
+    "bytes": 912
+  },
+  {
+    "path": "final-070/natural_ai/esco_all-1/server.properties",
+    "sha256": "63c24173f7a99e07a990b4dfe82c665d3d940b604fba3892708dcf4975e0e1ce",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/natural_ai/esco_all-1/spigot.yml",
+    "sha256": "e4c01495236483b727d4a1107a18d4f0b181afc6efb0499faf01348f7ccfbe56",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/natural_ai/esco_all-2/benchmark-result.json",
+    "sha256": "5f6b941359dd04419479b77e14340eea5ad28b3e8adc754449ec13c0b68e2cc3",
+    "bytes": 10232
+  },
+  {
+    "path": "final-070/natural_ai/esco_all-2/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/natural_ai/esco_all-2/config/escos.properties",
+    "sha256": "c774e1d6506e2dfc5b51bcb120652e96dbd967e8c83b05b74fab960bdf16f925",
+    "bytes": 697
+  },
+  {
+    "path": "final-070/natural_ai/esco_all-2/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/natural_ai/esco_all-2/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/natural_ai/esco_all-2/config/leaf-global.yml",
+    "sha256": "63ec21ddf1483adcb69545d53da5aba37debae9459269e3ad4d9b7b1d1866d24",
+    "bytes": 16029
+  },
+  {
+    "path": "final-070/natural_ai/esco_all-2/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/natural_ai/esco_all-2/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/natural_ai/esco_all-2/console.log",
+    "sha256": "4d5b1ac3a5daa78253b0f7d282c7b7d0c018930a9d0da6c4a78505e948602822",
+    "bytes": 360768
+  },
+  {
+    "path": "final-070/natural_ai/esco_all-2/run-manifest.json",
+    "sha256": "9bdaec21acd6c4024168945fca45534d55b47df87550d0b7703466ad2120a195",
+    "bytes": 912
+  },
+  {
+    "path": "final-070/natural_ai/esco_all-2/server.properties",
+    "sha256": "fe94141aed0c1a27b1198d9c0a714447b6164a4f1cf48c1d9eb64aa83ec2cf62",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/natural_ai/esco_all-2/spigot.yml",
+    "sha256": "e4c01495236483b727d4a1107a18d4f0b181afc6efb0499faf01348f7ccfbe56",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/natural_ai/leaf-1/benchmark-result.json",
+    "sha256": "8accd66b28106c659f75bcc83095cbd0b13e07d337a6df51018ca05053994d58",
+    "bytes": 9548
+  },
+  {
+    "path": "final-070/natural_ai/leaf-1/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/natural_ai/leaf-1/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/natural_ai/leaf-1/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/natural_ai/leaf-1/config/leaf-global.yml",
+    "sha256": "da76da5c6fb5603dd2275933494e3f05944066ba5304985558ab1ff1d44c5d90",
+    "bytes": 16016
+  },
+  {
+    "path": "final-070/natural_ai/leaf-1/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/natural_ai/leaf-1/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/natural_ai/leaf-1/console.log",
+    "sha256": "80ab9d98f33335e91066a258d7146133d8f566d3e9d889e3b44cd385e701934d",
+    "bytes": 360738
+  },
+  {
+    "path": "final-070/natural_ai/leaf-1/run-manifest.json",
+    "sha256": "6854597673f960627b964e2b4d00218bccd83d21e3fb85fb46fe79deb8d415c2",
+    "bytes": 889
+  },
+  {
+    "path": "final-070/natural_ai/leaf-1/server.properties",
+    "sha256": "29079fb365e0be521e89d4013ade2dadf5882128167d525079d7ebb0e78a241d",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/natural_ai/leaf-1/spigot.yml",
+    "sha256": "e4c01495236483b727d4a1107a18d4f0b181afc6efb0499faf01348f7ccfbe56",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/natural_ai/leaf-2/benchmark-result.json",
+    "sha256": "6013daa4acb60ad769e1199cf13b56f4baae930a87b085f5ff0b3c1d9341eaa9",
+    "bytes": 9488
+  },
+  {
+    "path": "final-070/natural_ai/leaf-2/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/natural_ai/leaf-2/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/natural_ai/leaf-2/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/natural_ai/leaf-2/config/leaf-global.yml",
+    "sha256": "013e4043d71272d22508cdb0b08b7a6956a0f7b2a84e74dbef53eacee86c99ef",
+    "bytes": 16016
+  },
+  {
+    "path": "final-070/natural_ai/leaf-2/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/natural_ai/leaf-2/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/natural_ai/leaf-2/console.log",
+    "sha256": "1d62298f14dfe64273b6c5e4d1b1cf41f3b9d8a520a68d44cf93c3101815d075",
+    "bytes": 360739
+  },
+  {
+    "path": "final-070/natural_ai/leaf-2/run-manifest.json",
+    "sha256": "47d5ac544b5685765511d6895af9552bba12c11a0a68122243923234177ba85c",
+    "bytes": 889
+  },
+  {
+    "path": "final-070/natural_ai/leaf-2/server.properties",
+    "sha256": "066fa13c0f493f016182ca35bc8905a7a26d7fc6c7c77cadd553d7ad911c415e",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/natural_ai/leaf-2/spigot.yml",
+    "sha256": "e4c01495236483b727d4a1107a18d4f0b181afc6efb0499faf01348f7ccfbe56",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/potential_dense/esco4-1/benchmark-result.json",
+    "sha256": "0fe1ee925bc7d8135ec64b884a4a39d7865a38dbf31917cdafa35d7fb64417db",
+    "bytes": 14730
+  },
+  {
+    "path": "final-070/potential_dense/esco4-1/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/potential_dense/esco4-1/config/escos.properties",
+    "sha256": "252cffbd90f3665bbcd3df706b55ef8676154e3352c41c5ae1cae5870a60ed3b",
+    "bytes": 697
+  },
+  {
+    "path": "final-070/potential_dense/esco4-1/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/potential_dense/esco4-1/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/potential_dense/esco4-1/config/leaf-global.yml",
+    "sha256": "e2a060bd63becc38f19ebad4b35c7ae0f6402f28912365e8464a71aa4b7489d1",
+    "bytes": 16031
+  },
+  {
+    "path": "final-070/potential_dense/esco4-1/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/potential_dense/esco4-1/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/potential_dense/esco4-1/console.log",
+    "sha256": "2697e5909fd260b417dc5e0e42374a6902c31431089bd451062636d082adfef0",
+    "bytes": 11920
+  },
+  {
+    "path": "final-070/potential_dense/esco4-1/run-manifest.json",
+    "sha256": "a9595f399f252456af09dc49882a71f7861f04da14a83a6f682cf77edb684b01",
+    "bytes": 913
+  },
+  {
+    "path": "final-070/potential_dense/esco4-1/server.properties",
+    "sha256": "781fad87085af20d8fe4fc945f47f5313dee97c62cf6f2f8e2738c6811f15843",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/potential_dense/esco4-1/spigot.yml",
+    "sha256": "e4c01495236483b727d4a1107a18d4f0b181afc6efb0499faf01348f7ccfbe56",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/potential_dense/esco4-2/benchmark-result.json",
+    "sha256": "9c1b625c278c01ed8d667ea09bb5de6af46385a81b78903d26a7189d1397800c",
+    "bytes": 14677
+  },
+  {
+    "path": "final-070/potential_dense/esco4-2/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/potential_dense/esco4-2/config/escos.properties",
+    "sha256": "60bd3a844dc3ad65091949cda364ef4f24752e2863bd57f38c95688b1367f3e5",
+    "bytes": 697
+  },
+  {
+    "path": "final-070/potential_dense/esco4-2/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/potential_dense/esco4-2/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/potential_dense/esco4-2/config/leaf-global.yml",
+    "sha256": "9362887c60755b936909689c582121ca50ec7a3550433e5c9b30bbf0f8f57d92",
+    "bytes": 16031
+  },
+  {
+    "path": "final-070/potential_dense/esco4-2/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/potential_dense/esco4-2/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/potential_dense/esco4-2/console.log",
+    "sha256": "913013eaa2f9d6dcd9140dd5b00b0881b433e06a98e1a85edf2428f7ee499f97",
+    "bytes": 11928
+  },
+  {
+    "path": "final-070/potential_dense/esco4-2/run-manifest.json",
+    "sha256": "25518d18ead3a856b5bdc596bcc684d66964ac3b46996e31848fe3b1b0f1a908",
+    "bytes": 913
+  },
+  {
+    "path": "final-070/potential_dense/esco4-2/server.properties",
+    "sha256": "9d7650b3eb320c3785f65931cdc1a2ac2954a23e265eabe2c3e99b2b1c5a7db7",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/potential_dense/esco4-2/spigot.yml",
+    "sha256": "287f4d2ede82d2271c4f0c1777c2d5c5f04ee3530c74b1a65c2d2ece1676a252",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/potential_dense/esco_all-1/benchmark-result.json",
+    "sha256": "f4cbb7c8912263bd12e062af7cb6aeafc3987ae61a036443fbb61bbe184abdcf",
+    "bytes": 14711
+  },
+  {
+    "path": "final-070/potential_dense/esco_all-1/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/potential_dense/esco_all-1/config/escos.properties",
+    "sha256": "0cc480cbdbb6788f37e9eff9a974ceb4b7185ce7ec9a74823b681325a5313e90",
+    "bytes": 697
+  },
+  {
+    "path": "final-070/potential_dense/esco_all-1/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/potential_dense/esco_all-1/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/potential_dense/esco_all-1/config/leaf-global.yml",
+    "sha256": "fa77d6096d94f5e80a2fcecc433574860e39569ef22e476edd3a38ca7f898937",
+    "bytes": 16030
+  },
+  {
+    "path": "final-070/potential_dense/esco_all-1/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/potential_dense/esco_all-1/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/potential_dense/esco_all-1/console.log",
+    "sha256": "8ca51b75eb1b02ebb0bb657597ad55bbd954f1a14dfa1f3d13834e0d1f442455",
+    "bytes": 11922
+  },
+  {
+    "path": "final-070/potential_dense/esco_all-1/run-manifest.json",
+    "sha256": "499fe799b5001e0c092ee6d1a3b1dd209f28742e309256161c0d9d35cb2fd863",
+    "bytes": 918
+  },
+  {
+    "path": "final-070/potential_dense/esco_all-1/server.properties",
+    "sha256": "66136a328a57423c00a2bb02b315e9c5cad9145af733079162d0de4404d83750",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/potential_dense/esco_all-1/spigot.yml",
+    "sha256": "a7f9ece01367adb8644bd616dacba06559c59fa30badfe273b97aab71d371246",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/potential_dense/esco_all-2/benchmark-result.json",
+    "sha256": "a232158671ca8525d3c5a146fef38dbe9bfa4db134f8bd6f90e1718c4b067035",
+    "bytes": 14757
+  },
+  {
+    "path": "final-070/potential_dense/esco_all-2/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/potential_dense/esco_all-2/config/escos.properties",
+    "sha256": "8d579cbd0f5031cc89276b83eb3064680dbeb1c3b80893b1ae772bd9ac96d9fd",
+    "bytes": 697
+  },
+  {
+    "path": "final-070/potential_dense/esco_all-2/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/potential_dense/esco_all-2/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/potential_dense/esco_all-2/config/leaf-global.yml",
+    "sha256": "717b720f96de98b755231edf9661646d431a7dbe96b88d7c4594f013958f2167",
+    "bytes": 16029
+  },
+  {
+    "path": "final-070/potential_dense/esco_all-2/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/potential_dense/esco_all-2/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/potential_dense/esco_all-2/console.log",
+    "sha256": "1178fdaa60eb08285ef43a06bce6050890772d2eeb1517805619172804814308",
+    "bytes": 11930
+  },
+  {
+    "path": "final-070/potential_dense/esco_all-2/run-manifest.json",
+    "sha256": "143633c6cd5440a093f304dd9597d77ba67057a7719fc5b476086a280c4c70a3",
+    "bytes": 918
+  },
+  {
+    "path": "final-070/potential_dense/esco_all-2/server.properties",
+    "sha256": "b078579f674f54384c7bbea78ccc7758de9b1a5cb2cd11c284e98eea343035ab",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/potential_dense/esco_all-2/spigot.yml",
+    "sha256": "e4c01495236483b727d4a1107a18d4f0b181afc6efb0499faf01348f7ccfbe56",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/potential_dense/leaf-1/benchmark-result.json",
+    "sha256": "1846f8060ade6b1139453182cd297b145fc5b7bb775823dd57c41e2e40b5323a",
+    "bytes": 14000
+  },
+  {
+    "path": "final-070/potential_dense/leaf-1/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/potential_dense/leaf-1/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/potential_dense/leaf-1/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/potential_dense/leaf-1/config/leaf-global.yml",
+    "sha256": "92d839595c9121be7de00349bc07b43d4982c02d8995f5feadaef8b6ea4312b6",
+    "bytes": 16016
+  },
+  {
+    "path": "final-070/potential_dense/leaf-1/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/potential_dense/leaf-1/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/potential_dense/leaf-1/console.log",
+    "sha256": "91115cd974b6beadb351dcf7c6db2d2ebebc5173c816ae3b694480a7efe343de",
+    "bytes": 11901
+  },
+  {
+    "path": "final-070/potential_dense/leaf-1/run-manifest.json",
+    "sha256": "133dc38195d6be9a6100906117dc249808156b909f8d755019c523b4325cc025",
+    "bytes": 895
+  },
+  {
+    "path": "final-070/potential_dense/leaf-1/server.properties",
+    "sha256": "89f51e8435e0170973dcec56eb9846d985b5beeaf1b2ce27e7de8d1f8def88f6",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/potential_dense/leaf-1/spigot.yml",
+    "sha256": "e4c01495236483b727d4a1107a18d4f0b181afc6efb0499faf01348f7ccfbe56",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/potential_dense/leaf-2/benchmark-result.json",
+    "sha256": "f0fbd9cbb13d628b5caec693f43a686fa02d0583ce9dd8a0ce720585124d23f0",
+    "bytes": 14018
+  },
+  {
+    "path": "final-070/potential_dense/leaf-2/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/potential_dense/leaf-2/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/potential_dense/leaf-2/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/potential_dense/leaf-2/config/leaf-global.yml",
+    "sha256": "ad11a1dc014aa8237e491458ab65c57a0fd9d72e69eb70602e02570c0c8f50d9",
+    "bytes": 16017
+  },
+  {
+    "path": "final-070/potential_dense/leaf-2/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/potential_dense/leaf-2/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/potential_dense/leaf-2/console.log",
+    "sha256": "cb31b9e729915a357004ff5d71b6c660bc3d41ebb75a4d5beef58fdab334fa65",
+    "bytes": 11902
+  },
+  {
+    "path": "final-070/potential_dense/leaf-2/run-manifest.json",
+    "sha256": "638547c1cb7b1463723768d491846f2522f4cd163340d159445dbf28b19dc9e6",
+    "bytes": 895
+  },
+  {
+    "path": "final-070/potential_dense/leaf-2/server.properties",
+    "sha256": "2d26f0f8947077f54257849b94c5f94cc42045d109dbe917aeecd1931fc65978",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/potential_dense/leaf-2/spigot.yml",
+    "sha256": "e4c01495236483b727d4a1107a18d4f0b181afc6efb0499faf01348f7ccfbe56",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/potential_large/esco4-1/benchmark-result.json",
+    "sha256": "a7907be9171616a23e09e1091d61ad84f4a36028f4bcf8b9bcc7e38ebd5c30e9",
+    "bytes": 14912
+  },
+  {
+    "path": "final-070/potential_large/esco4-1/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/potential_large/esco4-1/config/escos.properties",
+    "sha256": "521a7cb137beaa47e47a83055938800cd7211eab07b9f6c902033cd03667077f",
+    "bytes": 697
+  },
+  {
+    "path": "final-070/potential_large/esco4-1/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/potential_large/esco4-1/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/potential_large/esco4-1/config/leaf-global.yml",
+    "sha256": "639421cc6760d6f0469459e89d5909651a65e52c932ead7f7bb4dfde7f30170a",
+    "bytes": 16030
+  },
+  {
+    "path": "final-070/potential_large/esco4-1/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/potential_large/esco4-1/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/potential_large/esco4-1/console.log",
+    "sha256": "87ad9110099a238ed4d51e346343ec2d4f2995ca9b9b61e21500135b0977e4f9",
+    "bytes": 11922
+  },
+  {
+    "path": "final-070/potential_large/esco4-1/run-manifest.json",
+    "sha256": "c519d03256d2a5cbb35afc00d7533af9f5aa6a5dac118598cb7989ef0d0568a2",
+    "bytes": 914
+  },
+  {
+    "path": "final-070/potential_large/esco4-1/server.properties",
+    "sha256": "a44617199eebc032d40a1e0aee5dc6308bc35c84bec9267559b817e003a96f55",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/potential_large/esco4-1/spigot.yml",
+    "sha256": "e4c01495236483b727d4a1107a18d4f0b181afc6efb0499faf01348f7ccfbe56",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/potential_large/esco4-2/benchmark-result.json",
+    "sha256": "62d1ba2e368592b09d29ddd36c860f8917e04f28b02daa88b20250a1ceacd1e8",
+    "bytes": 14870
+  },
+  {
+    "path": "final-070/potential_large/esco4-2/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/potential_large/esco4-2/config/escos.properties",
+    "sha256": "53cc055f35e7c62b1577aeeac19a5c9de65e784c08f1965e244f12f18abde928",
+    "bytes": 697
+  },
+  {
+    "path": "final-070/potential_large/esco4-2/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/potential_large/esco4-2/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/potential_large/esco4-2/config/leaf-global.yml",
+    "sha256": "f279f146493a5dc3b1f8ff9a7923399f48a19bb2430eacf5b8415c0655cfbd2a",
+    "bytes": 16030
+  },
+  {
+    "path": "final-070/potential_large/esco4-2/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/potential_large/esco4-2/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/potential_large/esco4-2/console.log",
+    "sha256": "9b6091ba3684531f1c29b75d9d46e4c3ebb19a45eeb86f04441be72ffc5b1c2f",
+    "bytes": 11920
+  },
+  {
+    "path": "final-070/potential_large/esco4-2/run-manifest.json",
+    "sha256": "67c829698a21338be6c8c6e42c4db7a550fff05ec758dd3125870c98fc615673",
+    "bytes": 914
+  },
+  {
+    "path": "final-070/potential_large/esco4-2/server.properties",
+    "sha256": "6b9a81a64d8f86545c8e7301a53a4e41befd2e30e0c5f8690fdc73a126ad8d11",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/potential_large/esco4-2/spigot.yml",
+    "sha256": "287f4d2ede82d2271c4f0c1777c2d5c5f04ee3530c74b1a65c2d2ece1676a252",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/potential_large/esco_all-1/benchmark-result.json",
+    "sha256": "59665b38032886e3381416adc8de9af060b04777be8a51449ace0a049508c704",
+    "bytes": 14946
+  },
+  {
+    "path": "final-070/potential_large/esco_all-1/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/potential_large/esco_all-1/config/escos.properties",
+    "sha256": "46b9a0749b82e480c50ff792ca9ddd071d5ca87c8309ed501e75f5223ca87395",
+    "bytes": 697
+  },
+  {
+    "path": "final-070/potential_large/esco_all-1/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/potential_large/esco_all-1/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/potential_large/esco_all-1/config/leaf-global.yml",
+    "sha256": "9d16ef40b022b6ed1aefb97b96a724ffee71ffc5a773d9f86b056a1e83e3a774",
+    "bytes": 16029
+  },
+  {
+    "path": "final-070/potential_large/esco_all-1/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/potential_large/esco_all-1/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/potential_large/esco_all-1/console.log",
+    "sha256": "0e74875a059e318bbfeb6c74a4dc6104710f7f1774c1eac6a4d553e340b2c3e3",
+    "bytes": 11931
+  },
+  {
+    "path": "final-070/potential_large/esco_all-1/run-manifest.json",
+    "sha256": "303b5a51cb1018dfd67c8cefb0c00330fbf067103db5d15cf4ec4faff9c7c871",
+    "bytes": 919
+  },
+  {
+    "path": "final-070/potential_large/esco_all-1/server.properties",
+    "sha256": "a058e2369076959f7333b358aa9f4184bfe79d60fc17386edf1ba67c587e00eb",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/potential_large/esco_all-1/spigot.yml",
+    "sha256": "e4c01495236483b727d4a1107a18d4f0b181afc6efb0499faf01348f7ccfbe56",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/potential_large/esco_all-2/benchmark-result.json",
+    "sha256": "74defa7081b82fb8d87b5d9debd60f939ab6d8060d88f11c68174b4f9b8b1a80",
+    "bytes": 14987
+  },
+  {
+    "path": "final-070/potential_large/esco_all-2/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/potential_large/esco_all-2/config/escos.properties",
+    "sha256": "480efe1a8e92b26ba7ae37f0897e40cb1ed030517ef21c73873cb8c948da771f",
+    "bytes": 697
+  },
+  {
+    "path": "final-070/potential_large/esco_all-2/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/potential_large/esco_all-2/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/potential_large/esco_all-2/config/leaf-global.yml",
+    "sha256": "bf620923553b5bdc288582723bb1055068fa28fe7740c81f3b9188b32e445c02",
+    "bytes": 16029
+  },
+  {
+    "path": "final-070/potential_large/esco_all-2/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/potential_large/esco_all-2/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/potential_large/esco_all-2/console.log",
+    "sha256": "c608d111df5ead5796dac6b1f3bf1ef74d78967871bfa53beab51e502d028ef3",
+    "bytes": 11925
+  },
+  {
+    "path": "final-070/potential_large/esco_all-2/run-manifest.json",
+    "sha256": "62aba9de395c1fd4606b39f3995f7257333cb7d9d0d71eed170d6956c913c49e",
+    "bytes": 919
+  },
+  {
+    "path": "final-070/potential_large/esco_all-2/server.properties",
+    "sha256": "4880111a0bd7b96fcf4331652f0c080a4e05b12b245c2686d9cdfa314403af51",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/potential_large/esco_all-2/spigot.yml",
+    "sha256": "e4c01495236483b727d4a1107a18d4f0b181afc6efb0499faf01348f7ccfbe56",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/potential_large/leaf-1/benchmark-result.json",
+    "sha256": "7290f98a9aa50c6c4cb4f7cfd9f1b8bd09b68a01e55c14a78485e584bac0aa5b",
+    "bytes": 14087
+  },
+  {
+    "path": "final-070/potential_large/leaf-1/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/potential_large/leaf-1/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/potential_large/leaf-1/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/potential_large/leaf-1/config/leaf-global.yml",
+    "sha256": "8efe861b05575803d7694de6d1af5dde96cc0be20619e363112b57e87939f327",
+    "bytes": 16015
+  },
+  {
+    "path": "final-070/potential_large/leaf-1/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/potential_large/leaf-1/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/potential_large/leaf-1/console.log",
+    "sha256": "b1ffdbe2530ea47b066509d284ea2bc25932ca254b61c417a5a1f212eb44d3e5",
+    "bytes": 11911
+  },
+  {
+    "path": "final-070/potential_large/leaf-1/run-manifest.json",
+    "sha256": "e0255b5921f10946aca3dd3aab356aa3ede268c7a5cb836ab395d8bc2efaebb8",
+    "bytes": 896
+  },
+  {
+    "path": "final-070/potential_large/leaf-1/server.properties",
+    "sha256": "dabc02a1d93ddbec0aba2e9a03d40356bfc8bae7a3d408fffd53608eb4b739ca",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/potential_large/leaf-1/spigot.yml",
+    "sha256": "e4c01495236483b727d4a1107a18d4f0b181afc6efb0499faf01348f7ccfbe56",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/potential_large/leaf-2/benchmark-result.json",
+    "sha256": "e6f7628dda719a4a9107a230c2d25e3e9ec29071f8fd40e4f0022af106ce7b0a",
+    "bytes": 14046
+  },
+  {
+    "path": "final-070/potential_large/leaf-2/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/potential_large/leaf-2/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/potential_large/leaf-2/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/potential_large/leaf-2/config/leaf-global.yml",
+    "sha256": "389b6255526a66b20848efa583911c97c274d62a7042ec62478be4b51943133e",
+    "bytes": 16016
+  },
+  {
+    "path": "final-070/potential_large/leaf-2/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/potential_large/leaf-2/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/potential_large/leaf-2/console.log",
+    "sha256": "da3b3afef17fc7fcebdf5d0f74886fb130e239587002e2bd60cbb89a6ac4de08",
+    "bytes": 11904
+  },
+  {
+    "path": "final-070/potential_large/leaf-2/run-manifest.json",
+    "sha256": "f399b00217cc05fe0bb603bc6afdd333250ae845fcfcdb0df4652efc9771ec26",
+    "bytes": 896
+  },
+  {
+    "path": "final-070/potential_large/leaf-2/server.properties",
+    "sha256": "25b481c00c927f93b8bbad7744ea0f1b56e48a4fe99456c1a29a8e8b0fd5da21",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/potential_large/leaf-2/spigot.yml",
+    "sha256": "e4c01495236483b727d4a1107a18d4f0b181afc6efb0499faf01348f7ccfbe56",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/potential_xlarge/esco0-1/benchmark-result.json",
+    "sha256": "ffe705997493dd0476ce6a2f62851854402a5986e27259391dc226e7b8557b13",
+    "bytes": 14920
+  },
+  {
+    "path": "final-070/potential_xlarge/esco0-1/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/potential_xlarge/esco0-1/config/escos.properties",
+    "sha256": "086ca10f22fad93c8d86a0bdf2d275f0d8eb57a55e5ebbe3f50c3417091ebb21",
+    "bytes": 697
+  },
+  {
+    "path": "final-070/potential_xlarge/esco0-1/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/potential_xlarge/esco0-1/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/potential_xlarge/esco0-1/config/leaf-global.yml",
+    "sha256": "2ed3f346523b3bc560681b7ed2f2a7c5e1539adfff40354bb99dc51617747247",
+    "bytes": 16030
+  },
+  {
+    "path": "final-070/potential_xlarge/esco0-1/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/potential_xlarge/esco0-1/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/potential_xlarge/esco0-1/console.log",
+    "sha256": "d29fa4b4f0346420d1c538772925988f6ef1b96d94da36abb90a50efeab3fd92",
+    "bytes": 11927
+  },
+  {
+    "path": "final-070/potential_xlarge/esco0-1/run-manifest.json",
+    "sha256": "fb75919727ed08ecf7ed7bb99aced024f206c643abbbb58e6e9706369232e756",
+    "bytes": 916
+  },
+  {
+    "path": "final-070/potential_xlarge/esco0-1/server.properties",
+    "sha256": "699517e0d1711e53db00dfc332f919d6b67de27883d5cec241e6617ab61271ed",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/potential_xlarge/esco0-1/spigot.yml",
+    "sha256": "e4c01495236483b727d4a1107a18d4f0b181afc6efb0499faf01348f7ccfbe56",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/potential_xlarge/esco0-2/benchmark-result.json",
+    "sha256": "a7f640a592053ad530cbbe72a52bf216c12f415a574b16163237b3252c7515ce",
+    "bytes": 14921
+  },
+  {
+    "path": "final-070/potential_xlarge/esco0-2/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/potential_xlarge/esco0-2/config/escos.properties",
+    "sha256": "2fdeecb97e54e5aeaa70192590b3da5f0ed421bbed44d0167b6eb095ea04b674",
+    "bytes": 697
+  },
+  {
+    "path": "final-070/potential_xlarge/esco0-2/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/potential_xlarge/esco0-2/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/potential_xlarge/esco0-2/config/leaf-global.yml",
+    "sha256": "ae2157a61913fdcaf675400001e434c15b94e93507c4ed9ea9fc744f3f255b2e",
+    "bytes": 16030
+  },
+  {
+    "path": "final-070/potential_xlarge/esco0-2/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/potential_xlarge/esco0-2/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/potential_xlarge/esco0-2/console.log",
+    "sha256": "868ee4021fb982b24b573d7bef11cb23bdf76e61675a5b3d145c6e31c26210f7",
+    "bytes": 11930
+  },
+  {
+    "path": "final-070/potential_xlarge/esco0-2/run-manifest.json",
+    "sha256": "9b16799216df31e5d332c6db590a14b7b79e5306d2cae40e4c4158428bef4772",
+    "bytes": 916
+  },
+  {
+    "path": "final-070/potential_xlarge/esco0-2/server.properties",
+    "sha256": "8e6e24a9ecebb98d3f77543013b7b5c18f431d96bdafb1ee9795ea408a07c8f1",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/potential_xlarge/esco0-2/spigot.yml",
+    "sha256": "e4c01495236483b727d4a1107a18d4f0b181afc6efb0499faf01348f7ccfbe56",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/potential_xlarge/esco4-1/benchmark-result.json",
+    "sha256": "8f85b34cb8d2dedf2b234a5ff18bf5ffb68db9e84fdcbdd28d1876046da5964b",
+    "bytes": 15056
+  },
+  {
+    "path": "final-070/potential_xlarge/esco4-1/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/potential_xlarge/esco4-1/config/escos.properties",
+    "sha256": "f29e6b71f2aff80f6a34680ee7e4845bbb0a43d7cda866add96aefa79808c815",
+    "bytes": 697
+  },
+  {
+    "path": "final-070/potential_xlarge/esco4-1/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/potential_xlarge/esco4-1/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/potential_xlarge/esco4-1/config/leaf-global.yml",
+    "sha256": "2e2a60ec916d915317b2e6c4bfe60110596197852ce6bdbb19f6549de0add2cf",
+    "bytes": 16028
+  },
+  {
+    "path": "final-070/potential_xlarge/esco4-1/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/potential_xlarge/esco4-1/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/potential_xlarge/esco4-1/console.log",
+    "sha256": "5d00896f91ebefd1116c8c68197f72d356a507a40097b2b1f77b7390a6f0b2d4",
+    "bytes": 11926
+  },
+  {
+    "path": "final-070/potential_xlarge/esco4-1/run-manifest.json",
+    "sha256": "6ba50fcf956817b88d26ddbf2820cb1c5bb6d739ebf7efea0ef2f9e3de8b3c60",
+    "bytes": 916
+  },
+  {
+    "path": "final-070/potential_xlarge/esco4-1/server.properties",
+    "sha256": "03967f96b18764633857107234f275947115abd47be347422405423684c5ccc0",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/potential_xlarge/esco4-1/spigot.yml",
+    "sha256": "e4c01495236483b727d4a1107a18d4f0b181afc6efb0499faf01348f7ccfbe56",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/potential_xlarge/esco4-2/benchmark-result.json",
+    "sha256": "e4aa00d3359ca61cbfad6b2ca3ed24ff28f57e007f9171811561f07729f4171d",
+    "bytes": 15111
+  },
+  {
+    "path": "final-070/potential_xlarge/esco4-2/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/potential_xlarge/esco4-2/config/escos.properties",
+    "sha256": "f8e75fa796ac3c5270a92aad565dcdd7fd74ae183862ca5eb0cd9b0a67fa75b2",
+    "bytes": 697
+  },
+  {
+    "path": "final-070/potential_xlarge/esco4-2/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/potential_xlarge/esco4-2/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/potential_xlarge/esco4-2/config/leaf-global.yml",
+    "sha256": "99d4c49b8e937e426cd9cbf25d25453ea96d04a2b763443a8898e3031ae3ca51",
+    "bytes": 16027
+  },
+  {
+    "path": "final-070/potential_xlarge/esco4-2/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/potential_xlarge/esco4-2/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/potential_xlarge/esco4-2/console.log",
+    "sha256": "f1b93037e56221f6d1442a6a8bcfa6704e4ea3a674c35c983f2601ee253abd32",
+    "bytes": 11925
+  },
+  {
+    "path": "final-070/potential_xlarge/esco4-2/run-manifest.json",
+    "sha256": "258c5b53cbe374f2ca70d6e7b2ea480ef5d083754f23cb95e6c990460a2097f3",
+    "bytes": 916
+  },
+  {
+    "path": "final-070/potential_xlarge/esco4-2/server.properties",
+    "sha256": "949054187a7629ead7af19699959c017f87e308107ee6ec4af643c4c02dee837",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/potential_xlarge/esco4-2/spigot.yml",
+    "sha256": "e4c01495236483b727d4a1107a18d4f0b181afc6efb0499faf01348f7ccfbe56",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/potential_xlarge/esco_all-1/benchmark-result.json",
+    "sha256": "d68ea3b464b882d533f6aa9ac608430ea9bded594fe663a47debc4f5af1b1946",
+    "bytes": 15245
+  },
+  {
+    "path": "final-070/potential_xlarge/esco_all-1/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/potential_xlarge/esco_all-1/config/escos.properties",
+    "sha256": "ed1c51cfa513947c06355e0a09ab4097604698a0b53c7c027ddd85a65a099b45",
+    "bytes": 697
+  },
+  {
+    "path": "final-070/potential_xlarge/esco_all-1/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/potential_xlarge/esco_all-1/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/potential_xlarge/esco_all-1/config/leaf-global.yml",
+    "sha256": "c216bde34642510c1be2aa920e1389555060f1792e725d9355449cf48304d3d8",
+    "bytes": 16031
+  },
+  {
+    "path": "final-070/potential_xlarge/esco_all-1/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/potential_xlarge/esco_all-1/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/potential_xlarge/esco_all-1/console.log",
+    "sha256": "c1debfa8378f584411a6202d716d0cd8799c4db644d21177da4f83161a001bba",
+    "bytes": 11934
+  },
+  {
+    "path": "final-070/potential_xlarge/esco_all-1/run-manifest.json",
+    "sha256": "a3a17dd2ca9a01c160b3aaa2ff7c13f7cf6dade65b007a92a9d55bba0dbfef9c",
+    "bytes": 921
+  },
+  {
+    "path": "final-070/potential_xlarge/esco_all-1/server.properties",
+    "sha256": "99cbfc72c23fc5e817924f0cb14a24cab06fb43f180fe4160211cc0d58e0087b",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/potential_xlarge/esco_all-1/spigot.yml",
+    "sha256": "e4c01495236483b727d4a1107a18d4f0b181afc6efb0499faf01348f7ccfbe56",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/potential_xlarge/esco_all-2/benchmark-result.json",
+    "sha256": "0f633515a5a17e906f294d9cf7ce79604e52b0568e109cc922d12fa58aa1be70",
+    "bytes": 15248
+  },
+  {
+    "path": "final-070/potential_xlarge/esco_all-2/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/potential_xlarge/esco_all-2/config/escos.properties",
+    "sha256": "5176d948fc916ac9b6625d659cfd971c81e6fab20c5db590f77d85b2014f485e",
+    "bytes": 697
+  },
+  {
+    "path": "final-070/potential_xlarge/esco_all-2/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/potential_xlarge/esco_all-2/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/potential_xlarge/esco_all-2/config/leaf-global.yml",
+    "sha256": "0b61d80d34ab5b101bbbe5babb1431234ea66637ae0841030411670a4b9f7582",
+    "bytes": 16030
+  },
+  {
+    "path": "final-070/potential_xlarge/esco_all-2/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/potential_xlarge/esco_all-2/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/potential_xlarge/esco_all-2/console.log",
+    "sha256": "85bb35f4bbbac0d1dd976dda418df879d5f4a98dd629ed8903005a72cbf9125e",
+    "bytes": 11927
+  },
+  {
+    "path": "final-070/potential_xlarge/esco_all-2/run-manifest.json",
+    "sha256": "28410cb457f42b3cbc745f74d26dd6b63c4fde1d34437a47d43c0ee8b8069e7b",
+    "bytes": 921
+  },
+  {
+    "path": "final-070/potential_xlarge/esco_all-2/server.properties",
+    "sha256": "5b6af65f153e0f4ccbb1a208551ce072deabbafc90fe87968f921e6fba0b1cf0",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/potential_xlarge/esco_all-2/spigot.yml",
+    "sha256": "3e2f5939d16b84114ff3f868549b30e379e9f294ee0b60da21308979358327a2",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/potential_xlarge/leaf-1/benchmark-result.json",
+    "sha256": "4e744300b2444db256c8befa4e32811772df49cb54dd5da2fd6a6a1f52eb5084",
+    "bytes": 14197
+  },
+  {
+    "path": "final-070/potential_xlarge/leaf-1/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/potential_xlarge/leaf-1/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/potential_xlarge/leaf-1/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/potential_xlarge/leaf-1/config/leaf-global.yml",
+    "sha256": "b08810b96863e946c70810f1ddbc33c14366efb636924dfdbaa476b3690930e0",
+    "bytes": 16017
+  },
+  {
+    "path": "final-070/potential_xlarge/leaf-1/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/potential_xlarge/leaf-1/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/potential_xlarge/leaf-1/console.log",
+    "sha256": "01de87a2506c86012a4e475c8b2d18eaaef311566139b31eb7c141117b543837",
+    "bytes": 11910
+  },
+  {
+    "path": "final-070/potential_xlarge/leaf-1/run-manifest.json",
+    "sha256": "47f76aa6a5ef480c54b5ab4516ae896cb0213a25c82391785a2446f4ac6b3976",
+    "bytes": 898
+  },
+  {
+    "path": "final-070/potential_xlarge/leaf-1/server.properties",
+    "sha256": "eb91ccf83e8ddac8ee86b6fd7b2c7ff2d291d24910423e52dd27fe5db9369cec",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/potential_xlarge/leaf-1/spigot.yml",
+    "sha256": "e4c01495236483b727d4a1107a18d4f0b181afc6efb0499faf01348f7ccfbe56",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/potential_xlarge/leaf-2/benchmark-result.json",
+    "sha256": "4614ab6e6e6cb8f0808d400dc34020699169b2586f8b344443576e6c459ca48d",
+    "bytes": 14166
+  },
+  {
+    "path": "final-070/potential_xlarge/leaf-2/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/potential_xlarge/leaf-2/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/potential_xlarge/leaf-2/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/potential_xlarge/leaf-2/config/leaf-global.yml",
+    "sha256": "2627922539fe55b200db90a186984667c27b32d4e5fefee140f1607f8d7d935e",
+    "bytes": 16017
+  },
+  {
+    "path": "final-070/potential_xlarge/leaf-2/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/potential_xlarge/leaf-2/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/potential_xlarge/leaf-2/console.log",
+    "sha256": "2620e6ae0825faecec23e6f8c30e423eaeb3b841315ca1b05186c8ed926ebefd",
+    "bytes": 11906
+  },
+  {
+    "path": "final-070/potential_xlarge/leaf-2/run-manifest.json",
+    "sha256": "77157c9aa84474f2fca3c5009a0d620f2f70f0324a3d1249d73141f29ee64f22",
+    "bytes": 898
+  },
+  {
+    "path": "final-070/potential_xlarge/leaf-2/server.properties",
+    "sha256": "c245fe47ef689e6093fe51e8ace7a4c5d4c9f71b89bbcaff3f86ffe5f6e62a62",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/potential_xlarge/leaf-2/spigot.yml",
+    "sha256": "e4c01495236483b727d4a1107a18d4f0b181afc6efb0499faf01348f7ccfbe56",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/runs.csv",
+    "sha256": "6bacb15359ed689997171a340497985bbbe20833da30c0cda39acd6236793ee7",
+    "bytes": 13434
+  },
+  {
+    "path": "final-070/sensor_dense/esco4-1/benchmark-result.json",
+    "sha256": "680d0d34adbd0c81b567829e1ef84f87324feda97a3e3151f5fbf3641e47d888",
+    "bytes": 14328
+  },
+  {
+    "path": "final-070/sensor_dense/esco4-1/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/sensor_dense/esco4-1/config/escos.properties",
+    "sha256": "8a78d7d84194a6f9dd0c78f88e50486cb0c7b845e9b2a4573d52e8ca4019b793",
+    "bytes": 697
+  },
+  {
+    "path": "final-070/sensor_dense/esco4-1/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/sensor_dense/esco4-1/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/sensor_dense/esco4-1/config/leaf-global.yml",
+    "sha256": "36d2bd98f0e7e121525143aba63b9529e018c7f85ac57278deb665ef14853f03",
+    "bytes": 16030
+  },
+  {
+    "path": "final-070/sensor_dense/esco4-1/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/sensor_dense/esco4-1/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/sensor_dense/esco4-1/console.log",
+    "sha256": "eeb3d65449fa6a60400fdb14bba29a37800303ceaef2438c37a3f4a8b6af6e2a",
+    "bytes": 11911
+  },
+  {
+    "path": "final-070/sensor_dense/esco4-1/run-manifest.json",
+    "sha256": "a51dd73ed2380e0e3cc0f10d21784daa66365ac1913d90b5b8587e0169a09d4a",
+    "bytes": 906
+  },
+  {
+    "path": "final-070/sensor_dense/esco4-1/server.properties",
+    "sha256": "fbc4988a841a3f8a0c80b6a3b6a4f50b808b2fb61c485cd9c3204bba4eee44ef",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/sensor_dense/esco4-1/spigot.yml",
+    "sha256": "e4c01495236483b727d4a1107a18d4f0b181afc6efb0499faf01348f7ccfbe56",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/sensor_dense/esco4-2/benchmark-result.json",
+    "sha256": "3c2bd0ee94690766f305dcf7343f31d02cea68457747ad3a0f0e72ea62ef394d",
+    "bytes": 14318
+  },
+  {
+    "path": "final-070/sensor_dense/esco4-2/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/sensor_dense/esco4-2/config/escos.properties",
+    "sha256": "65021658c45855036007d074a2489ae5b0500683b9606128ae3b29635283afa0",
+    "bytes": 697
+  },
+  {
+    "path": "final-070/sensor_dense/esco4-2/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/sensor_dense/esco4-2/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/sensor_dense/esco4-2/config/leaf-global.yml",
+    "sha256": "c198811f23479a0012fd3eaf28a2a93e7f37ab87d12455007018c59409d0439b",
+    "bytes": 16030
+  },
+  {
+    "path": "final-070/sensor_dense/esco4-2/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/sensor_dense/esco4-2/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/sensor_dense/esco4-2/console.log",
+    "sha256": "4a016a1d6bd0a541d4d81219cb83d16b596d78322b29946f71a59fbabe44a333",
+    "bytes": 11912
+  },
+  {
+    "path": "final-070/sensor_dense/esco4-2/run-manifest.json",
+    "sha256": "8a28bf4dde5d31c83f1e2fbe6cd897dfd18a3d10170b074956bb5acea42cd19f",
+    "bytes": 906
+  },
+  {
+    "path": "final-070/sensor_dense/esco4-2/server.properties",
+    "sha256": "d513ce7250229c3b499fcfad433174ee7ceeed7739f0571396a2e0e341a267ba",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/sensor_dense/esco4-2/spigot.yml",
+    "sha256": "e4c01495236483b727d4a1107a18d4f0b181afc6efb0499faf01348f7ccfbe56",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/sensor_dense/esco_all-1/benchmark-result.json",
+    "sha256": "b6718d18e016f53abbb53c238846634224d22f47ecc4f82516cf832470f67723",
+    "bytes": 14348
+  },
+  {
+    "path": "final-070/sensor_dense/esco_all-1/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/sensor_dense/esco_all-1/config/escos.properties",
+    "sha256": "b3ca977276307996a8fb810c58c74a4b39ae894cff3d8a5db5f6b55490d80e76",
+    "bytes": 697
+  },
+  {
+    "path": "final-070/sensor_dense/esco_all-1/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/sensor_dense/esco_all-1/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/sensor_dense/esco_all-1/config/leaf-global.yml",
+    "sha256": "e546b70fbc97747c20bffdf37dd438da8dbced70bbb4cc3794d214390834ff3f",
+    "bytes": 16031
+  },
+  {
+    "path": "final-070/sensor_dense/esco_all-1/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/sensor_dense/esco_all-1/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/sensor_dense/esco_all-1/console.log",
+    "sha256": "430ce06e272724e1afceb9f9ad9a4435533d201545b34475c3f50a1d60bf3976",
+    "bytes": 11916
+  },
+  {
+    "path": "final-070/sensor_dense/esco_all-1/run-manifest.json",
+    "sha256": "e4967c641215b4afacadbba08366d6ccd586dab3b1be5ec5b5138c66ead3a042",
+    "bytes": 911
+  },
+  {
+    "path": "final-070/sensor_dense/esco_all-1/server.properties",
+    "sha256": "afad3dcc081b229ed107d52f57fec10e35f15e40a956048bb326ca1198b88ce1",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/sensor_dense/esco_all-1/spigot.yml",
+    "sha256": "287f4d2ede82d2271c4f0c1777c2d5c5f04ee3530c74b1a65c2d2ece1676a252",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/sensor_dense/esco_all-2/benchmark-result.json",
+    "sha256": "1abf4df74e2712ed5eca0d99d85957ad3139ba59252ba46bacc38e1c5c769ccb",
+    "bytes": 14376
+  },
+  {
+    "path": "final-070/sensor_dense/esco_all-2/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/sensor_dense/esco_all-2/config/escos.properties",
+    "sha256": "295b11208d85c8bb12840e056192c19efba188ddb78994569acf67ced10f15d8",
+    "bytes": 697
+  },
+  {
+    "path": "final-070/sensor_dense/esco_all-2/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/sensor_dense/esco_all-2/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/sensor_dense/esco_all-2/config/leaf-global.yml",
+    "sha256": "41b9a25fbe8b7de0c1f18eea75d3040c7c86081c0c3de8d26878e1c595754fe7",
+    "bytes": 16031
+  },
+  {
+    "path": "final-070/sensor_dense/esco_all-2/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/sensor_dense/esco_all-2/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/sensor_dense/esco_all-2/console.log",
+    "sha256": "aa962f9e71080f081e2efc8ef0811c557c56f610a5aed207a5f3612063d54ea8",
+    "bytes": 14208
+  },
+  {
+    "path": "final-070/sensor_dense/esco_all-2/run-manifest.json",
+    "sha256": "3d2bf1d1fde20c2d71996627ca2f88217c3c65b6aefc7b06771241a14d5f4469",
+    "bytes": 911
+  },
+  {
+    "path": "final-070/sensor_dense/esco_all-2/server.properties",
+    "sha256": "d95812bd223c8d8ede26440d7ce6fd743eb488dbd66435382115b5fa55045b79",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/sensor_dense/esco_all-2/spigot.yml",
+    "sha256": "e4c01495236483b727d4a1107a18d4f0b181afc6efb0499faf01348f7ccfbe56",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/sensor_dense/leaf-1/benchmark-result.json",
+    "sha256": "b8a7d9aee0dca32a751e4b277febe21b376cb5942dbf27fa45ccaacf2cc3e84b",
+    "bytes": 13556
+  },
+  {
+    "path": "final-070/sensor_dense/leaf-1/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/sensor_dense/leaf-1/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/sensor_dense/leaf-1/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/sensor_dense/leaf-1/config/leaf-global.yml",
+    "sha256": "9705fa3cd1f9ea445e68d005ca738e19dd903e951e2c636af60d57226ab846ab",
+    "bytes": 16016
+  },
+  {
+    "path": "final-070/sensor_dense/leaf-1/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/sensor_dense/leaf-1/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/sensor_dense/leaf-1/console.log",
+    "sha256": "01a9100cd60c4bcdc15845fe56571b46023941db8eb8b40d8c793d80b0b2e6a7",
+    "bytes": 11895
+  },
+  {
+    "path": "final-070/sensor_dense/leaf-1/run-manifest.json",
+    "sha256": "5f4e6445a9b96777a38e68d8bee78e048b23d424b67fe3129e59801319bb9252",
+    "bytes": 888
+  },
+  {
+    "path": "final-070/sensor_dense/leaf-1/server.properties",
+    "sha256": "b97403ba959c8cbc99f348b59024cdfeeba266caa32392479d59ebc8e1223d3f",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/sensor_dense/leaf-1/spigot.yml",
+    "sha256": "287f4d2ede82d2271c4f0c1777c2d5c5f04ee3530c74b1a65c2d2ece1676a252",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/sensor_dense/leaf-2/benchmark-result.json",
+    "sha256": "d58c7aefa59ffa3c68ed82a77f3555ed9b4dba8156e029cf59f1f2015e5a4074",
+    "bytes": 13546
+  },
+  {
+    "path": "final-070/sensor_dense/leaf-2/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/sensor_dense/leaf-2/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/sensor_dense/leaf-2/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/sensor_dense/leaf-2/config/leaf-global.yml",
+    "sha256": "a37f1193d0cd2f19e710e7067c57cc262877e6d1fd606b0ddc0a3aaf561d44e3",
+    "bytes": 16016
+  },
+  {
+    "path": "final-070/sensor_dense/leaf-2/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/sensor_dense/leaf-2/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/sensor_dense/leaf-2/console.log",
+    "sha256": "e395c70bbc62f37a1fb7846c9f682603c3ec7489596709b40702ffeca73bcdce",
+    "bytes": 11897
+  },
+  {
+    "path": "final-070/sensor_dense/leaf-2/run-manifest.json",
+    "sha256": "e3b50936ec11931961e15a7fbab9374fe17380e0690ee10afca39d077ac3744c",
+    "bytes": 888
+  },
+  {
+    "path": "final-070/sensor_dense/leaf-2/server.properties",
+    "sha256": "adb928a1fb1ce8f55a745f133b6dc52febdfaab0c31b68a5c4074156d7efcc42",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/sensor_dense/leaf-2/spigot.yml",
+    "sha256": "27b5a6f6f973042d45377ab9e12d8a6c2ca4909a97dbbc481912931c654adc98",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/sensor_large/esco4-1/benchmark-result.json",
+    "sha256": "331f1d136eff95434d99758b4ee969c43bebbcc48a0044bc6db19cc77615e0e4",
+    "bytes": 14578
+  },
+  {
+    "path": "final-070/sensor_large/esco4-1/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/sensor_large/esco4-1/config/escos.properties",
+    "sha256": "8abc84802019d7c7d05d59ccabcc8c79925c25c41545add21d1398b3c002a144",
+    "bytes": 697
+  },
+  {
+    "path": "final-070/sensor_large/esco4-1/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/sensor_large/esco4-1/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/sensor_large/esco4-1/config/leaf-global.yml",
+    "sha256": "71f1fc6928dfbe2e7cf538a3ad292316a9254318046acf00ad3469de89ac798b",
+    "bytes": 16030
+  },
+  {
+    "path": "final-070/sensor_large/esco4-1/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/sensor_large/esco4-1/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/sensor_large/esco4-1/console.log",
+    "sha256": "4200f726694383d21ec96302aa6975fe8de51813cb050b38a91c3775c040f58c",
+    "bytes": 11916
+  },
+  {
+    "path": "final-070/sensor_large/esco4-1/run-manifest.json",
+    "sha256": "ad548bc89e379e27292ac475453b1f305315d7224a54641afbe728878cee5261",
+    "bytes": 907
+  },
+  {
+    "path": "final-070/sensor_large/esco4-1/server.properties",
+    "sha256": "8ead62ec360035186b17dcb727ec15bd941cf7864614f0ca3b3083691d1a77a6",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/sensor_large/esco4-1/spigot.yml",
+    "sha256": "e4c01495236483b727d4a1107a18d4f0b181afc6efb0499faf01348f7ccfbe56",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/sensor_large/esco4-2/benchmark-result.json",
+    "sha256": "f0dce901e72aaf7f473d4675165b8725c09af1f9a5524d99de19e87a50f220d3",
+    "bytes": 14603
+  },
+  {
+    "path": "final-070/sensor_large/esco4-2/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/sensor_large/esco4-2/config/escos.properties",
+    "sha256": "9c9c77280963ddbe82b920b1fff0577d75b7b9157898d352e2dbbb10e0f990f6",
+    "bytes": 697
+  },
+  {
+    "path": "final-070/sensor_large/esco4-2/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/sensor_large/esco4-2/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/sensor_large/esco4-2/config/leaf-global.yml",
+    "sha256": "212f8ffbfed2208ce9f94688cbb4d684989e56953a784f6716d74c7e16c6f964",
+    "bytes": 16031
+  },
+  {
+    "path": "final-070/sensor_large/esco4-2/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/sensor_large/esco4-2/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/sensor_large/esco4-2/console.log",
+    "sha256": "72e30912f53b70ffc49d3b58dbbb4d17e0682ecbfea6303561c6a16e0b9354e2",
+    "bytes": 11921
+  },
+  {
+    "path": "final-070/sensor_large/esco4-2/run-manifest.json",
+    "sha256": "fa520f88280db0dde59ea39de85793a1858effb46cf8e60dd7450d186cae0fbc",
+    "bytes": 907
+  },
+  {
+    "path": "final-070/sensor_large/esco4-2/server.properties",
+    "sha256": "890745e1345345339022556883c33d88d4639b330a8b6bfd3f9737c45e77aeb6",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/sensor_large/esco4-2/spigot.yml",
+    "sha256": "9a397050d72e4451b68fd330be62ef3d149e34cd8000bc1eda7643ea0f32063c",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/sensor_large/esco_all-1/benchmark-result.json",
+    "sha256": "09f7dbdbf4f2ad459809b775a7c5b7137589bdb8a373d52075339ea49deeaff4",
+    "bytes": 14614
+  },
+  {
+    "path": "final-070/sensor_large/esco_all-1/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/sensor_large/esco_all-1/config/escos.properties",
+    "sha256": "6d6ef654c8993e46d382478e6ed0602c8c2bb60433c4b534674927fbb86bac11",
+    "bytes": 697
+  },
+  {
+    "path": "final-070/sensor_large/esco_all-1/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/sensor_large/esco_all-1/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/sensor_large/esco_all-1/config/leaf-global.yml",
+    "sha256": "f26eec9609331cc40df10094fb4f6399d6af2442b99d6ac3e88cbb8d21f75c83",
+    "bytes": 16030
+  },
+  {
+    "path": "final-070/sensor_large/esco_all-1/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/sensor_large/esco_all-1/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/sensor_large/esco_all-1/console.log",
+    "sha256": "22ca87fe83e9775d3e6b0054f0bff87e5a9f6a4b5af1ab92ccaa272ee5177477",
+    "bytes": 11916
+  },
+  {
+    "path": "final-070/sensor_large/esco_all-1/run-manifest.json",
+    "sha256": "d63e03dcd1b953e06e21cc6f2cacb2edfde7321f6259f27ef40c38b5cd44bacf",
+    "bytes": 912
+  },
+  {
+    "path": "final-070/sensor_large/esco_all-1/server.properties",
+    "sha256": "bddb340b1b0755c5ac30e385594ab5f32ecc5eadc1e3f64ef5a31508b06baeb1",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/sensor_large/esco_all-1/spigot.yml",
+    "sha256": "e4c01495236483b727d4a1107a18d4f0b181afc6efb0499faf01348f7ccfbe56",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/sensor_large/esco_all-2/benchmark-result.json",
+    "sha256": "b39c21e925665a3399fbaba388de48f864cf54c98c465be59e66e9d4315f984c",
+    "bytes": 14576
+  },
+  {
+    "path": "final-070/sensor_large/esco_all-2/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/sensor_large/esco_all-2/config/escos.properties",
+    "sha256": "a0c737eb44e48235f7a985a9d64378d6601e8a672109aba9ebd19082b2c58ba3",
+    "bytes": 697
+  },
+  {
+    "path": "final-070/sensor_large/esco_all-2/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/sensor_large/esco_all-2/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/sensor_large/esco_all-2/config/leaf-global.yml",
+    "sha256": "789f18e99a9f52e689852bfa84e25dca674e5dcf5d0c8a2caade08015059e6da",
+    "bytes": 16031
+  },
+  {
+    "path": "final-070/sensor_large/esco_all-2/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/sensor_large/esco_all-2/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/sensor_large/esco_all-2/console.log",
+    "sha256": "0c607292140d8cdf28d56ae2e631aa3a3fd9667608162e319b626f323f874e9b",
+    "bytes": 11917
+  },
+  {
+    "path": "final-070/sensor_large/esco_all-2/run-manifest.json",
+    "sha256": "46e7b733e6f1421bcf1d385d3761ea8521f25e03aaa5511ef63d7315674c7a83",
+    "bytes": 912
+  },
+  {
+    "path": "final-070/sensor_large/esco_all-2/server.properties",
+    "sha256": "ed70fd1c576e137cb7433d2350146ebcf7ebcf32fe5d0095d03910db768b1956",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/sensor_large/esco_all-2/spigot.yml",
+    "sha256": "a7f9ece01367adb8644bd616dacba06559c59fa30badfe273b97aab71d371246",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/sensor_large/leaf-1/benchmark-result.json",
+    "sha256": "15c2e20c9a097ebd728d54d7d805b06b132325a6869d476214184f2312ba3aba",
+    "bytes": 13839
+  },
+  {
+    "path": "final-070/sensor_large/leaf-1/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/sensor_large/leaf-1/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/sensor_large/leaf-1/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/sensor_large/leaf-1/config/leaf-global.yml",
+    "sha256": "e9310c82d9b345a95266787006817e94be2528b08d20909eaa092bdee40390a0",
+    "bytes": 16016
+  },
+  {
+    "path": "final-070/sensor_large/leaf-1/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/sensor_large/leaf-1/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/sensor_large/leaf-1/console.log",
+    "sha256": "0ef038fdb5050a3d1fdc9881271b2d4b282d9f3824f574340390ab37c0c4e175",
+    "bytes": 11903
+  },
+  {
+    "path": "final-070/sensor_large/leaf-1/run-manifest.json",
+    "sha256": "845355b6d3e3470d9221c506a164648a2b2296faf93ab57a54190fd68e0c0415",
+    "bytes": 889
+  },
+  {
+    "path": "final-070/sensor_large/leaf-1/server.properties",
+    "sha256": "feebacf3c92d91502b9c8d7945981b79ddd1093659df64022f1157e8b8732f44",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/sensor_large/leaf-1/spigot.yml",
+    "sha256": "e4c01495236483b727d4a1107a18d4f0b181afc6efb0499faf01348f7ccfbe56",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/sensor_large/leaf-2/benchmark-result.json",
+    "sha256": "2bfcfcfa04072e88d70314bdd8d3e9a6d210cf8b4b5c8980aba3fd946fc2ec58",
+    "bytes": 13803
+  },
+  {
+    "path": "final-070/sensor_large/leaf-2/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "final-070/sensor_large/leaf-2/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "final-070/sensor_large/leaf-2/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "final-070/sensor_large/leaf-2/config/leaf-global.yml",
+    "sha256": "9c2f917b0b46860079dab85cef3973ac432b1c547f999e41c08ba0b45e3f41f3",
+    "bytes": 16015
+  },
+  {
+    "path": "final-070/sensor_large/leaf-2/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "final-070/sensor_large/leaf-2/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "final-070/sensor_large/leaf-2/console.log",
+    "sha256": "8d77d0688509d33d8ee4d2a3d98a6651636d342b36524b7346e5dc7c8f14388b",
+    "bytes": 11900
+  },
+  {
+    "path": "final-070/sensor_large/leaf-2/run-manifest.json",
+    "sha256": "46c75223df33907de8c6ebfe887741412e2d9d90e9fd711a9b60a7fc04a4dd00",
+    "bytes": 889
+  },
+  {
+    "path": "final-070/sensor_large/leaf-2/server.properties",
+    "sha256": "205641e99c9a7a3eca7433e1be2b0f967622c9db08cb43c7e2a27ae7fa89064b",
+    "bytes": 2023
+  },
+  {
+    "path": "final-070/sensor_large/leaf-2/spigot.yml",
+    "sha256": "29da5227e1ca41f634ee1b812d78c971a4f39164e6ebb963dd0e71d9314d73e7",
+    "bytes": 4842
+  },
+  {
+    "path": "final-070/suite-manifest.json",
+    "sha256": "f4ec996678e22c1f46b201ccde8e4b34cb2007792ed22a51e3f2d9d1453406e8",
+    "bytes": 6376
+  },
+  {
+    "path": "final-070/summary.json",
+    "sha256": "16adf4f00f8265b1f9c93242b8c70aeaeb5d06edda624702334196629f9f1eaf",
+    "bytes": 18163
+  },
+  {
+    "path": "final-artifact.json",
+    "sha256": "2102484116afa21162930406af7c839ca4ccd7d3111ce743d11705956fdd7afc",
+    "bytes": 416
+  },
+  {
+    "path": "harness/benchmark.jar",
+    "sha256": "8d260d5efd03a20ec31b4524689d20653dbe20da4979d46563bcaf19f1aad417",
+    "bytes": 12019
+  },
+  {
+    "path": "harness/identity.json",
+    "sha256": "a1733f7fad1ebc962f446bc308919e937a9413f813d23beb53d928ddd5ef2b1c",
+    "bytes": 243
+  },
+  {
+    "path": "harness-final.log",
+    "sha256": "33ada95e37b6903a396540c19e3a74debb2cb9d2059073f91dcd58690a1ecbd3",
+    "bytes": 1372
+  },
+  {
+    "path": "kernel-b-fresh.log",
+    "sha256": "a9c5961ff1d0ec4b40dd8c5062b47c3090ec26dacafdc45f43d22493751e2acf",
+    "bytes": 7660
+  },
+  {
+    "path": "kernel-candidate-a.log",
+    "sha256": "411e2e560cff614845f75db1b7c1f1c376390545bbd1cb0c8374ae76a3966e77",
+    "bytes": 7680
+  },
+  {
+    "path": "kernel-initial.log",
+    "sha256": "c40ba1c7a51c7f7707ca98e06b5603f2624d20a59eea4e627f2df4424d9f24f8",
+    "bytes": 7475
+  },
+  {
+    "path": "kernel-timing-b-fresh.json",
+    "sha256": "8a0052f34a44610a6a272bf6ba88bf238731b90c54c4510f94c9851d41dd6279",
+    "bytes": 8088
+  },
+  {
+    "path": "kernel-timing-b-fresh.properties",
+    "sha256": "b29d506add20115bb06927936c3fa9258438ef37f57974bcd126d0855d4b98ff",
+    "bytes": 697
+  },
+  {
+    "path": "kernel-timing-b.json",
+    "sha256": "d0879bad225b39787c551f8ac69947c9130e7339176c536c52a5014ffdce1efe",
+    "bytes": 2698
+  },
+  {
+    "path": "kernel-timing.json",
+    "sha256": "7bcd6413125fad4ee99af00b70b3caab14162436da7b4fe15dd447c02188980c",
+    "bytes": 5603
+  },
+  {
+    "path": "kernel-updated.log",
+    "sha256": "d6b39876f456e01b4f3270f02335852228a7e5a66e08470e75202723de0a287f",
+    "bytes": 7462
+  },
+  {
+    "path": "pilot-a/potential_large/ablation8-1/benchmark-result.json",
+    "sha256": "bf46b31122c6e2335815f4b7c3ad3b687ce0fe7a3bc9ab1f9dc87fa245453f14",
+    "bytes": 10449
+  },
+  {
+    "path": "pilot-a/potential_large/ablation8-1/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "pilot-a/potential_large/ablation8-1/config/escos.properties",
+    "sha256": "0afb42953d699465aece4ab85e556710c772fe047bd0e4465ca2dd6391d8f44c",
+    "bytes": 667
+  },
+  {
+    "path": "pilot-a/potential_large/ablation8-1/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "pilot-a/potential_large/ablation8-1/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "pilot-a/potential_large/ablation8-1/config/leaf-global.yml",
+    "sha256": "1b8ae86677d6e81a22b48e3c3c19b5fea7f75cca47e0c051152c8dab39b277a7",
+    "bytes": 16031
+  },
+  {
+    "path": "pilot-a/potential_large/ablation8-1/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "pilot-a/potential_large/ablation8-1/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "pilot-a/potential_large/ablation8-1/console.log",
+    "sha256": "cdf270f4b2f34abc24f89a111f452683034313c463530ecd2f383e94f7ad61bd",
+    "bytes": 11917
+  },
+  {
+    "path": "pilot-a/potential_large/ablation8-1/run-manifest.json",
+    "sha256": "36f04d5e930d118b86e1cf5ce8d879d827c5c64ed09f1ce231da8d6554ddbe2e",
+    "bytes": 1058
+  },
+  {
+    "path": "pilot-a/potential_large/ablation8-1/server.properties",
+    "sha256": "f3a44ba45ecf190ad031258ca811410b5c1cef5ea36e5dc080807168299305dc",
+    "bytes": 2023
+  },
+  {
+    "path": "pilot-a/potential_large/ablation8-1/spigot.yml",
+    "sha256": "579e3b4ed42bef9563111bce55856f27c1fe021c692da23596102f88fb2ad63e",
+    "bytes": 4842
+  },
+  {
+    "path": "pilot-a/potential_large/esco4-1/benchmark-result.json",
+    "sha256": "56c995fe55a71bac7fa3a631b7aa3c44dbfa939a4dcfe91f7ca0e8001e55fc82",
+    "bytes": 10308
+  },
+  {
+    "path": "pilot-a/potential_large/esco4-1/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "pilot-a/potential_large/esco4-1/config/escos.properties",
+    "sha256": "7cd46addd780971be53078f130313d979c73a3d4684fcf719cd1eb4d52adcf74",
+    "bytes": 667
+  },
+  {
+    "path": "pilot-a/potential_large/esco4-1/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "pilot-a/potential_large/esco4-1/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "pilot-a/potential_large/esco4-1/config/leaf-global.yml",
+    "sha256": "ab0ee28f5bab2a6f910f2bdeaed7e16a92d443a917dc05820d4345a3d3c01033",
+    "bytes": 16031
+  },
+  {
+    "path": "pilot-a/potential_large/esco4-1/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "pilot-a/potential_large/esco4-1/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "pilot-a/potential_large/esco4-1/console.log",
+    "sha256": "c42ce6cd575376f18978d271950a328b65770104426de15e5e84fe5c217c83b9",
+    "bytes": 11913
+  },
+  {
+    "path": "pilot-a/potential_large/esco4-1/run-manifest.json",
+    "sha256": "27457a97ee1fe34c55c6a092a3e7422aa6acdb89f3ab10cdde0737057d0df967",
+    "bytes": 904
+  },
+  {
+    "path": "pilot-a/potential_large/esco4-1/server.properties",
+    "sha256": "acc722c427fbb1d4970df3b6435a68ec9ccb6231253f2219a16cab9819d70726",
+    "bytes": 2023
+  },
+  {
+    "path": "pilot-a/potential_large/esco4-1/spigot.yml",
+    "sha256": "e4c01495236483b727d4a1107a18d4f0b181afc6efb0499faf01348f7ccfbe56",
+    "bytes": 4842
+  },
+  {
+    "path": "pilot-a/potential_large/esco_all-1/benchmark-result.json",
+    "sha256": "0d7aa83079a781e34db179aa28301101192a9180baa6347456abd71f7037955e",
+    "bytes": 10460
+  },
+  {
+    "path": "pilot-a/potential_large/esco_all-1/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "pilot-a/potential_large/esco_all-1/config/escos.properties",
+    "sha256": "b198a148f2876a8d1ef687b420e267f047c4907a1cee6506141f5c17d4f488ab",
+    "bytes": 667
+  },
+  {
+    "path": "pilot-a/potential_large/esco_all-1/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "pilot-a/potential_large/esco_all-1/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "pilot-a/potential_large/esco_all-1/config/leaf-global.yml",
+    "sha256": "d4d1eaa6b526b2a7db93e74fb1bf22604a4de087f81c05a77f0becdf0f0d97b8",
+    "bytes": 16029
+  },
+  {
+    "path": "pilot-a/potential_large/esco_all-1/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "pilot-a/potential_large/esco_all-1/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "pilot-a/potential_large/esco_all-1/console.log",
+    "sha256": "f8cdd0931c6674386d4624ae25dce6480c5daff3415e1d91c8c78b4d9cd8e494",
+    "bytes": 11916
+  },
+  {
+    "path": "pilot-a/potential_large/esco_all-1/run-manifest.json",
+    "sha256": "aa4547cd77ea39dc0bd1d75a58c39cb6ca420d9c8d750c65bf2f827e04091264",
+    "bytes": 909
+  },
+  {
+    "path": "pilot-a/potential_large/esco_all-1/server.properties",
+    "sha256": "c744762fd65e58d9e58b4dc53bbc5d0fa7373c6ecd1af09189f12dde133c62d4",
+    "bytes": 2023
+  },
+  {
+    "path": "pilot-a/potential_large/esco_all-1/spigot.yml",
+    "sha256": "287f4d2ede82d2271c4f0c1777c2d5c5f04ee3530c74b1a65c2d2ece1676a252",
+    "bytes": 4842
+  },
+  {
+    "path": "pilot-a/potential_large/leaf-1/benchmark-result.json",
+    "sha256": "51634fc2bab2ffa0b4db31317ce09ee55f6099d901464a9a74b811a168270d0b",
+    "bytes": 9418
+  },
+  {
+    "path": "pilot-a/potential_large/leaf-1/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "pilot-a/potential_large/leaf-1/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "pilot-a/potential_large/leaf-1/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "pilot-a/potential_large/leaf-1/config/leaf-global.yml",
+    "sha256": "427d88a27f81cb3294c711c42866a958a729e083ca8fe3d12131cfb1da10e60d",
+    "bytes": 16015
+  },
+  {
+    "path": "pilot-a/potential_large/leaf-1/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "pilot-a/potential_large/leaf-1/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "pilot-a/potential_large/leaf-1/console.log",
+    "sha256": "9c00256267b77e34d202e1f2a355a581f9075f55a737b0d2b113fff80f2942f4",
+    "bytes": 11907
+  },
+  {
+    "path": "pilot-a/potential_large/leaf-1/run-manifest.json",
+    "sha256": "625b64c36a8bcbe67615572425ba35222b7ef0d8950618f17e33a3fd57a1126e",
+    "bytes": 894
+  },
+  {
+    "path": "pilot-a/potential_large/leaf-1/server.properties",
+    "sha256": "845bb9a5b3348e7fe5b846762faeffa5aade68b060bf4df87d0f92b26c077f7f",
+    "bytes": 2023
+  },
+  {
+    "path": "pilot-a/potential_large/leaf-1/spigot.yml",
+    "sha256": "e4c01495236483b727d4a1107a18d4f0b181afc6efb0499faf01348f7ccfbe56",
+    "bytes": 4842
+  },
+  {
+    "path": "pilot-a/runs.csv",
+    "sha256": "dca5f24e9a896479121aed497706e318969a34a6a29c766493dd0116492b0bbf",
+    "bytes": 2601
+  },
+  {
+    "path": "pilot-a/sensor_large/ablation8-1/benchmark-result.json",
+    "sha256": "9461bc0e80404df2ecda193bf240dfe5cac195a76ee3172f88523caba847ac91",
+    "bytes": 10330
+  },
+  {
+    "path": "pilot-a/sensor_large/ablation8-1/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "pilot-a/sensor_large/ablation8-1/config/escos.properties",
+    "sha256": "943529f6c227dfcc62927ae9fdd3f6cead2e70a5d7509ab8da36e59b342cd83d",
+    "bytes": 667
+  },
+  {
+    "path": "pilot-a/sensor_large/ablation8-1/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "pilot-a/sensor_large/ablation8-1/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "pilot-a/sensor_large/ablation8-1/config/leaf-global.yml",
+    "sha256": "b3b9e3a70bf1da87a331568754c2de4c307a9c6cc43b39dbe098fb8ad1cd7763",
+    "bytes": 16030
+  },
+  {
+    "path": "pilot-a/sensor_large/ablation8-1/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "pilot-a/sensor_large/ablation8-1/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "pilot-a/sensor_large/ablation8-1/console.log",
+    "sha256": "53d9840de17d995332a7dd042b0ad5d9f11e56e15365c8651eaf7b90a89db700",
+    "bytes": 11908
+  },
+  {
+    "path": "pilot-a/sensor_large/ablation8-1/run-manifest.json",
+    "sha256": "b759ccb7654e30b28a6a1ca66390a5c06c36a81d625e6fb5d98aab90b486980a",
+    "bytes": 1051
+  },
+  {
+    "path": "pilot-a/sensor_large/ablation8-1/server.properties",
+    "sha256": "709954591b62ccf22f7ca0a004f565fae8074f37cc78cdeea0db4fe61095616a",
+    "bytes": 2023
+  },
+  {
+    "path": "pilot-a/sensor_large/ablation8-1/spigot.yml",
+    "sha256": "287f4d2ede82d2271c4f0c1777c2d5c5f04ee3530c74b1a65c2d2ece1676a252",
+    "bytes": 4842
+  },
+  {
+    "path": "pilot-a/sensor_large/esco4-1/benchmark-result.json",
+    "sha256": "5ec27743075ad6eabb79a38111e0cb6f538ffc12a6ae56f3ed7094d058c97a1e",
+    "bytes": 10183
+  },
+  {
+    "path": "pilot-a/sensor_large/esco4-1/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "pilot-a/sensor_large/esco4-1/config/escos.properties",
+    "sha256": "2dc8f778d4e015e39ac478ff9b631b38d98452356a0291a94d0ab86cc61246ff",
+    "bytes": 667
+  },
+  {
+    "path": "pilot-a/sensor_large/esco4-1/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "pilot-a/sensor_large/esco4-1/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "pilot-a/sensor_large/esco4-1/config/leaf-global.yml",
+    "sha256": "33f29f64816aceec0461b7a5a2baa6731694a2643ad5e181eabaa49f42d26694",
+    "bytes": 16031
+  },
+  {
+    "path": "pilot-a/sensor_large/esco4-1/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "pilot-a/sensor_large/esco4-1/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "pilot-a/sensor_large/esco4-1/console.log",
+    "sha256": "c219763340bf8211e10c7740751a2ed5f26e384ab88fcc9fe9fb606cee29b4a2",
+    "bytes": 11899
+  },
+  {
+    "path": "pilot-a/sensor_large/esco4-1/run-manifest.json",
+    "sha256": "09e8a8f76f526d54d5c45068cc720636febb79a4288ae683791e11325532388f",
+    "bytes": 897
+  },
+  {
+    "path": "pilot-a/sensor_large/esco4-1/server.properties",
+    "sha256": "c49d75eda485eb7db72ab264e8ed73fcdc797fb04ae4cc084020c2dd66e3ea36",
+    "bytes": 2023
+  },
+  {
+    "path": "pilot-a/sensor_large/esco4-1/spigot.yml",
+    "sha256": "e4c01495236483b727d4a1107a18d4f0b181afc6efb0499faf01348f7ccfbe56",
+    "bytes": 4842
+  },
+  {
+    "path": "pilot-a/sensor_large/esco_all-1/benchmark-result.json",
+    "sha256": "d3921ad143ff6af83f8a53b8a7c972d1f75abb75649f403b16db007951ae1316",
+    "bytes": 10329
+  },
+  {
+    "path": "pilot-a/sensor_large/esco_all-1/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "pilot-a/sensor_large/esco_all-1/config/escos.properties",
+    "sha256": "2e187e7e4b669ce6aa99f0e1c6faf1eb9dea73432f7d2f3e53afbf70dfc71364",
+    "bytes": 667
+  },
+  {
+    "path": "pilot-a/sensor_large/esco_all-1/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "pilot-a/sensor_large/esco_all-1/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "pilot-a/sensor_large/esco_all-1/config/leaf-global.yml",
+    "sha256": "908e66b099361b37786faded26139a624d6140ed92fee638a141a205af0cd411",
+    "bytes": 16028
+  },
+  {
+    "path": "pilot-a/sensor_large/esco_all-1/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "pilot-a/sensor_large/esco_all-1/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "pilot-a/sensor_large/esco_all-1/console.log",
+    "sha256": "a23203415c70f1efd72c90286e832ee0ce050b58ee1c0898156c541c09181cb7",
+    "bytes": 11902
+  },
+  {
+    "path": "pilot-a/sensor_large/esco_all-1/run-manifest.json",
+    "sha256": "d54f79f7540d76657c0b01617c64958cea84d58f1623c9d9132d3b00fa105ad9",
+    "bytes": 902
+  },
+  {
+    "path": "pilot-a/sensor_large/esco_all-1/server.properties",
+    "sha256": "ae73396c70b90e7b90b43be62594507bd16886105b46aea0c3bf86171c04b1ff",
+    "bytes": 2023
+  },
+  {
+    "path": "pilot-a/sensor_large/esco_all-1/spigot.yml",
+    "sha256": "287f4d2ede82d2271c4f0c1777c2d5c5f04ee3530c74b1a65c2d2ece1676a252",
+    "bytes": 4842
+  },
+  {
+    "path": "pilot-a/sensor_large/leaf-1/benchmark-result.json",
+    "sha256": "b4b1c4fba1fd960485be48a7cd1acb6c93abecd93094a627e048f0513a609c1a",
+    "bytes": 9299
+  },
+  {
+    "path": "pilot-a/sensor_large/leaf-1/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "pilot-a/sensor_large/leaf-1/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "pilot-a/sensor_large/leaf-1/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "pilot-a/sensor_large/leaf-1/config/leaf-global.yml",
+    "sha256": "8b26ac52dcfae512e10fcda805c30aa4220b599e559a666dde2e22af77892a42",
+    "bytes": 16015
+  },
+  {
+    "path": "pilot-a/sensor_large/leaf-1/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "pilot-a/sensor_large/leaf-1/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "pilot-a/sensor_large/leaf-1/console.log",
+    "sha256": "3b0f12c44cab742ed1312e5034245e5cf3ece3b51eca50a4dc761c64a11579cc",
+    "bytes": 11893
+  },
+  {
+    "path": "pilot-a/sensor_large/leaf-1/run-manifest.json",
+    "sha256": "93a8a14acc2de042deee38fde232985aab153ab2141be952171ac99cdd1cfbc8",
+    "bytes": 887
+  },
+  {
+    "path": "pilot-a/sensor_large/leaf-1/server.properties",
+    "sha256": "24852614711db51164d804ce00b4c23a2ed5eaca5bfe3d9409a430ae0d86b102",
+    "bytes": 2023
+  },
+  {
+    "path": "pilot-a/sensor_large/leaf-1/spigot.yml",
+    "sha256": "e4c01495236483b727d4a1107a18d4f0b181afc6efb0499faf01348f7ccfbe56",
+    "bytes": 4842
+  },
+  {
+    "path": "pilot-a/suite-manifest.json",
+    "sha256": "67188ebe620b0b03f46988b820cedc41a0781aecc45d8154fae912bade855e85",
+    "bytes": 2852
+  },
+  {
+    "path": "pilot-a/summary.json",
+    "sha256": "ed1513ca31375db45b6653e1da395a179be54b789d744f30ce2f5cb858ac25c9",
+    "bytes": 6243
+  },
+  {
+    "path": "release-build-repeat.log",
+    "sha256": "841c3985cf6ed7fb54d96eb43bde1197843da5497add5a42603dcf63f337bcfe",
+    "bytes": 1936
+  },
+  {
+    "path": "release-build.log",
+    "sha256": "8b036c572582c5dc6ca024022c3ce4bde86531781adb4a99e5dce3a6146d0bbf",
+    "bytes": 6482
+  },
+  {
+    "path": "sensor-diagnostic-070/diagnostic-summary.json",
+    "sha256": "ec8d77d26b089c425f6db0dcc54b63b5e98d4460b4f3979064cb7fb37606395d",
+    "bytes": 744
+  },
+  {
+    "path": "sensor-diagnostic-070/esco4/benchmark-result.json",
+    "sha256": "5053f37f7d9f0ed99ab9438c9eb73ada81b11ea4a10b53c83e90c4b0efccc31c",
+    "bytes": 25386
+  },
+  {
+    "path": "sensor-diagnostic-070/esco4/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "sensor-diagnostic-070/esco4/config/escos.properties",
+    "sha256": "702a99e4b2c24134e4a88f7a37369fc9ff2e54b24b8b7c7565d02b58037ce49a",
+    "bytes": 697
+  },
+  {
+    "path": "sensor-diagnostic-070/esco4/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "sensor-diagnostic-070/esco4/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "sensor-diagnostic-070/esco4/config/leaf-global.yml",
+    "sha256": "123c851f154215d11060c812f700116dfbc733c3376f0edc28f29b78463b0505",
+    "bytes": 16029
+  },
+  {
+    "path": "sensor-diagnostic-070/esco4/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "sensor-diagnostic-070/esco4/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "sensor-diagnostic-070/esco4/console.log",
+    "sha256": "efbf68f1e186e4a743db5250438f5bced8e6803cbebbd43206a1cddda22e1ef7",
+    "bytes": 12137
+  },
+  {
+    "path": "sensor-diagnostic-070/esco4/diagnostic-summary.json",
+    "sha256": "0cfb9ad800bf9717cfd1047b8b6ab3291afd7c0f8100d6b0f17df2decb933fa1",
+    "bytes": 25542
+  },
+  {
+    "path": "sensor-diagnostic-070/esco4/run-manifest.json",
+    "sha256": "6318229de5f68bbe9f87010b697ed4947e1acb7a4b1c8fb4d555a4572c26b5ae",
+    "bytes": 902
+  },
+  {
+    "path": "sensor-diagnostic-070/esco4/server.properties",
+    "sha256": "2087beaaf4e73ffe03372ee7a6df6d14330bf3704f3839cfb9d3713fa06f2c2e",
+    "bytes": 2023
+  },
+  {
+    "path": "sensor-diagnostic-070/esco4/spigot.yml",
+    "sha256": "27b5a6f6f973042d45377ab9e12d8a6c2ca4909a97dbbc481912931c654adc98",
+    "bytes": 4842
+  },
+  {
+    "path": "sensor-diagnostic-070/esco_all/benchmark-result.json",
+    "sha256": "c1fb5a2140c45e662cef6555f7126de8a59e8fe5e01cc2d328a15c1252c33ea8",
+    "bytes": 25419
+  },
+  {
+    "path": "sensor-diagnostic-070/esco_all/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "sensor-diagnostic-070/esco_all/config/escos.properties",
+    "sha256": "f8e8e00bed1503e70a6f5a9d4f00774c87528cced246df34b8317d8d0f7c2f40",
+    "bytes": 697
+  },
+  {
+    "path": "sensor-diagnostic-070/esco_all/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "sensor-diagnostic-070/esco_all/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "sensor-diagnostic-070/esco_all/config/leaf-global.yml",
+    "sha256": "8cfc06e5a620dbeab13adb3a2a6564b2113a536c9837d9ab798256412f4fbdc8",
+    "bytes": 16030
+  },
+  {
+    "path": "sensor-diagnostic-070/esco_all/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "sensor-diagnostic-070/esco_all/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "sensor-diagnostic-070/esco_all/console.log",
+    "sha256": "9aca5e052a5bbb6ab1ac9913428067fa7827b922f799a98cd10b533463c7282d",
+    "bytes": 12132
+  },
+  {
+    "path": "sensor-diagnostic-070/esco_all/diagnostic-summary.json",
+    "sha256": "fe859b1c278142fb218f3116336b9ceae62faada3979e32c0de686518fc4f844",
+    "bytes": 25395
+  },
+  {
+    "path": "sensor-diagnostic-070/esco_all/run-manifest.json",
+    "sha256": "2a4313ad405e767611dc0dcc11dd37e64e568ee7d1c2211640897bb53d7f7410",
+    "bytes": 907
+  },
+  {
+    "path": "sensor-diagnostic-070/esco_all/server.properties",
+    "sha256": "6a40062cfbbd00c64a2bd23ab3fd5a845b62114632101fb99bbf3bdefee28c87",
+    "bytes": 2023
+  },
+  {
+    "path": "sensor-diagnostic-070/esco_all/spigot.yml",
+    "sha256": "27b5a6f6f973042d45377ab9e12d8a6c2ca4909a97dbbc481912931c654adc98",
+    "bytes": 4842
+  },
+  {
+    "path": "sensor-diagnostic-070/leaf/benchmark-result.json",
+    "sha256": "34d95a89a00f84cb4213284fa3624bde2510572388ab64c692e5cca45a44c05e",
+    "bytes": 24671
+  },
+  {
+    "path": "sensor-diagnostic-070/leaf/bukkit.yml",
+    "sha256": "4871e5d21b8c91f1fc0f98e3b356838e99ee4ee02f1f3c59c1ebab31089c499d",
+    "bytes": 1149
+  },
+  {
+    "path": "sensor-diagnostic-070/leaf/config/gale-global.yml",
+    "sha256": "c0c47278a5a1b1a63f406deaea127c8d442dfddbf91312d192c1e2446144ec32",
+    "bytes": 1411
+  },
+  {
+    "path": "sensor-diagnostic-070/leaf/config/gale-world-defaults.yml",
+    "sha256": "3388025c1d2a5cc9bb380ffbafe8298dd71dd0e84762159a8b021728065a8c6c",
+    "bytes": 1409
+  },
+  {
+    "path": "sensor-diagnostic-070/leaf/config/leaf-global.yml",
+    "sha256": "f74a0c0269961cba59811eabfd181e669106920e9f39b82f943fae52e3a006c7",
+    "bytes": 16016
+  },
+  {
+    "path": "sensor-diagnostic-070/leaf/config/paper-global.yml",
+    "sha256": "06d0fe3eb122ffb1f47e1f62959db4bdf0907351938721649f57379378371376",
+    "bytes": 4483
+  },
+  {
+    "path": "sensor-diagnostic-070/leaf/config/paper-world-defaults.yml",
+    "sha256": "d6e9db26fe4bc838f39bbf0bacde4766b5b4d84cc4ef4b0ba713a15467082f32",
+    "bytes": 8875
+  },
+  {
+    "path": "sensor-diagnostic-070/leaf/console.log",
+    "sha256": "06c51870d2901e1aa6c72cb1f0ddec732432b0b915dc009475a0204bead56a50",
+    "bytes": 12109
+  },
+  {
+    "path": "sensor-diagnostic-070/leaf/diagnostic-summary.json",
+    "sha256": "d2dc0845102b2b7ac411695d3866e6ef22d46ae6205caa04ab1f9ab4d5687181",
+    "bytes": 24633
+  },
+  {
+    "path": "sensor-diagnostic-070/leaf/run-manifest.json",
+    "sha256": "266cb2cd3a53a2ac124aed1eae2d0e2cd058f39170704e994e7cdc0114151344",
+    "bytes": 884
+  },
+  {
+    "path": "sensor-diagnostic-070/leaf/server.properties",
+    "sha256": "86cdd821c0f0f72a9b0077792fcc728ed47fd23008d45ee30e64e3da14bd9f7e",
+    "bytes": 2023
+  },
+  {
+    "path": "sensor-diagnostic-070/leaf/spigot.yml",
+    "sha256": "27b5a6f6f973042d45377ab9e12d8a6c2ca4909a97dbbc481912931c654adc98",
+    "bytes": 4842
+  },
+  {
+    "path": "sensor-diagnostic-note.md",
+    "sha256": "9a1f32868822910c9613a76f019ee0fc6ee332769190da69da8a95c056ff725f",
+    "bytes": 1003
+  },
+  {
+    "path": "source-parity.json",
+    "sha256": "315e43125f3a3f22f611a5a2684a341485947987b55a0988c0cbc5e9a9b31f2c",
+    "bytes": 853
+  }
+]

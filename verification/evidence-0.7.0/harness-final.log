@@ -1,0 +1,17 @@
+/local-build/esco-leaf/verification/plugins/src/dev/escos/verify/BenchPlugin.java:72: warning: [removal] DO_MOB_SPAWNING in GameRule has been deprecated and marked for removal
+        world.setGameRule(GameRule.DO_MOB_SPAWNING, false);
+                                  ^
+/local-build/esco-leaf/verification/plugins/src/dev/escos/verify/BenchPlugin.java:73: warning: [removal] DO_DAYLIGHT_CYCLE in GameRule has been deprecated and marked for removal
+        world.setGameRule(GameRule.DO_DAYLIGHT_CYCLE, false);
+                                  ^
+/local-build/esco-leaf/verification/plugins/src/dev/escos/verify/BenchPlugin.java:74: warning: [removal] DO_WEATHER_CYCLE in GameRule has been deprecated and marked for removal
+        world.setGameRule(GameRule.DO_WEATHER_CYCLE, false);
+                                  ^
+/local-build/esco-leaf/verification/plugins/src/dev/escos/verify/BenchPlugin.java:75: warning: [removal] RANDOM_TICK_SPEED in GameRule has been deprecated and marked for removal
+        world.setGameRule(GameRule.RANDOM_TICK_SPEED, 0);
+                                  ^
+4 warnings
+/local-build/esco-leaf/verification/plugins/build/benchmark.jar
+/local-build/esco-leaf/verification/plugins/build/paper-probe.jar
+/local-build/esco-leaf/verification/plugins/build/bukkit-probe.jar
+/local-build/esco-leaf/verification/plugins/build/community-probe.jar

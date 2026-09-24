@@ -1,0 +1,7 @@
+name: EscoBukkitProbe
+version: '0.2.0'
+main: dev.escos.verify.BukkitProbe
+api-version: '26.2'
+commands:
+  escoprobe:
+    description: Compatibility test command

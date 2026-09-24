@@ -1,0 +1,5 @@
+name: EscoBenchmark
+version: '0.3.0'
+main: dev.escos.verify.BenchPlugin
+api-version: '26.2'
+description: Identical deterministic workload harness for Paper and Esco. Test servers only.

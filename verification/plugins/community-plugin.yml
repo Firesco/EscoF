@@ -1,0 +1,5 @@
+name: EscoCommunityProbe
+version: '0.2.0'
+main: dev.escos.verify.CommunityProbe
+api-version: '26.2'
+depend: [LuckPerms, Vault, WorldEdit]

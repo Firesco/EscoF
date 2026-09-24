@@ -1,0 +1,161 @@
+openjdk version "25.0.4.1" 2026-08-18 LTS
+OpenJDK Runtime Environment Temurin-25.0.4.1+1 (build 25.0.4.1+1-LTS)
+OpenJDK 64-Bit Server VM Temurin-25.0.4.1+1 (build 25.0.4.1+1-LTS, mixed mode, sharing)
+Initialized empty Git repository in /local-build/release-build/.git/
+Picked up JAVA_TOOL_OPTIONS: "-Djava.io.tmpdir=/local-build/release-build/.esco-build-tmp"
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.4.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+Calculating task graph as no cached configuration is available for tasks: applyPaperSingleFilePatches
+
+> Configure project :
+paperweight-patcher v2.0.0-beta.21 (running on 'Linux')
+
+> Task :checkoutPaperRepo
+> Task :applyPaperSingleFilePatches
+
+BUILD SUCCESSFUL in 19s
+2 actionable tasks: 2 executed
+Configuration cache entry stored.
+Picked up JAVA_TOOL_OPTIONS: "-Djava.io.tmpdir=/local-build/release-build/.esco-build-tmp"
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.4.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+Calculating task graph as no cached configuration is available for tasks: applyAllPatches
+
+> Configure project :
+paperweight-patcher v2.0.0-beta.21 (running on 'Linux')
+
+> Configure project :leaf-server
+paperweight-core v2.0.0-beta.21 (running on 'Linux')
+
+> Task :checkoutPaperRepo
+> Task :filterPaperApiFromPaper
+
+> Task :applyPaperApiFilePatches
+Applied 0 patches
+
+> Task :applyPaperApiFeaturePatches
+> Task :applyPaperApiPatches
+> Task :applyPaperSingleFilePatches UP-TO-DATE
+> Task :applyPaperPatches
+
+> Configure project :release-build
+paperweight-patcher v2.0.0-beta.21 (running on 'Linux')
+
+> Configure project :release-build:leaf-server
+paperweight-core v2.0.0-beta.21 (running on 'Linux')
+
+> Task :release-build:leaf-server:downloadMcManifest
+> Task :release-build:leaf-server:downloadMcVersionManifest
+> Task :release-build:leaf-server:downloadServerJar
+> Task :release-build:leaf-server:extractFromBundler
+
+> Task :release-build:leaf-server:setupMacheResources
+Copy initial sources...
+Setup git repo...
+
+> Task :release-build:leaf-server:extractMacheResources
+> Task :applyAllPatches
+
+> Task :release-build:leaf-server:applyPaperMinecraftResourcePatches
+Applied 6 patches
+
+> Task :release-build:leaf-server:applyMinecraftResourcePatches
+Applied 0 patches
+
+> Task :release-build:leaf-server:downloadMcLibrariesSources
+> Task :release-build:leaf-server:downloadRuntimeClasspathSources
+> Task :release-build:leaf-server:indexLibraryFiles
+
+> Task :release-build:leaf-server:importPaperLibraryFiles
+Importing 14 classes from library sources...
+
+> Task :release-build:leaf-server:macheRemapJar
+> Task :release-build:leaf-server:macheDecompileJar
+> Task :release-build:leaf-server:collectPaperATsFromPatches
+> Task :release-build:leaf-server:mergePaperATs
+
+> Task :release-build:leaf-server:setupMacheSources
+Copy initial sources...
+Setup git repo...
+Applying mache patches...
+Applied 105 mache patches
+Applying access transformers...
+
+> Task :release-build:leaf-server:extractMacheSources
+
+> Task :release-build:leaf-server:applyPaperMinecraftSourcePatches
+Applied 931 patches
+
+> Task :release-build:leaf-server:applyPaperMinecraftFilePatches
+> Task :release-build:leaf-server:applyPaperMinecraftFeaturePatches
+
+> Task :release-build:leaf-server:importLeafLibraryFiles
+Importing 0 classes from library sources...
+
+> Task :release-build:leaf-server:collectLeafATsFromPatches
+> Task :release-build:leaf-server:mergeLeafATs
+
+> Task :release-build:leaf-server:runLeafSetup
+Applying access transformers...
+
+> Task :release-build:leaf-server:applyMinecraftSourcePatches
+Applied 0 patches
+
+> Task :release-build:leaf-server:applyMinecraftFilePatches
+> Task :release-build:leaf-server:applyMinecraftFeaturePatches
+> Task :release-build:leaf-server:applyMinecraftPatches
+> Task :release-build:leaf-server:filterPaperServerFromPaper
+
+> Task :release-build:leaf-server:applyPaperServerFilePatches
+Applied 0 patches
+
+> Task :release-build:leaf-server:applyPaperServerFeaturePatches
+> Task :release-build:leaf-server:applyPaperServerPatches
+> Task :release-build:leaf-server:applyServerPatches
+> Task :release-build:leaf-server:applyAllServerPatches
+
+BUILD SUCCESSFUL in 5m 57s
+6 actionable tasks: 5 executed, 1 up-to-date
+Configuration cache entry stored.
+Picked up JAVA_TOOL_OPTIONS: "-Djava.io.tmpdir=/local-build/release-build/.esco-build-tmp"
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.4.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+Calculating task graph as no cached configuration is available for tasks: createPaperclipJar
+
+> Configure project :
+paperweight-patcher v2.0.0-beta.21 (running on 'Linux')
+
+> Configure project :leaf-server
+paperweight-core v2.0.0-beta.21 (running on 'Linux')
+
+> Task :leaf-api:processResources NO-SOURCE
+> Task :leaf-api:generateApiVersioningFile
+> Task :leaf-server:processLog4jPluginsResources NO-SOURCE
+> Task :leaf-server:copyLicense
+> Task :leaf-api:compileJava FROM-CACHE
+> Task :leaf-api:classes UP-TO-DATE
+> Task :leaf-api:jar
+> Task :leaf-server:compileLog4jPluginsJava FROM-CACHE
+> Task :leaf-server:log4jPluginsClasses UP-TO-DATE
+> Task :leaf-server:processResources
+
+> Task :leaf-server:compileJava
+Picked up JAVA_TOOL_OPTIONS: "-Djava.io.tmpdir=/local-build/release-build/.esco-build-tmp"
+
+> Task :leaf-server:downloadMcManifest
+> Task :leaf-server:downloadMcVersionManifest UP-TO-DATE
+> Task :leaf-server:downloadServerJar UP-TO-DATE
+> Task :leaf-server:extractFromBundler UP-TO-DATE
+
+> Task :leaf-server:compileJava
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use or override a deprecated API that is marked for removal.
+Note: Recompile with -Xlint:removal for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :leaf-server:classes
+> Task :leaf-server:jar
+> Task :leaf-server:createBundlerJar
+> Task :leaf-server:createPaperclipJar

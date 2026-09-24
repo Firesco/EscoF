@@ -1,0 +1,608 @@
+{
+  "status": "passed",
+  "purpose": "JFR profiling control, not a replacement performance result",
+  "variant": "esco_all",
+  "tick_ms": {
+    "p50": 18.32964,
+    "p95": 28.404357,
+    "mean": 20.4639413,
+    "max": 150.395344
+  },
+  "gc_collections": 1,
+  "gc_collection_millis": 54,
+  "esco_metrics": {
+    "configured_workers": 8,
+    "observed_workers": 0,
+    "peak_parallel_workers": 0,
+    "live_workers": 0,
+    "peak_live_workers": 0,
+    "active_workers": 0,
+    "activation_buffer_grows": 0,
+    "sort_buffer_grows": 1,
+    "parallel_batches": 0,
+    "worker_tasks": 0,
+    "caller_compute_tasks": 0,
+    "external_pool_entries": 0,
+    "worker_wall_nanos_sum": 0,
+    "activation_batches": 0,
+    "activation_entities": 0,
+    "activation_nanos": 0,
+    "activation_verifications": 0,
+    "activation_mismatches": 0,
+    "poi_empty_searches": 0,
+    "sensor_sorts": 2400,
+    "sensor_sorted_items": 19660800,
+    "sensor_parallel_merge_passes": 0,
+    "potential_buffer_grows": 0,
+    "potential_queries": 0,
+    "potential_points": 0
+  },
+  "event_counts": {
+    "jdk.ExecutionSample": 2128,
+    "jdk.CPULoad": 45,
+    "jdk.GCPhasePause": 20,
+    "jdk.JavaMonitorEnter": 1
+  },
+  "server_thread_top_stacks": [
+    {
+      "stack": "it/unimi/dsi/fastutil/objects/ObjectArrayList.grow:359 > it/unimi/dsi/fastutil/objects/ObjectArrayList.add:380 > ca/spottedleaf/moonrise/patches/chunk_system/level/entity/ChunkEntitySlices$EntityCollectionBySection.getEntities:604 > ca/spottedleaf/moonrise/patches/chunk_system/level/entity/ChunkEntitySlices.getEntities:400 > ca/spottedleaf/moonrise/patches/chunk_system/level/entity/EntityLookup.getEntities:849",
+      "samples": 231
+    },
+    {
+      "stack": "java/util/Arrays.fill:3451 > it/unimi/dsi/fastutil/objects/ObjectArrayList.clear:437 > net/minecraft/world/entity/Entity.applyEffectsFromBlocks:1506 > net/minecraft/world/entity/LivingEntity.aiStep:3926 > net/minecraft/world/entity/decoration/ArmorStand.aiStep:854",
+      "samples": 67
+    },
+    {
+      "stack": "io/papermc/paper/entity/activation/ActivationRange.checkIfActive:352 > net/minecraft/server/level/ServerLevel.tickNonPassenger:1696 > net/minecraft/server/level/ServerLevel.lambda$tick$0:1127 > net.minecraft.server.level.ServerLevel$$Lambda/0x000000000a463c28.accept:-1 > net/minecraft/world/level/entity/EntityTickList.forEach:55",
+      "samples": 52
+    },
+    {
+      "stack": "java/lang/ThreadLocal$ThreadLocalMap.getEntry:491 > java/lang/ThreadLocal.get:186 > java/lang/ThreadLocal.get:171 > net/minecraft/util/profiling/Profiler.get:49 > net/minecraft/server/level/ServerLevel.tickNonPassenger:1691",
+      "samples": 52
+    },
+    {
+      "stack": "net/minecraft/world/entity/LivingEntity.tickEffects:995 > net/minecraft/world/entity/LivingEntity.baseTick:547 > net/minecraft/world/entity/Entity.tick:931 > net/minecraft/world/entity/LivingEntity.tick:3535 > net/minecraft/world/entity/decoration/ArmorStand.tick:567",
+      "samples": 51
+    },
+    {
+      "stack": "java/lang/ThreadLocal$ThreadLocalMap.getEntry:491 > java/lang/ThreadLocal.get:186 > java/lang/ThreadLocal.get:171 > net/minecraft/util/profiling/Profiler.get:49 > net/minecraft/world/entity/LivingEntity.aiStep:3864",
+      "samples": 45
+    },
+    {
+      "stack": "net/minecraft/world/entity/LivingEntity.baseTick:547 > net/minecraft/world/entity/Entity.tick:931 > net/minecraft/world/entity/LivingEntity.tick:3535 > net/minecraft/world/entity/decoration/ArmorStand.tick:567 > net/minecraft/server/level/ServerLevel.tickNonPassenger:1698",
+      "samples": 39
+    },
+    {
+      "stack": "java/lang/ThreadLocal.get:193 > java/lang/ThreadLocal.get:171 > dev/escos/fork/ai/DistanceOrder.sort:42 > net/minecraft/world/entity/ai/sensing/NearestLivingEntitySensor.doTick:28 > dev/escos/verify/BenchPlugin$ExposedSensor.scan:284",
+      "samples": 39
+    },
+    {
+      "stack": "dev/escos/fork/ai/DistanceOrder.radixRange:147 > dev/escos/fork/ai/DistanceOrder.sort:71 > net/minecraft/world/entity/ai/sensing/NearestLivingEntitySensor.doTick:28 > dev/escos/verify/BenchPlugin$ExposedSensor.scan:284 > dev/escos/verify/BenchPlugin.runTick:172",
+      "samples": 37
+    },
+    {
+      "stack": "net/minecraft/world/entity/EntityFluidInteraction.hasFluidAndLoaded:118 > net/minecraft/world/entity/EntityFluidInteraction.update:46 > net/minecraft/world/entity/Entity.updateFluidInteraction:2335 > net/minecraft/world/entity/decoration/ArmorStand.updateFluidInteraction:848 > net/minecraft/world/entity/Entity.baseTick:1012",
+      "samples": 36
+    },
+    {
+      "stack": "ca/spottedleaf/moonrise/patches/chunk_system/level/entity/ChunkEntitySlices.getEntities:400 > ca/spottedleaf/moonrise/patches/chunk_system/level/entity/EntityLookup.getEntities:849 > net/minecraft/world/level/Level.getEntitiesOfClass:280 > net/minecraft/world/entity/decoration/ArmorStand.pushEntities:213 > net/minecraft/world/entity/LivingEntity.aiStep:3961",
+      "samples": 33
+    },
+    {
+      "stack": "net/minecraft/world/level/entity/EntityTickList.forEach:55 > net/minecraft/server/level/ServerLevel.tick:1106 > net/minecraft/server/MinecraftServer.tickLevel:1872 > net/minecraft/server/MinecraftServer.tickChildren:1967 > net/minecraft/server/MinecraftServer.tickServer:1722",
+      "samples": 30
+    },
+    {
+      "stack": "net/minecraft/world/entity/Entity.updateFluidInteraction:2335 > net/minecraft/world/entity/decoration/ArmorStand.updateFluidInteraction:848 > net/minecraft/world/entity/Entity.baseTick:1012 > net/minecraft/world/entity/LivingEntity.baseTick:460 > net/minecraft/world/entity/Entity.tick:931",
+      "samples": 30
+    },
+    {
+      "stack": "java/util/Objects.equals:62 > it/unimi/dsi/fastutil/objects/Object2ObjectArrayMap.get:407 > net/minecraft/world/entity/ai/attributes/AttributeInstance.getModifier:69 > net/minecraft/world/entity/LivingEntity.removeFrost:575 > net/minecraft/world/entity/LivingEntity.aiStep:3946",
+      "samples": 29
+    },
+    {
+      "stack": "net/minecraft/world/entity/decoration/ArmorStand.tick:567 > net/minecraft/server/level/ServerLevel.tickNonPassenger:1698 > net/minecraft/server/level/ServerLevel.lambda$tick$0:1127 > net.minecraft.server.level.ServerLevel$$Lambda/0x000000000a463c28.accept:-1 > net/minecraft/world/level/entity/EntityTickList.forEach:55",
+      "samples": 24
+    },
+    {
+      "stack": "net/minecraft/world/entity/ai/attributes/AttributeMap.getInstance:123 > net/minecraft/world/entity/LivingEntity.getAttribute:2931 > net/minecraft/world/entity/LivingEntity.removeFrost:573 > net/minecraft/world/entity/LivingEntity.aiStep:3946 > net/minecraft/world/entity/decoration/ArmorStand.aiStep:854",
+      "samples": 23
+    },
+    {
+      "stack": "net/minecraft/world/entity/LivingEntity.baseTick:460 > net/minecraft/world/entity/Entity.tick:931 > net/minecraft/world/entity/LivingEntity.tick:3535 > net/minecraft/world/entity/decoration/ArmorStand.tick:567 > net/minecraft/server/level/ServerLevel.tickNonPassenger:1698",
+      "samples": 23
+    },
+    {
+      "stack": "dev/escos/verify/BenchPlugin.runTick:175 > dev/escos/verify/BenchPlugin.lambda$setup$5:139 > dev.escos.verify.BenchPlugin$$Lambda/0x000000000a2eb268.run:-1 > org/bukkit/craftbukkit/scheduler/CraftTask.run:78 > org/bukkit/craftbukkit/scheduler/CraftScheduler.mainThreadHeartbeat:474",
+      "samples": 22
+    },
+    {
+      "stack": "net/minecraft/world/entity/ai/attributes/AttributeMap.getAttributesToUpdateIds:77 > net/minecraft/world/entity/LivingEntity.refreshDirtyAttributes:1382 > net/minecraft/world/entity/LivingEntity.tick:3622 > net/minecraft/world/entity/decoration/ArmorStand.tick:567 > net/minecraft/server/level/ServerLevel.tickNonPassenger:1698",
+      "samples": 21
+    },
+    {
+      "stack": "net/minecraft/world/entity/LivingEntity.detectEquipmentUpdates:3700 > net/minecraft/world/entity/LivingEntity.tick:3563 > net/minecraft/world/entity/decoration/ArmorStand.tick:567 > net/minecraft/server/level/ServerLevel.tickNonPassenger:1698 > net/minecraft/server/level/ServerLevel.lambda$tick$0:1127",
+      "samples": 16
+    },
+    {
+      "stack": "net/minecraft/world/entity/LivingEntity.refreshDirtyAttributes:1385 > net/minecraft/world/entity/LivingEntity.tick:3622 > net/minecraft/world/entity/decoration/ArmorStand.tick:567 > net/minecraft/server/level/ServerLevel.tickNonPassenger:1698 > net/minecraft/server/level/ServerLevel.lambda$tick$0:1127",
+      "samples": 15
+    },
+    {
+      "stack": "net/minecraft/world/entity/LivingEntity.aiStep:3926 > net/minecraft/world/entity/decoration/ArmorStand.aiStep:854 > net/minecraft/world/entity/LivingEntity.tick:3574 > net/minecraft/world/entity/decoration/ArmorStand.tick:567 > net/minecraft/server/level/ServerLevel.tickNonPassenger:1698",
+      "samples": 13
+    },
+    {
+      "stack": "net.minecraft.server.level.ServerLevel$$Lambda/0x000000000a463c28.accept:-1 > net/minecraft/world/level/entity/EntityTickList.forEach:55 > net/minecraft/server/level/ServerLevel.tick:1106 > net/minecraft/server/MinecraftServer.tickLevel:1872 > net/minecraft/server/MinecraftServer.tickChildren:1967",
+      "samples": 13
+    },
+    {
+      "stack": "net/minecraft/server/level/ServerLevel.lambda$tick$0:1127 > net.minecraft.server.level.ServerLevel$$Lambda/0x000000000a463c28.accept:-1 > net/minecraft/world/level/entity/EntityTickList.forEach:55 > net/minecraft/server/level/ServerLevel.tick:1106 > net/minecraft/server/MinecraftServer.tickLevel:1872",
+      "samples": 13
+    },
+    {
+      "stack": "net/minecraft/world/entity/EntityFluidInteraction.update:46 > net/minecraft/world/entity/Entity.updateFluidInteraction:2335 > net/minecraft/world/entity/decoration/ArmorStand.updateFluidInteraction:848 > net/minecraft/world/entity/Entity.baseTick:1012 > net/minecraft/world/entity/LivingEntity.baseTick:460",
+      "samples": 12
+    },
+    {
+      "stack": "java/util/EnumMap.get:248 > net/minecraft/world/entity/LivingEntity.collectEquipmentChanges:3732 > net/minecraft/world/entity/LivingEntity.detectEquipmentUpdates:3700 > net/minecraft/world/entity/LivingEntity.tick:3563 > net/minecraft/world/entity/decoration/ArmorStand.tick:567",
+      "samples": 11
+    },
+    {
+      "stack": "ca/spottedleaf/moonrise/patches/chunk_system/level/entity/ChunkEntitySlices.getEntities:400 > ca/spottedleaf/moonrise/patches/chunk_system/level/entity/EntityLookup.getEntities:849 > net/minecraft/world/entity/ai/sensing/NearestLivingEntitySensor.doTick:23 > dev/escos/verify/BenchPlugin$ExposedSensor.scan:284 > dev/escos/verify/BenchPlugin.runTick:172",
+      "samples": 10
+    },
+    {
+      "stack": "dev/escos/fork/ai/DistanceOrder.radixRange:142 > dev/escos/fork/ai/DistanceOrder.sort:71 > net/minecraft/world/entity/ai/sensing/NearestLivingEntitySensor.doTick:28 > dev/escos/verify/BenchPlugin$ExposedSensor.scan:284 > dev/escos/verify/BenchPlugin.runTick:172",
+      "samples": 10
+    },
+    {
+      "stack": "it/unimi/dsi/fastutil/objects/ObjectArrayList.grow:359 > it/unimi/dsi/fastutil/objects/ObjectArrayList.add:380 > net/minecraft/world/entity/Entity.applyEffectsFromBlocks:1510 > net/minecraft/world/entity/LivingEntity.aiStep:3926 > net/minecraft/world/entity/decoration/ArmorStand.aiStep:854",
+      "samples": 8
+    },
+    {
+      "stack": "java/lang/ThreadLocal$ThreadLocalMap.getEntry:491 > java/lang/ThreadLocal.get:186 > java/lang/ThreadLocal.get:171 > ca/spottedleaf/moonrise/patches/chunk_system/scheduling/ChunkHolderManager.processTicketUpdates:1448 > net/minecraft/server/level/ServerChunkCache.runDistanceManagerUpdates:464",
+      "samples": 6
+    },
+    {
+      "stack": "org/dreeam/leaf/world/ChunkCache.get:90 > net/minecraft/server/level/ServerChunkCache.getChunk:335 > net/minecraft/world/level/Level.getChunk:1114 > net/minecraft/world/entity/EntityFluidInteraction.hasFluidAndLoaded:111 > net/minecraft/world/entity/EntityFluidInteraction.update:46",
+      "samples": 6
+    },
+    {
+      "stack": "net/minecraft/util/profiling/Profiler.getDefaultFiller:53 > net/minecraft/util/profiling/Profiler.get:49 > net/minecraft/server/level/ServerLevel.tickChunk:1266 > net/minecraft/server/level/ServerChunkCache.iterateTickingChunksFaster:186 > net/minecraft/server/level/ServerChunkCache.tickChunks:691",
+      "samples": 6
+    },
+    {
+      "stack": "ca/spottedleaf/moonrise/common/list/IteratorSafeOrderedReferenceSet$BaseIterator.hasNext:284 > net/minecraft/world/level/entity/EntityTickList.forEach:54 > net/minecraft/server/level/ServerLevel.tick:1106 > net/minecraft/server/MinecraftServer.tickLevel:1872 > net/minecraft/server/MinecraftServer.tickChildren:1967",
+      "samples": 6
+    },
+    {
+      "stack": "net/minecraft/world/entity/decoration/ArmorStand.aiStep:854 > net/minecraft/world/entity/LivingEntity.tick:3574 > net/minecraft/world/entity/decoration/ArmorStand.tick:567 > net/minecraft/server/level/ServerLevel.tickNonPassenger:1698 > net/minecraft/server/level/ServerLevel.lambda$tick$0:1127",
+      "samples": 6
+    },
+    {
+      "stack": "it/unimi/dsi/fastutil/objects/Reference2ObjectOpenHashMap.get:328 > ca/spottedleaf/moonrise/patches/chunk_system/level/entity/ChunkEntitySlices.getEntities:398 > ca/spottedleaf/moonrise/patches/chunk_system/level/entity/EntityLookup.getEntities:849 > net/minecraft/world/level/Level.getEntitiesOfClass:280 > net/minecraft/world/entity/decoration/ArmorStand.pushEntities:213",
+      "samples": 3
+    },
+    {
+      "stack": "net/minecraft/world/ticks/LevelTicks.rescheduleLeftoverContainers:144 > net/minecraft/world/ticks/LevelTicks.collectTicks:97 > net/minecraft/world/ticks/LevelTicks.tick:84 > net/minecraft/server/level/ServerLevel.tick:1065 > net/minecraft/server/MinecraftServer.tickLevel:1872",
+      "samples": 3
+    },
+    {
+      "stack": "net/minecraft/util/profiling/Profiler.getDefaultFiller:53 > net/minecraft/util/profiling/Profiler.get:49 > net/minecraft/world/entity/Entity.baseTick:991 > net/minecraft/world/entity/LivingEntity.baseTick:460 > net/minecraft/world/entity/Entity.tick:931",
+      "samples": 3
+    },
+    {
+      "stack": "dev/escos/fork/ai/DistanceOrder.sort:76 > net/minecraft/world/entity/ai/sensing/NearestLivingEntitySensor.doTick:28 > dev/escos/verify/BenchPlugin$ExposedSensor.scan:284 > dev/escos/verify/BenchPlugin.runTick:172 > dev/escos/verify/BenchPlugin.lambda$setup$5:139",
+      "samples": 3
+    },
+    {
+      "stack": "ca/spottedleaf/moonrise/patches/chunk_system/player/RegionizedPlayerChunkLoader.tick:310 > net/minecraft/server/level/ServerChunkCache.tick:518 > net/minecraft/server/level/ServerLevel.tick:1077 > net/minecraft/server/MinecraftServer.tickLevel:1872 > net/minecraft/server/MinecraftServer.tickChildren:1967",
+      "samples": 3
+    },
+    {
+      "stack": "dev/escos/fork/ai/DistanceOrder.radixRange:144 > dev/escos/fork/ai/DistanceOrder.sort:71 > net/minecraft/world/entity/ai/sensing/NearestLivingEntitySensor.doTick:28 > dev/escos/verify/BenchPlugin$ExposedSensor.scan:284 > dev/escos/verify/BenchPlugin.runTick:172",
+      "samples": 3
+    }
+  ],
+  "pauses": [
+    {
+      "type": "jdk.GCPhasePause",
+      "start": "2026-09-22T06:41:59.388635732Z",
+      "duration": "PT0.006870667S",
+      "thread": null
+    },
+    {
+      "type": "jdk.GCPhasePause",
+      "start": "2026-09-22T06:41:59.396792568Z",
+      "duration": "PT0.001845235S",
+      "thread": null
+    },
+    {
+      "type": "jdk.GCPhasePause",
+      "start": "2026-09-22T06:41:59.423519839Z",
+      "duration": "PT0.00325016S",
+      "thread": null
+    },
+    {
+      "type": "jdk.GCPhasePause",
+      "start": "2026-09-22T06:41:59.428374989Z",
+      "duration": "PT0.000019449S",
+      "thread": null
+    },
+    {
+      "type": "jdk.GCPhasePause",
+      "start": "2026-09-22T06:42:00.402232976Z",
+      "duration": "PT0.006318441S",
+      "thread": null
+    },
+    {
+      "type": "jdk.GCPhasePause",
+      "start": "2026-09-22T06:42:00.423621162Z",
+      "duration": "PT0.004378541S",
+      "thread": null
+    },
+    {
+      "type": "jdk.GCPhasePause",
+      "start": "2026-09-22T06:42:00.446275093Z",
+      "duration": "PT0.006346122S",
+      "thread": null
+    },
+    {
+      "type": "jdk.GCPhasePause",
+      "start": "2026-09-22T06:42:00.459602955Z",
+      "duration": "PT0.006749919S",
+      "thread": null
+    },
+    {
+      "type": "jdk.GCPhasePause",
+      "start": "2026-09-22T06:42:00.467221156Z",
+      "duration": "PT0.000023805S",
+      "thread": null
+    },
+    {
+      "type": "jdk.JavaMonitorEnter",
+      "start": "2026-09-22T06:42:00.590127099Z",
+      "duration": "PT0.035525435S",
+      "thread": "CrashReport preload thread"
+    },
+    {
+      "type": "jdk.GCPhasePause",
+      "start": "2026-09-22T06:42:01.087286702Z",
+      "duration": "PT0.010043522S",
+      "thread": null
+    },
+    {
+      "type": "jdk.GCPhasePause",
+      "start": "2026-09-22T06:42:01.102173086Z",
+      "duration": "PT0.002324894S",
+      "thread": null
+    },
+    {
+      "type": "jdk.GCPhasePause",
+      "start": "2026-09-22T06:42:01.105040831Z",
+      "duration": "PT0.000015183S",
+      "thread": null
+    },
+    {
+      "type": "jdk.GCPhasePause",
+      "start": "2026-09-22T06:42:02.871438270Z",
+      "duration": "PT0.0998233S",
+      "thread": null
+    },
+    {
+      "type": "jdk.GCPhasePause",
+      "start": "2026-09-22T06:42:02.998242896Z",
+      "duration": "PT0.003462614S",
+      "thread": null
+    },
+    {
+      "type": "jdk.GCPhasePause",
+      "start": "2026-09-22T06:42:03.002479272Z",
+      "duration": "PT0.000015463S",
+      "thread": null
+    },
+    {
+      "type": "jdk.GCPhasePause",
+      "start": "2026-09-22T06:42:05.525756425Z",
+      "duration": "PT0.053511336S",
+      "thread": null
+    },
+    {
+      "type": "jdk.GCPhasePause",
+      "start": "2026-09-22T06:42:05.628957563Z",
+      "duration": "PT0.004263657S",
+      "thread": null
+    },
+    {
+      "type": "jdk.GCPhasePause",
+      "start": "2026-09-22T06:42:05.646387293Z",
+      "duration": "PT0.000017586S",
+      "thread": null
+    },
+    {
+      "type": "jdk.GCPhasePause",
+      "start": "2026-09-22T06:42:09.818970088Z",
+      "duration": "PT0.039981064S",
+      "thread": null
+    },
+    {
+      "type": "jdk.GCPhasePause",
+      "start": "2026-09-22T06:42:39.584191550Z",
+      "duration": "PT0.053555231S",
+      "thread": null
+    }
+  ],
+  "cpu_loads": [
+    {
+      "startTime": "2026-09-22T06:41:57.356465253Z",
+      "jvmUser": 0.0,
+      "jvmSystem": 0.0,
+      "machineTotal": 0.0
+    },
+    {
+      "startTime": "2026-09-22T06:41:58.360441209Z",
+      "jvmUser": 0.14523281,
+      "jvmSystem": 0.014412417,
+      "machineTotal": 0.2594235
+    },
+    {
+      "startTime": "2026-09-22T06:41:59.361255577Z",
+      "jvmUser": 0.09888889,
+      "jvmSystem": 0.012222222,
+      "machineTotal": 0.17555556
+    },
+    {
+      "startTime": "2026-09-22T06:42:00.362096107Z",
+      "jvmUser": 0.19094923,
+      "jvmSystem": 0.02759382,
+      "machineTotal": 0.21854305
+    },
+    {
+      "startTime": "2026-09-22T06:42:01.367365558Z",
+      "jvmUser": 0.2764317,
+      "jvmSystem": 0.011013215,
+      "machineTotal": 0.28744492
+    },
+    {
+      "startTime": "2026-09-22T06:42:02.371974114Z",
+      "jvmUser": 0.27222833,
+      "jvmSystem": 0.014270033,
+      "machineTotal": 0.28649837
+    },
+    {
+      "startTime": "2026-09-22T06:42:03.379045567Z",
+      "jvmUser": 0.30497238,
+      "jvmSystem": 0.06850829,
+      "machineTotal": 0.37348068
+    },
+    {
+      "startTime": "2026-09-22T06:42:04.384183440Z",
+      "jvmUser": 0.23814774,
+      "jvmSystem": 0.01323043,
+      "machineTotal": 0.28445426
+    },
+    {
+      "startTime": "2026-09-22T06:42:05.391611820Z",
+      "jvmUser": 0.39956093,
+      "jvmSystem": 0.013172338,
+      "machineTotal": 0.54226124
+    },
+    {
+      "startTime": "2026-09-22T06:42:06.401189007Z",
+      "jvmUser": 0.47246695,
+      "jvmSystem": 0.008810572,
+      "machineTotal": 0.67070484
+    },
+    {
+      "startTime": "2026-09-22T06:42:07.479359214Z",
+      "jvmUser": 0.34489796,
+      "jvmSystem": 0.007142857,
+      "machineTotal": 0.49285713
+    },
+    {
+      "startTime": "2026-09-22T06:42:08.486296960Z",
+      "jvmUser": 0.33222592,
+      "jvmSystem": 0.0110741975,
+      "machineTotal": 0.3433001
+    },
+    {
+      "startTime": "2026-09-22T06:42:09.494375307Z",
+      "jvmUser": 0.4923077,
+      "jvmSystem": 0.00989011,
+      "machineTotal": 0.5472528
+    },
+    {
+      "startTime": "2026-09-22T06:42:10.499144058Z",
+      "jvmUser": 0.57649666,
+      "jvmSystem": 0.022172948,
+      "machineTotal": 0.69512194
+    },
+    {
+      "startTime": "2026-09-22T06:42:11.503246680Z",
+      "jvmUser": 0.2961326,
+      "jvmSystem": 0.008839779,
+      "machineTotal": 0.47182322
+    },
+    {
+      "startTime": "2026-09-22T06:42:12.515728560Z",
+      "jvmUser": 0.1416122,
+      "jvmSystem": 0.003267974,
+      "machineTotal": 0.24618736
+    },
+    {
+      "startTime": "2026-09-22T06:42:13.517396511Z",
+      "jvmUser": 0.063263044,
+      "jvmSystem": 0.001109878,
+      "machineTotal": 0.081021085
+    },
+    {
+      "startTime": "2026-09-22T06:42:14.518924168Z",
+      "jvmUser": 0.04746137,
+      "jvmSystem": 0.0011037528,
+      "machineTotal": 0.05187638
+    },
+    {
+      "startTime": "2026-09-22T06:42:15.520310695Z",
+      "jvmUser": 0.046306506,
+      "jvmSystem": 0.0011025359,
+      "machineTotal": 0.05292172
+    },
+    {
+      "startTime": "2026-09-22T06:42:16.521872966Z",
+      "jvmUser": 0.050997782,
+      "jvmSystem": 0.0,
+      "machineTotal": 0.07760532
+    },
+    {
+      "startTime": "2026-09-22T06:42:17.581235420Z",
+      "jvmUser": 0.064718165,
+      "jvmSystem": 0.0010438414,
+      "machineTotal": 0.18162839
+    },
+    {
+      "startTime": "2026-09-22T06:42:18.582606295Z",
+      "jvmUser": 0.05071665,
+      "jvmSystem": 0.0011025359,
+      "machineTotal": 0.13781698
+    },
+    {
+      "startTime": "2026-09-22T06:42:19.583916058Z",
+      "jvmUser": 0.04977876,
+      "jvmSystem": 0.0011061947,
+      "machineTotal": 0.15818584
+    },
+    {
+      "startTime": "2026-09-22T06:42:20.585172784Z",
+      "jvmUser": 0.05666667,
+      "jvmSystem": 0.0022222223,
+      "machineTotal": 0.15888889
+    },
+    {
+      "startTime": "2026-09-22T06:42:21.586483348Z",
+      "jvmUser": 0.065482795,
+      "jvmSystem": 0.0,
+      "machineTotal": 0.065482795
+    },
+    {
+      "startTime": "2026-09-22T06:42:22.587881433Z",
+      "jvmUser": 0.056478404,
+      "jvmSystem": 0.0,
+      "machineTotal": 0.14507198
+    },
+    {
+      "startTime": "2026-09-22T06:42:23.589098360Z",
+      "jvmUser": 0.048726466,
+      "jvmSystem": 0.0,
+      "machineTotal": 0.15282393
+    },
+    {
+      "startTime": "2026-09-22T06:42:24.589947774Z",
+      "jvmUser": 0.046666667,
+      "jvmSystem": 0.0011111111,
+      "machineTotal": 0.053333335
+    },
+    {
+      "startTime": "2026-09-22T06:42:25.591157469Z",
+      "jvmUser": 0.04429679,
+      "jvmSystem": 0.0,
+      "machineTotal": 0.046511628
+    },
+    {
+      "startTime": "2026-09-22T06:42:26.592456251Z",
+      "jvmUser": 0.050055616,
+      "jvmSystem": 0.001112347,
+      "machineTotal": 0.051167965
+    },
+    {
+      "startTime": "2026-09-22T06:42:27.652098206Z",
+      "jvmUser": 0.056485355,
+      "jvmSystem": 0.0,
+      "machineTotal": 0.05753138
+    },
+    {
+      "startTime": "2026-09-22T06:42:28.652932349Z",
+      "jvmUser": 0.05210643,
+      "jvmSystem": 0.0022172949,
+      "machineTotal": 0.054323725
+    },
+    {
+      "startTime": "2026-09-22T06:42:29.654285538Z",
+      "jvmUser": 0.05245536,
+      "jvmSystem": 0.002232143,
+      "machineTotal": 0.12946428
+    },
+    {
+      "startTime": "2026-09-22T06:42:30.655053368Z",
+      "jvmUser": 0.062222224,
+      "jvmSystem": 0.0011111111,
+      "machineTotal": 0.20666666
+    },
+    {
+      "startTime": "2026-09-22T06:42:31.656484137Z",
+      "jvmUser": 0.05321508,
+      "jvmSystem": 0.0,
+      "machineTotal": 0.18625277
+    },
+    {
+      "startTime": "2026-09-22T06:42:32.657423906Z",
+      "jvmUser": 0.044444446,
+      "jvmSystem": 0.0,
+      "machineTotal": 0.10333333
+    },
+    {
+      "startTime": "2026-09-22T06:42:33.658314533Z",
+      "jvmUser": 0.044493884,
+      "jvmSystem": 0.001112347,
+      "machineTotal": 0.054505005
+    },
+    {
+      "startTime": "2026-09-22T06:42:34.664047402Z",
+      "jvmUser": 0.085903086,
+      "jvmSystem": 0.002202643,
+      "machineTotal": 0.1938326
+    },
+    {
+      "startTime": "2026-09-22T06:42:35.748815911Z",
+      "jvmUser": 0.061412487,
+      "jvmSystem": 0.0,
+      "machineTotal": 0.15762538
+    },
+    {
+      "startTime": "2026-09-22T06:42:36.750622741Z",
+      "jvmUser": 0.059668507,
+      "jvmSystem": 0.0022099447,
+      "machineTotal": 0.061878454
+    },
+    {
+      "startTime": "2026-09-22T06:42:37.943759663Z",
+      "jvmUser": 0.07428041,
+      "jvmSystem": 0.0018570102,
+      "machineTotal": 0.076137416
+    },
+    {
+      "startTime": "2026-09-22T06:42:38.945073400Z",
+      "jvmUser": 0.04772475,
+      "jvmSystem": 0.001109878,
+      "machineTotal": 0.04883463
+    },
+    {
+      "startTime": "2026-09-22T06:42:39.946435264Z",
+      "jvmUser": 0.08908686,
+      "jvmSystem": 0.0022271716,
+      "machineTotal": 0.09131403
+    },
+    {
+      "startTime": "2026-09-22T06:42:40.948023815Z",
+      "jvmUser": 0.050493963,
+      "jvmSystem": 0.0,
+      "machineTotal": 0.07464325
+    },
+    {
+      "startTime": "2026-09-22T06:42:41.949764821Z",
+      "jvmUser": 0.05512679,
+      "jvmSystem": 0.0011025359,
+      "machineTotal": 0.16538037
+    }
+  ]
+}

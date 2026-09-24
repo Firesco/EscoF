@@ -1,0 +1,54 @@
+[06:07:33 INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.4.1+1-LTS; Eclipse Adoptium Temurin-25.0.4.1+1) on Linux 6.18.44 (amd64)
+[06:07:37 ERROR]: Failed to request yggdrasil public key
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to api.minecraftservices.com
+Caused by: java.net.UnknownHostException: api.minecraftservices.com
+[06:07:39 INFO]: Starting minecraft server version 26.2
+[06:08:02 INFO]: Done (29.626s)! For help, type "help"
+[06:08:04 INFO]: [EscoBenchmark] BENCH_READY mode=activation entities=2048 synthetic_player_positions=16
+[06:08:19 INFO]: [EscoBenchmark] BENCH_COMPLETE activation mean_mspt=14.872415759999999
+bukkit {'status': 'passed', 'checks': 19}
+paper {'status': 'passed', 'checks': 1598}
+community {'LuckPerms': '5.5.85', 'Vault': '1.7.3-b131', 'WorldEdit': '7.4.5+7590-b8dc4c1', 'vault_permission_bridge': True, 'worldedit_block_edit': True, 'luckperms_group_persistence': True, 'status': 'passed'}
+{
+  "work": "/local-build/runs/compat-esco-final",
+  "tick_ms": {
+    "p50": 13.446027,
+    "p95": 18.327135,
+    "mean": 14.872415759999999,
+    "max": 67.388671
+  },
+  "call_ms": {
+    "p50": 1.213422,
+    "p95": 2.2179,
+    "mean": 1.59839098,
+    "max": 22.4895555
+  },
+  "checksum": 1027079,
+  "metrics": {
+    "configured_workers": 8,
+    "observed_workers": 5,
+    "peak_parallel_workers": 4,
+    "live_workers": 5,
+    "peak_live_workers": 5,
+    "active_workers": 0,
+    "activation_buffer_grows": 4,
+    "sort_buffer_grows": 0,
+    "parallel_batches": 572,
+    "worker_tasks": 1715,
+    "caller_compute_tasks": 572,
+    "external_pool_entries": 572,
+    "worker_wall_nanos_sum": 92607884,
+    "activation_batches": 560,
+    "activation_entities": 1146882,
+    "activation_nanos": 838001660,
+    "activation_verifications": 560,
+    "activation_mismatches": 0,
+    "poi_empty_searches": 2,
+    "sensor_sorts": 0,
+    "sensor_sorted_items": 0,
+    "sensor_parallel_merge_passes": 0,
+    "potential_buffer_grows": 3,
+    "potential_queries": 12,
+    "potential_points": 622601
+  }
+}

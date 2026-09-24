@@ -1,0 +1,33 @@
+{
+  "name": "EscoF",
+  "version": "0.7.0",
+  "minecraft": "26.2",
+  "java": 25,
+  "gradle": "9.4.1",
+  "leaf_build": 118,
+  "leaf_commit": "4b38592a41f9df8fd9b656c21ac1df3f4ada9473",
+  "paper_commit": "e5fe71723e2ffde7cc9fafc085ac3bb73e63175e",
+  "status": "beta; rebranded source distribution; not built or benchmarked after rebranding",
+  "output_jar": "dist/escof-26.2-0.7.0.jar",
+  "previous_release": {
+    "name": "Esco'S Fork",
+    "version": "0.7.0",
+    "minecraft": "26.2",
+    "java": 25,
+    "gradle": "9.4.1",
+    "leaf_build": 118,
+    "leaf_commit": "4b38592a41f9df8fd9b656c21ac1df3f4ada9473",
+    "paper_commit": "e5fe71723e2ffde7cc9fafc085ac3bb73e63175e",
+    "architecture": "caller capture, primitive computation, joined caller publication; synchronous plugin model",
+    "runtime_source_commit": "f9ff0427440fd0d8705079f740648557709036d5",
+    "distributed_jar_sha256": "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8",
+    "benchmark_harness_sha256": "8d260d5efd03a20ec31b4524689d20653dbe20da4979d46563bcaf19f1aad417",
+    "comparison_runs": 46,
+    "comparison_measurement_ticks": 9200,
+    "bukkit_checks": 19,
+    "paper_checks": 1598,
+    "activation_differential_checks": 560,
+    "activation_mismatches": 0,
+    "status": "built and differential checks passed; workload-specific gains and unresolved latency anomalies; inherited upstream development status; see docs/TEST-RAPORU-0.7.0.md"
+  }
+}

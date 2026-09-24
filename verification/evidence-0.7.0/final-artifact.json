@@ -1,0 +1,9 @@
+{
+  "jar_sha256": "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8",
+  "bytes": 85261254,
+  "runtime_source_commit": "f9ff0427440fd0d8705079f740648557709036d5",
+  "build_checkout_commit": "ccc7fdd30d376d317b482050d3e6020e7d0ebb84",
+  "source_parity": "logs/source-parity.json",
+  "source_files_checked": 8811,
+  "harness_sha256": "8d260d5efd03a20ec31b4524689d20653dbe20da4979d46563bcaf19f1aad417"
+}

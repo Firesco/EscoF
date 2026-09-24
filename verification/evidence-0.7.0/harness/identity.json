@@ -1,0 +1,5 @@
+{
+  "sha256": "8d260d5efd03a20ec31b4524689d20653dbe20da4979d46563bcaf19f1aad417",
+  "source": "verification/plugins/src/dev/escos/verify/BenchPlugin.java",
+  "purpose": "Exact identical benchmark binary used in all final Leaf and Esco runs"
+}

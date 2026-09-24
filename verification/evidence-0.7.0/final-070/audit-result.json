@@ -1,0 +1,1242 @@
+{
+  "status": "passed",
+  "expected_runs": 46,
+  "audited_runs": 46,
+  "deterministic_cases_with_identical_all_sample_checksums": [
+    "activation_dense",
+    "potential_dense",
+    "potential_large",
+    "potential_xlarge",
+    "sensor_dense",
+    "sensor_large"
+  ],
+  "configurations_equal_except_brand_map_nonce_and_disabled_management_secret": true,
+  "ignored_timing_samples": 0,
+  "runs": [
+    {
+      "run": "activation_dense/leaf-1",
+      "status": "passed",
+      "jar_sha256": "bfc308dc53560fe2d0158564b5382c81bc2c22cc1d714a40ee6304d7e40c385e",
+      "maximum_tick_ms": 152.991383,
+      "gc_collections": 3,
+      "configured_workers": null,
+      "peak_parallel_workers": null,
+      "peak_live_workers": null
+    },
+    {
+      "run": "activation_dense/esco4-1",
+      "status": "passed",
+      "jar_sha256": "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8",
+      "maximum_tick_ms": 184.345368,
+      "gc_collections": 1,
+      "configured_workers": 4,
+      "peak_parallel_workers": 4,
+      "peak_live_workers": 4
+    },
+    {
+      "run": "activation_dense/esco_all-1",
+      "status": "passed",
+      "jar_sha256": "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8",
+      "maximum_tick_ms": 187.020722,
+      "gc_collections": 1,
+      "configured_workers": 8,
+      "peak_parallel_workers": 8,
+      "peak_live_workers": 8
+    },
+    {
+      "run": "activation_dense/esco0-1",
+      "status": "passed",
+      "jar_sha256": "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8",
+      "maximum_tick_ms": 189.605304,
+      "gc_collections": 1,
+      "configured_workers": 0,
+      "peak_parallel_workers": 0,
+      "peak_live_workers": 0
+    },
+    {
+      "run": "activation_dense/esco0-2",
+      "status": "passed",
+      "jar_sha256": "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8",
+      "maximum_tick_ms": 2768.648118,
+      "gc_collections": 1,
+      "configured_workers": 0,
+      "peak_parallel_workers": 0,
+      "peak_live_workers": 0
+    },
+    {
+      "run": "activation_dense/esco_all-2",
+      "status": "passed",
+      "jar_sha256": "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8",
+      "maximum_tick_ms": 480.854932,
+      "gc_collections": 1,
+      "configured_workers": 8,
+      "peak_parallel_workers": 8,
+      "peak_live_workers": 8
+    },
+    {
+      "run": "activation_dense/esco4-2",
+      "status": "passed",
+      "jar_sha256": "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8",
+      "maximum_tick_ms": 271.073556,
+      "gc_collections": 1,
+      "configured_workers": 4,
+      "peak_parallel_workers": 4,
+      "peak_live_workers": 4
+    },
+    {
+      "run": "activation_dense/leaf-2",
+      "status": "passed",
+      "jar_sha256": "bfc308dc53560fe2d0158564b5382c81bc2c22cc1d714a40ee6304d7e40c385e",
+      "maximum_tick_ms": 2132.089885,
+      "gc_collections": 3,
+      "configured_workers": null,
+      "peak_parallel_workers": null,
+      "peak_live_workers": null
+    },
+    {
+      "run": "sensor_dense/leaf-1",
+      "status": "passed",
+      "jar_sha256": "bfc308dc53560fe2d0158564b5382c81bc2c22cc1d714a40ee6304d7e40c385e",
+      "maximum_tick_ms": 118.385139,
+      "gc_collections": 0,
+      "configured_workers": null,
+      "peak_parallel_workers": null,
+      "peak_live_workers": null
+    },
+    {
+      "run": "sensor_dense/esco4-1",
+      "status": "passed",
+      "jar_sha256": "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8",
+      "maximum_tick_ms": 49.348396,
+      "gc_collections": 0,
+      "configured_workers": 4,
+      "peak_parallel_workers": 0,
+      "peak_live_workers": 0
+    },
+    {
+      "run": "sensor_dense/esco_all-1",
+      "status": "passed",
+      "jar_sha256": "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8",
+      "maximum_tick_ms": 824.53618,
+      "gc_collections": 0,
+      "configured_workers": 8,
+      "peak_parallel_workers": 0,
+      "peak_live_workers": 0
+    },
+    {
+      "run": "sensor_dense/esco_all-2",
+      "status": "passed",
+      "jar_sha256": "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8",
+      "maximum_tick_ms": 11375.663351,
+      "gc_collections": 0,
+      "configured_workers": 8,
+      "peak_parallel_workers": 0,
+      "peak_live_workers": 0
+    },
+    {
+      "run": "sensor_dense/esco4-2",
+      "status": "passed",
+      "jar_sha256": "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8",
+      "maximum_tick_ms": 258.401635,
+      "gc_collections": 0,
+      "configured_workers": 4,
+      "peak_parallel_workers": 0,
+      "peak_live_workers": 0
+    },
+    {
+      "run": "sensor_dense/leaf-2",
+      "status": "passed",
+      "jar_sha256": "bfc308dc53560fe2d0158564b5382c81bc2c22cc1d714a40ee6304d7e40c385e",
+      "maximum_tick_ms": 156.326109,
+      "gc_collections": 0,
+      "configured_workers": null,
+      "peak_parallel_workers": null,
+      "peak_live_workers": null
+    },
+    {
+      "run": "sensor_large/leaf-1",
+      "status": "passed",
+      "jar_sha256": "bfc308dc53560fe2d0158564b5382c81bc2c22cc1d714a40ee6304d7e40c385e",
+      "maximum_tick_ms": 172.851842,
+      "gc_collections": 2,
+      "configured_workers": null,
+      "peak_parallel_workers": null,
+      "peak_live_workers": null
+    },
+    {
+      "run": "sensor_large/esco4-1",
+      "status": "passed",
+      "jar_sha256": "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8",
+      "maximum_tick_ms": 446.681078,
+      "gc_collections": 1,
+      "configured_workers": 4,
+      "peak_parallel_workers": 0,
+      "peak_live_workers": 0
+    },
+    {
+      "run": "sensor_large/esco_all-1",
+      "status": "passed",
+      "jar_sha256": "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8",
+      "maximum_tick_ms": 137.989344,
+      "gc_collections": 1,
+      "configured_workers": 8,
+      "peak_parallel_workers": 0,
+      "peak_live_workers": 0
+    },
+    {
+      "run": "sensor_large/esco_all-2",
+      "status": "passed",
+      "jar_sha256": "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8",
+      "maximum_tick_ms": 488.786074,
+      "gc_collections": 1,
+      "configured_workers": 8,
+      "peak_parallel_workers": 0,
+      "peak_live_workers": 0
+    },
+    {
+      "run": "sensor_large/esco4-2",
+      "status": "passed",
+      "jar_sha256": "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8",
+      "maximum_tick_ms": 149.238683,
+      "gc_collections": 1,
+      "configured_workers": 4,
+      "peak_parallel_workers": 0,
+      "peak_live_workers": 0
+    },
+    {
+      "run": "sensor_large/leaf-2",
+      "status": "passed",
+      "jar_sha256": "bfc308dc53560fe2d0158564b5382c81bc2c22cc1d714a40ee6304d7e40c385e",
+      "maximum_tick_ms": 133.238143,
+      "gc_collections": 1,
+      "configured_workers": null,
+      "peak_parallel_workers": null,
+      "peak_live_workers": null
+    },
+    {
+      "run": "potential_dense/leaf-1",
+      "status": "passed",
+      "jar_sha256": "bfc308dc53560fe2d0158564b5382c81bc2c22cc1d714a40ee6304d7e40c385e",
+      "maximum_tick_ms": 11.51816,
+      "gc_collections": 0,
+      "configured_workers": null,
+      "peak_parallel_workers": null,
+      "peak_live_workers": null
+    },
+    {
+      "run": "potential_dense/esco4-1",
+      "status": "passed",
+      "jar_sha256": "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8",
+      "maximum_tick_ms": 10.210688,
+      "gc_collections": 0,
+      "configured_workers": 4,
+      "peak_parallel_workers": 0,
+      "peak_live_workers": 0
+    },
+    {
+      "run": "potential_dense/esco_all-1",
+      "status": "passed",
+      "jar_sha256": "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8",
+      "maximum_tick_ms": 9.958516,
+      "gc_collections": 0,
+      "configured_workers": 8,
+      "peak_parallel_workers": 0,
+      "peak_live_workers": 0
+    },
+    {
+      "run": "potential_dense/esco_all-2",
+      "status": "passed",
+      "jar_sha256": "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8",
+      "maximum_tick_ms": 12.65563,
+      "gc_collections": 0,
+      "configured_workers": 8,
+      "peak_parallel_workers": 0,
+      "peak_live_workers": 0
+    },
+    {
+      "run": "potential_dense/esco4-2",
+      "status": "passed",
+      "jar_sha256": "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8",
+      "maximum_tick_ms": 86.228109,
+      "gc_collections": 0,
+      "configured_workers": 4,
+      "peak_parallel_workers": 0,
+      "peak_live_workers": 0
+    },
+    {
+      "run": "potential_dense/leaf-2",
+      "status": "passed",
+      "jar_sha256": "bfc308dc53560fe2d0158564b5382c81bc2c22cc1d714a40ee6304d7e40c385e",
+      "maximum_tick_ms": 10.070302,
+      "gc_collections": 0,
+      "configured_workers": null,
+      "peak_parallel_workers": null,
+      "peak_live_workers": null
+    },
+    {
+      "run": "potential_large/leaf-1",
+      "status": "passed",
+      "jar_sha256": "bfc308dc53560fe2d0158564b5382c81bc2c22cc1d714a40ee6304d7e40c385e",
+      "maximum_tick_ms": 83.611995,
+      "gc_collections": 0,
+      "configured_workers": null,
+      "peak_parallel_workers": null,
+      "peak_live_workers": null
+    },
+    {
+      "run": "potential_large/esco4-1",
+      "status": "passed",
+      "jar_sha256": "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8",
+      "maximum_tick_ms": 86.597769,
+      "gc_collections": 0,
+      "configured_workers": 4,
+      "peak_parallel_workers": 3,
+      "peak_live_workers": 4
+    },
+    {
+      "run": "potential_large/esco_all-1",
+      "status": "passed",
+      "jar_sha256": "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8",
+      "maximum_tick_ms": 118.219695,
+      "gc_collections": 0,
+      "configured_workers": 8,
+      "peak_parallel_workers": 3,
+      "peak_live_workers": 6
+    },
+    {
+      "run": "potential_large/esco_all-2",
+      "status": "passed",
+      "jar_sha256": "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8",
+      "maximum_tick_ms": 21.954792,
+      "gc_collections": 0,
+      "configured_workers": 8,
+      "peak_parallel_workers": 3,
+      "peak_live_workers": 6
+    },
+    {
+      "run": "potential_large/esco4-2",
+      "status": "passed",
+      "jar_sha256": "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8",
+      "maximum_tick_ms": 23.412565,
+      "gc_collections": 0,
+      "configured_workers": 4,
+      "peak_parallel_workers": 3,
+      "peak_live_workers": 4
+    },
+    {
+      "run": "potential_large/leaf-2",
+      "status": "passed",
+      "jar_sha256": "bfc308dc53560fe2d0158564b5382c81bc2c22cc1d714a40ee6304d7e40c385e",
+      "maximum_tick_ms": 98.954183,
+      "gc_collections": 0,
+      "configured_workers": null,
+      "peak_parallel_workers": null,
+      "peak_live_workers": null
+    },
+    {
+      "run": "potential_xlarge/leaf-1",
+      "status": "passed",
+      "jar_sha256": "bfc308dc53560fe2d0158564b5382c81bc2c22cc1d714a40ee6304d7e40c385e",
+      "maximum_tick_ms": 97.790528,
+      "gc_collections": 0,
+      "configured_workers": null,
+      "peak_parallel_workers": null,
+      "peak_live_workers": null
+    },
+    {
+      "run": "potential_xlarge/esco4-1",
+      "status": "passed",
+      "jar_sha256": "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8",
+      "maximum_tick_ms": 118.497237,
+      "gc_collections": 0,
+      "configured_workers": 4,
+      "peak_parallel_workers": 4,
+      "peak_live_workers": 4
+    },
+    {
+      "run": "potential_xlarge/esco_all-1",
+      "status": "passed",
+      "jar_sha256": "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8",
+      "maximum_tick_ms": 108.592233,
+      "gc_collections": 0,
+      "configured_workers": 8,
+      "peak_parallel_workers": 8,
+      "peak_live_workers": 8
+    },
+    {
+      "run": "potential_xlarge/esco0-1",
+      "status": "passed",
+      "jar_sha256": "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8",
+      "maximum_tick_ms": 133.929745,
+      "gc_collections": 0,
+      "configured_workers": 0,
+      "peak_parallel_workers": 0,
+      "peak_live_workers": 0
+    },
+    {
+      "run": "potential_xlarge/esco0-2",
+      "status": "passed",
+      "jar_sha256": "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8",
+      "maximum_tick_ms": 800.76911,
+      "gc_collections": 0,
+      "configured_workers": 0,
+      "peak_parallel_workers": 0,
+      "peak_live_workers": 0
+    },
+    {
+      "run": "potential_xlarge/esco_all-2",
+      "status": "passed",
+      "jar_sha256": "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8",
+      "maximum_tick_ms": 139.225526,
+      "gc_collections": 0,
+      "configured_workers": 8,
+      "peak_parallel_workers": 8,
+      "peak_live_workers": 8
+    },
+    {
+      "run": "potential_xlarge/esco4-2",
+      "status": "passed",
+      "jar_sha256": "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8",
+      "maximum_tick_ms": 146.492054,
+      "gc_collections": 0,
+      "configured_workers": 4,
+      "peak_parallel_workers": 4,
+      "peak_live_workers": 4
+    },
+    {
+      "run": "potential_xlarge/leaf-2",
+      "status": "passed",
+      "jar_sha256": "bfc308dc53560fe2d0158564b5382c81bc2c22cc1d714a40ee6304d7e40c385e",
+      "maximum_tick_ms": 135.28953,
+      "gc_collections": 0,
+      "configured_workers": null,
+      "peak_parallel_workers": null,
+      "peak_live_workers": null
+    },
+    {
+      "run": "natural_ai/leaf-1",
+      "status": "passed",
+      "jar_sha256": "bfc308dc53560fe2d0158564b5382c81bc2c22cc1d714a40ee6304d7e40c385e",
+      "maximum_tick_ms": 112.330871,
+      "gc_collections": 0,
+      "configured_workers": null,
+      "peak_parallel_workers": null,
+      "peak_live_workers": null
+    },
+    {
+      "run": "natural_ai/esco4-1",
+      "status": "passed",
+      "jar_sha256": "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8",
+      "maximum_tick_ms": 405.405384,
+      "gc_collections": 0,
+      "configured_workers": 4,
+      "peak_parallel_workers": 0,
+      "peak_live_workers": 0
+    },
+    {
+      "run": "natural_ai/esco_all-1",
+      "status": "passed",
+      "jar_sha256": "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8",
+      "maximum_tick_ms": 180.751488,
+      "gc_collections": 0,
+      "configured_workers": 8,
+      "peak_parallel_workers": 0,
+      "peak_live_workers": 0
+    },
+    {
+      "run": "natural_ai/esco_all-2",
+      "status": "passed",
+      "jar_sha256": "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8",
+      "maximum_tick_ms": 20.71243,
+      "gc_collections": 0,
+      "configured_workers": 8,
+      "peak_parallel_workers": 0,
+      "peak_live_workers": 0
+    },
+    {
+      "run": "natural_ai/esco4-2",
+      "status": "passed",
+      "jar_sha256": "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8",
+      "maximum_tick_ms": 1083.659389,
+      "gc_collections": 0,
+      "configured_workers": 4,
+      "peak_parallel_workers": 0,
+      "peak_live_workers": 0
+    },
+    {
+      "run": "natural_ai/leaf-2",
+      "status": "passed",
+      "jar_sha256": "bfc308dc53560fe2d0158564b5382c81bc2c22cc1d714a40ee6304d7e40c385e",
+      "maximum_tick_ms": 80.203781,
+      "gc_collections": 0,
+      "configured_workers": null,
+      "peak_parallel_workers": null,
+      "peak_live_workers": null
+    }
+  ],
+  "allowed_config_differences": [
+    {
+      "run": "activation_dense/esco4-1",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-gui-name",
+      "reference": "Leaf Console",
+      "actual": "Esco'S Fork Console"
+    },
+    {
+      "run": "activation_dense/esco4-1",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-mod-name",
+      "reference": "Leaf",
+      "actual": "Esco'S Fork"
+    },
+    {
+      "run": "activation_dense/esco4-1",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": 525975808
+    },
+    {
+      "run": "activation_dense/esco_all-1",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-gui-name",
+      "reference": "Leaf Console",
+      "actual": "Esco'S Fork Console"
+    },
+    {
+      "run": "activation_dense/esco_all-1",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-mod-name",
+      "reference": "Leaf",
+      "actual": "Esco'S Fork"
+    },
+    {
+      "run": "activation_dense/esco_all-1",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": 279789950
+    },
+    {
+      "run": "activation_dense/esco0-1",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-gui-name",
+      "reference": "Leaf Console",
+      "actual": "Esco'S Fork Console"
+    },
+    {
+      "run": "activation_dense/esco0-1",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-mod-name",
+      "reference": "Leaf",
+      "actual": "Esco'S Fork"
+    },
+    {
+      "run": "activation_dense/esco0-1",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": -1669865329
+    },
+    {
+      "run": "activation_dense/esco0-2",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-gui-name",
+      "reference": "Leaf Console",
+      "actual": "Esco'S Fork Console"
+    },
+    {
+      "run": "activation_dense/esco0-2",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-mod-name",
+      "reference": "Leaf",
+      "actual": "Esco'S Fork"
+    },
+    {
+      "run": "activation_dense/esco0-2",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": -130704406
+    },
+    {
+      "run": "activation_dense/esco_all-2",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-gui-name",
+      "reference": "Leaf Console",
+      "actual": "Esco'S Fork Console"
+    },
+    {
+      "run": "activation_dense/esco_all-2",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-mod-name",
+      "reference": "Leaf",
+      "actual": "Esco'S Fork"
+    },
+    {
+      "run": "activation_dense/esco_all-2",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": 411459308
+    },
+    {
+      "run": "activation_dense/esco4-2",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-gui-name",
+      "reference": "Leaf Console",
+      "actual": "Esco'S Fork Console"
+    },
+    {
+      "run": "activation_dense/esco4-2",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-mod-name",
+      "reference": "Leaf",
+      "actual": "Esco'S Fork"
+    },
+    {
+      "run": "activation_dense/esco4-2",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": 548276229
+    },
+    {
+      "run": "activation_dense/leaf-2",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": -1102899520
+    },
+    {
+      "run": "sensor_dense/leaf-1",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": 1400282505
+    },
+    {
+      "run": "sensor_dense/esco4-1",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-gui-name",
+      "reference": "Leaf Console",
+      "actual": "Esco'S Fork Console"
+    },
+    {
+      "run": "sensor_dense/esco4-1",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-mod-name",
+      "reference": "Leaf",
+      "actual": "Esco'S Fork"
+    },
+    {
+      "run": "sensor_dense/esco4-1",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": 1747680075
+    },
+    {
+      "run": "sensor_dense/esco_all-1",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-gui-name",
+      "reference": "Leaf Console",
+      "actual": "Esco'S Fork Console"
+    },
+    {
+      "run": "sensor_dense/esco_all-1",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-mod-name",
+      "reference": "Leaf",
+      "actual": "Esco'S Fork"
+    },
+    {
+      "run": "sensor_dense/esco_all-1",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": -1005678266
+    },
+    {
+      "run": "sensor_dense/esco_all-2",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-gui-name",
+      "reference": "Leaf Console",
+      "actual": "Esco'S Fork Console"
+    },
+    {
+      "run": "sensor_dense/esco_all-2",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-mod-name",
+      "reference": "Leaf",
+      "actual": "Esco'S Fork"
+    },
+    {
+      "run": "sensor_dense/esco_all-2",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": -1651571229
+    },
+    {
+      "run": "sensor_dense/esco4-2",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-gui-name",
+      "reference": "Leaf Console",
+      "actual": "Esco'S Fork Console"
+    },
+    {
+      "run": "sensor_dense/esco4-2",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-mod-name",
+      "reference": "Leaf",
+      "actual": "Esco'S Fork"
+    },
+    {
+      "run": "sensor_dense/esco4-2",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": -997917408
+    },
+    {
+      "run": "sensor_dense/leaf-2",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": -683485817
+    },
+    {
+      "run": "sensor_large/leaf-1",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": -328497590
+    },
+    {
+      "run": "sensor_large/esco4-1",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-gui-name",
+      "reference": "Leaf Console",
+      "actual": "Esco'S Fork Console"
+    },
+    {
+      "run": "sensor_large/esco4-1",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-mod-name",
+      "reference": "Leaf",
+      "actual": "Esco'S Fork"
+    },
+    {
+      "run": "sensor_large/esco4-1",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": -207448880
+    },
+    {
+      "run": "sensor_large/esco_all-1",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-gui-name",
+      "reference": "Leaf Console",
+      "actual": "Esco'S Fork Console"
+    },
+    {
+      "run": "sensor_large/esco_all-1",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-mod-name",
+      "reference": "Leaf",
+      "actual": "Esco'S Fork"
+    },
+    {
+      "run": "sensor_large/esco_all-1",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": 1677634816
+    },
+    {
+      "run": "sensor_large/esco_all-2",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-gui-name",
+      "reference": "Leaf Console",
+      "actual": "Esco'S Fork Console"
+    },
+    {
+      "run": "sensor_large/esco_all-2",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-mod-name",
+      "reference": "Leaf",
+      "actual": "Esco'S Fork"
+    },
+    {
+      "run": "sensor_large/esco_all-2",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": -1018267435
+    },
+    {
+      "run": "sensor_large/esco4-2",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-gui-name",
+      "reference": "Leaf Console",
+      "actual": "Esco'S Fork Console"
+    },
+    {
+      "run": "sensor_large/esco4-2",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-mod-name",
+      "reference": "Leaf",
+      "actual": "Esco'S Fork"
+    },
+    {
+      "run": "sensor_large/esco4-2",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": -1058315403
+    },
+    {
+      "run": "sensor_large/leaf-2",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": 988772882
+    },
+    {
+      "run": "potential_dense/leaf-1",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": 1602958462
+    },
+    {
+      "run": "potential_dense/esco4-1",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-gui-name",
+      "reference": "Leaf Console",
+      "actual": "Esco'S Fork Console"
+    },
+    {
+      "run": "potential_dense/esco4-1",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-mod-name",
+      "reference": "Leaf",
+      "actual": "Esco'S Fork"
+    },
+    {
+      "run": "potential_dense/esco4-1",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": -1311146383
+    },
+    {
+      "run": "potential_dense/esco_all-1",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-gui-name",
+      "reference": "Leaf Console",
+      "actual": "Esco'S Fork Console"
+    },
+    {
+      "run": "potential_dense/esco_all-1",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-mod-name",
+      "reference": "Leaf",
+      "actual": "Esco'S Fork"
+    },
+    {
+      "run": "potential_dense/esco_all-1",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": 2058638095
+    },
+    {
+      "run": "potential_dense/esco_all-2",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-gui-name",
+      "reference": "Leaf Console",
+      "actual": "Esco'S Fork Console"
+    },
+    {
+      "run": "potential_dense/esco_all-2",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-mod-name",
+      "reference": "Leaf",
+      "actual": "Esco'S Fork"
+    },
+    {
+      "run": "potential_dense/esco_all-2",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": 252449545
+    },
+    {
+      "run": "potential_dense/esco4-2",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-gui-name",
+      "reference": "Leaf Console",
+      "actual": "Esco'S Fork Console"
+    },
+    {
+      "run": "potential_dense/esco4-2",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-mod-name",
+      "reference": "Leaf",
+      "actual": "Esco'S Fork"
+    },
+    {
+      "run": "potential_dense/esco4-2",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": -2111848963
+    },
+    {
+      "run": "potential_dense/leaf-2",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": -1610168515
+    },
+    {
+      "run": "potential_large/leaf-1",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": -63610569
+    },
+    {
+      "run": "potential_large/esco4-1",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-gui-name",
+      "reference": "Leaf Console",
+      "actual": "Esco'S Fork Console"
+    },
+    {
+      "run": "potential_large/esco4-1",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-mod-name",
+      "reference": "Leaf",
+      "actual": "Esco'S Fork"
+    },
+    {
+      "run": "potential_large/esco4-1",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": -842917984
+    },
+    {
+      "run": "potential_large/esco_all-1",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-gui-name",
+      "reference": "Leaf Console",
+      "actual": "Esco'S Fork Console"
+    },
+    {
+      "run": "potential_large/esco_all-1",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-mod-name",
+      "reference": "Leaf",
+      "actual": "Esco'S Fork"
+    },
+    {
+      "run": "potential_large/esco_all-1",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": 280653221
+    },
+    {
+      "run": "potential_large/esco_all-2",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-gui-name",
+      "reference": "Leaf Console",
+      "actual": "Esco'S Fork Console"
+    },
+    {
+      "run": "potential_large/esco_all-2",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-mod-name",
+      "reference": "Leaf",
+      "actual": "Esco'S Fork"
+    },
+    {
+      "run": "potential_large/esco_all-2",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": 781360059
+    },
+    {
+      "run": "potential_large/esco4-2",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-gui-name",
+      "reference": "Leaf Console",
+      "actual": "Esco'S Fork Console"
+    },
+    {
+      "run": "potential_large/esco4-2",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-mod-name",
+      "reference": "Leaf",
+      "actual": "Esco'S Fork"
+    },
+    {
+      "run": "potential_large/esco4-2",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": -265351471
+    },
+    {
+      "run": "potential_large/leaf-2",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": -999453952
+    },
+    {
+      "run": "potential_xlarge/leaf-1",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": -1186477724
+    },
+    {
+      "run": "potential_xlarge/esco4-1",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-gui-name",
+      "reference": "Leaf Console",
+      "actual": "Esco'S Fork Console"
+    },
+    {
+      "run": "potential_xlarge/esco4-1",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-mod-name",
+      "reference": "Leaf",
+      "actual": "Esco'S Fork"
+    },
+    {
+      "run": "potential_xlarge/esco4-1",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": 31628210
+    },
+    {
+      "run": "potential_xlarge/esco_all-1",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-gui-name",
+      "reference": "Leaf Console",
+      "actual": "Esco'S Fork Console"
+    },
+    {
+      "run": "potential_xlarge/esco_all-1",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-mod-name",
+      "reference": "Leaf",
+      "actual": "Esco'S Fork"
+    },
+    {
+      "run": "potential_xlarge/esco_all-1",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": -1808086724
+    },
+    {
+      "run": "potential_xlarge/esco0-1",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-gui-name",
+      "reference": "Leaf Console",
+      "actual": "Esco'S Fork Console"
+    },
+    {
+      "run": "potential_xlarge/esco0-1",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-mod-name",
+      "reference": "Leaf",
+      "actual": "Esco'S Fork"
+    },
+    {
+      "run": "potential_xlarge/esco0-1",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": -912814242
+    },
+    {
+      "run": "potential_xlarge/esco0-2",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-gui-name",
+      "reference": "Leaf Console",
+      "actual": "Esco'S Fork Console"
+    },
+    {
+      "run": "potential_xlarge/esco0-2",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-mod-name",
+      "reference": "Leaf",
+      "actual": "Esco'S Fork"
+    },
+    {
+      "run": "potential_xlarge/esco0-2",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": 1089929883
+    },
+    {
+      "run": "potential_xlarge/esco_all-2",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-gui-name",
+      "reference": "Leaf Console",
+      "actual": "Esco'S Fork Console"
+    },
+    {
+      "run": "potential_xlarge/esco_all-2",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-mod-name",
+      "reference": "Leaf",
+      "actual": "Esco'S Fork"
+    },
+    {
+      "run": "potential_xlarge/esco_all-2",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": 1307642745
+    },
+    {
+      "run": "potential_xlarge/esco4-2",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-gui-name",
+      "reference": "Leaf Console",
+      "actual": "Esco'S Fork Console"
+    },
+    {
+      "run": "potential_xlarge/esco4-2",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-mod-name",
+      "reference": "Leaf",
+      "actual": "Esco'S Fork"
+    },
+    {
+      "run": "potential_xlarge/esco4-2",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": 5883720
+    },
+    {
+      "run": "potential_xlarge/leaf-2",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": -1667409474
+    },
+    {
+      "run": "natural_ai/leaf-1",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": -955303257
+    },
+    {
+      "run": "natural_ai/esco4-1",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-gui-name",
+      "reference": "Leaf Console",
+      "actual": "Esco'S Fork Console"
+    },
+    {
+      "run": "natural_ai/esco4-1",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-mod-name",
+      "reference": "Leaf",
+      "actual": "Esco'S Fork"
+    },
+    {
+      "run": "natural_ai/esco4-1",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": -1574398904
+    },
+    {
+      "run": "natural_ai/esco_all-1",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-gui-name",
+      "reference": "Leaf Console",
+      "actual": "Esco'S Fork Console"
+    },
+    {
+      "run": "natural_ai/esco_all-1",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-mod-name",
+      "reference": "Leaf",
+      "actual": "Esco'S Fork"
+    },
+    {
+      "run": "natural_ai/esco_all-1",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": 1442608435
+    },
+    {
+      "run": "natural_ai/esco_all-2",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-gui-name",
+      "reference": "Leaf Console",
+      "actual": "Esco'S Fork Console"
+    },
+    {
+      "run": "natural_ai/esco_all-2",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-mod-name",
+      "reference": "Leaf",
+      "actual": "Esco'S Fork"
+    },
+    {
+      "run": "natural_ai/esco_all-2",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": 172743395
+    },
+    {
+      "run": "natural_ai/esco4-2",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-gui-name",
+      "reference": "Leaf Console",
+      "actual": "Esco'S Fork Console"
+    },
+    {
+      "run": "natural_ai/esco4-2",
+      "file": "config/leaf-global.yml",
+      "key": ".misc.rebrand.server-mod-name",
+      "reference": "Leaf",
+      "actual": "Esco'S Fork"
+    },
+    {
+      "run": "natural_ai/esco4-2",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": -1161045301
+    },
+    {
+      "run": "natural_ai/leaf-2",
+      "file": "config/leaf-global.yml",
+      "key": ".network.protocol-support.xaero-map-server-id",
+      "reference": 127130374,
+      "actual": 1992317017
+    }
+  ]
+}

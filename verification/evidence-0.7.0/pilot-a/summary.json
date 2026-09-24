@@ -1,0 +1,186 @@
+{
+  "potential_large": {
+    "variants": {
+      "ablation8": {
+        "runs": 1,
+        "mean_tick_ms": 8.836451858333334,
+        "run_mean_tick_min_ms": 8.836451858333334,
+        "run_mean_tick_max_ms": 8.836451858333334,
+        "run_mean_tick_stdev_ms": 0,
+        "mean_call_ms": 0.24963727265625,
+        "mean_run_p95_tick_ms": 12.702918,
+        "main_cpu_ms": 379.793774,
+        "worker_cpu_ms": 1479.578414,
+        "mean_main_allocated_bytes": 1471176,
+        "peak_parallel_workers": 8,
+        "peak_live_workers": 8,
+        "mean_gc_millis": 0,
+        "server_jar_sha256": [
+          "5a195a8db7069f91519ab5bae2024f4a8039c6a6b4dd6a498a86e24bdf2bd92e"
+        ]
+      },
+      "esco4": {
+        "runs": 1,
+        "mean_tick_ms": 7.963685883333333,
+        "run_mean_tick_min_ms": 7.963685883333333,
+        "run_mean_tick_max_ms": 7.963685883333333,
+        "run_mean_tick_stdev_ms": 0,
+        "mean_call_ms": 0.22114102734375002,
+        "mean_run_p95_tick_ms": 10.321639,
+        "main_cpu_ms": 629.924786,
+        "worker_cpu_ms": 1248.373805,
+        "mean_main_allocated_bytes": 1482520,
+        "peak_parallel_workers": 4,
+        "peak_live_workers": 4,
+        "mean_gc_millis": 0,
+        "server_jar_sha256": [
+          "5a195a8db7069f91519ab5bae2024f4a8039c6a6b4dd6a498a86e24bdf2bd92e"
+        ]
+      },
+      "esco_all": {
+        "runs": 1,
+        "mean_tick_ms": 9.476203166666666,
+        "run_mean_tick_min_ms": 9.476203166666666,
+        "run_mean_tick_max_ms": 9.476203166666666,
+        "run_mean_tick_stdev_ms": 0,
+        "mean_call_ms": 0.26000278880208333,
+        "mean_run_p95_tick_ms": 12.402074,
+        "main_cpu_ms": 522.429858,
+        "worker_cpu_ms": 1283.411954,
+        "mean_main_allocated_bytes": 1499128,
+        "peak_parallel_workers": 8,
+        "peak_live_workers": 8,
+        "mean_gc_millis": 0,
+        "server_jar_sha256": [
+          "5a195a8db7069f91519ab5bae2024f4a8039c6a6b4dd6a498a86e24bdf2bd92e"
+        ]
+      },
+      "leaf": {
+        "runs": 1,
+        "mean_tick_ms": 9.896265083333333,
+        "run_mean_tick_min_ms": 9.896265083333333,
+        "run_mean_tick_max_ms": 9.896265083333333,
+        "run_mean_tick_stdev_ms": 0,
+        "mean_call_ms": 0.2806092466145833,
+        "mean_run_p95_tick_ms": 11.567587,
+        "main_cpu_ms": 1204.507046,
+        "worker_cpu_ms": 0.0,
+        "mean_main_allocated_bytes": 1016360,
+        "peak_parallel_workers": 0,
+        "peak_live_workers": null,
+        "mean_gc_millis": 0,
+        "server_jar_sha256": [
+          "bfc308dc53560fe2d0158564b5382c81bc2c22cc1d714a40ee6304d7e40c385e"
+        ]
+      }
+    },
+    "versus_paper": {},
+    "deterministic_outputs_equal": true,
+    "versus_leaf": {
+      "ablation8": {
+        "tick_reduction_percent": 10.709224299022368,
+        "call_reduction_percent": 11.037403197505213
+      },
+      "esco4": {
+        "tick_reduction_percent": 19.528369376995858,
+        "call_reduction_percent": 21.19253730527022
+      },
+      "esco_all": {
+        "tick_reduction_percent": 4.244651018636403,
+        "call_reduction_percent": 7.343470702090915
+      }
+    }
+  },
+  "sensor_large": {
+    "variants": {
+      "ablation8": {
+        "runs": 1,
+        "mean_tick_ms": 82.84789604999999,
+        "run_mean_tick_min_ms": 82.84789604999999,
+        "run_mean_tick_max_ms": 82.84789604999999,
+        "run_mean_tick_stdev_ms": 0,
+        "mean_call_ms": 7.431745458333333,
+        "mean_run_p95_tick_ms": 95.545004,
+        "main_cpu_ms": 9370.509148,
+        "worker_cpu_ms": 941.197232,
+        "mean_main_allocated_bytes": 608359648,
+        "peak_parallel_workers": 8,
+        "peak_live_workers": 8,
+        "mean_gc_millis": 0,
+        "server_jar_sha256": [
+          "5a195a8db7069f91519ab5bae2024f4a8039c6a6b4dd6a498a86e24bdf2bd92e"
+        ]
+      },
+      "esco4": {
+        "runs": 1,
+        "mean_tick_ms": 82.445703775,
+        "run_mean_tick_min_ms": 82.445703775,
+        "run_mean_tick_max_ms": 82.445703775,
+        "run_mean_tick_stdev_ms": 0,
+        "mean_call_ms": 7.701775368750001,
+        "mean_run_p95_tick_ms": 91.29479,
+        "main_cpu_ms": 9496.322961,
+        "worker_cpu_ms": 906.553368,
+        "mean_main_allocated_bytes": 607689912,
+        "peak_parallel_workers": 4,
+        "peak_live_workers": 4,
+        "mean_gc_millis": 0,
+        "server_jar_sha256": [
+          "5a195a8db7069f91519ab5bae2024f4a8039c6a6b4dd6a498a86e24bdf2bd92e"
+        ]
+      },
+      "esco_all": {
+        "runs": 1,
+        "mean_tick_ms": 86.228259825,
+        "run_mean_tick_min_ms": 86.228259825,
+        "run_mean_tick_max_ms": 86.228259825,
+        "run_mean_tick_stdev_ms": 0,
+        "mean_call_ms": 7.797107258333333,
+        "mean_run_p95_tick_ms": 97.857945,
+        "main_cpu_ms": 9911.088578,
+        "worker_cpu_ms": 1068.831629,
+        "mean_main_allocated_bytes": 608072536,
+        "peak_parallel_workers": 8,
+        "peak_live_workers": 8,
+        "mean_gc_millis": 0,
+        "server_jar_sha256": [
+          "5a195a8db7069f91519ab5bae2024f4a8039c6a6b4dd6a498a86e24bdf2bd92e"
+        ]
+      },
+      "leaf": {
+        "runs": 1,
+        "mean_tick_ms": 81.057636675,
+        "run_mean_tick_min_ms": 81.057636675,
+        "run_mean_tick_max_ms": 81.057636675,
+        "run_mean_tick_stdev_ms": 0,
+        "mean_call_ms": 7.406755527083333,
+        "mean_run_p95_tick_ms": 89.984632,
+        "main_cpu_ms": 9695.56202,
+        "worker_cpu_ms": 0.0,
+        "mean_main_allocated_bytes": 975248344,
+        "peak_parallel_workers": 0,
+        "peak_live_workers": null,
+        "mean_gc_millis": 41,
+        "server_jar_sha256": [
+          "bfc308dc53560fe2d0158564b5382c81bc2c22cc1d714a40ee6304d7e40c385e"
+        ]
+      }
+    },
+    "versus_paper": {},
+    "deterministic_outputs_equal": true,
+    "versus_leaf": {
+      "ablation8": {
+        "tick_reduction_percent": -2.20862518133611,
+        "call_reduction_percent": -0.3373937638230684
+      },
+      "esco4": {
+        "tick_reduction_percent": -1.7124445727001003,
+        "call_reduction_percent": -3.983118392228646
+      },
+      "esco_all": {
+        "tick_reduction_percent": -6.378946342503888,
+        "call_reduction_percent": -5.270212170803412
+      }
+    }
+  }
+}

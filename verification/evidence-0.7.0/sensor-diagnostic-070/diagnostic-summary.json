@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "jfr_enabled": true,
+  "samples": 400,
+  "warmup": 200,
+  "deterministic_outputs_equal": true,
+  "runs": [
+    {
+      "variant": "leaf",
+      "tick_ms": {
+        "max": 62.241847,
+        "mean": 18.9397288975,
+        "p95": 27.574452,
+        "p50": 17.41421
+      },
+      "gc_collections": 1
+    },
+    {
+      "variant": "esco4",
+      "tick_ms": {
+        "p95": 31.712537,
+        "mean": 21.921292617499997,
+        "max": 258.519946,
+        "p50": 19.85953
+      },
+      "gc_collections": 1
+    },
+    {
+      "variant": "esco_all",
+      "tick_ms": {
+        "p50": 18.32964,
+        "p95": 28.404357,
+        "mean": 20.4639413,
+        "max": 150.395344
+      },
+      "gc_collections": 1
+    }
+  ]
+}

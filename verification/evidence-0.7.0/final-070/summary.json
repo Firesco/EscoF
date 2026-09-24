@@ -1,0 +1,536 @@
+{
+  "activation_dense": {
+    "variants": {
+      "esco0": {
+        "runs": 2,
+        "mean_tick_ms": 42.464860055,
+        "run_mean_tick_min_ms": 35.808637415,
+        "run_mean_tick_max_ms": 49.121082695000005,
+        "run_mean_tick_stdev_ms": 9.41332033166285,
+        "mean_call_ms": 2.562606798125,
+        "mean_run_p95_tick_ms": 43.501191000000006,
+        "main_cpu_ms": 8462.267379,
+        "worker_cpu_ms": 0.0,
+        "mean_main_allocated_bytes": 467796808,
+        "peak_parallel_workers": 0,
+        "peak_live_workers": 0,
+        "mean_gc_millis": 88,
+        "server_jar_sha256": [
+          "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8"
+        ]
+      },
+      "esco4": {
+        "runs": 2,
+        "mean_tick_ms": 35.442570412500004,
+        "run_mean_tick_min_ms": 32.694971725,
+        "run_mean_tick_max_ms": 38.1901691,
+        "run_mean_tick_stdev_ms": 3.885691327821013,
+        "mean_call_ms": 2.2721712318750003,
+        "mean_run_p95_tick_ms": 49.1313655,
+        "main_cpu_ms": 6521.3811565,
+        "worker_cpu_ms": 1107.364543,
+        "mean_main_allocated_bytes": 467687400,
+        "peak_parallel_workers": 4,
+        "peak_live_workers": 4,
+        "mean_gc_millis": 69.5,
+        "server_jar_sha256": [
+          "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8"
+        ]
+      },
+      "esco_all": {
+        "runs": 2,
+        "mean_tick_ms": 36.6630382175,
+        "run_mean_tick_min_ms": 36.059727509999995,
+        "run_mean_tick_max_ms": 37.266348925,
+        "run_mean_tick_stdev_ms": 0.8532101848714129,
+        "mean_call_ms": 2.145409445625,
+        "mean_run_p95_tick_ms": 50.001131,
+        "main_cpu_ms": 6614.088335,
+        "worker_cpu_ms": 1123.891639,
+        "mean_main_allocated_bytes": 468657272,
+        "peak_parallel_workers": 8,
+        "peak_live_workers": 8,
+        "mean_gc_millis": 86,
+        "server_jar_sha256": [
+          "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8"
+        ]
+      },
+      "leaf": {
+        "runs": 2,
+        "mean_tick_ms": 92.33627176499999,
+        "run_mean_tick_min_ms": 84.969707265,
+        "run_mean_tick_max_ms": 99.702836265,
+        "run_mean_tick_stdev_ms": 10.417895423996182,
+        "mean_call_ms": 16.491187385625,
+        "mean_run_p95_tick_ms": 103.6314735,
+        "main_cpu_ms": 18446.108648,
+        "worker_cpu_ms": 0.0,
+        "mean_main_allocated_bytes": 3656775176,
+        "peak_parallel_workers": 0,
+        "peak_live_workers": null,
+        "mean_gc_millis": 22.5,
+        "server_jar_sha256": [
+          "bfc308dc53560fe2d0158564b5382c81bc2c22cc1d714a40ee6304d7e40c385e"
+        ]
+      }
+    },
+    "versus_paper": {},
+    "deterministic_outputs_equal": true,
+    "versus_leaf": {
+      "esco0": {
+        "tick_reduction_percent": 54.01064040892294,
+        "call_reduction_percent": 84.46075022858108
+      },
+      "esco4": {
+        "tick_reduction_percent": 61.615766225971356,
+        "call_reduction_percent": 86.22190641132607
+      },
+      "esco_all": {
+        "tick_reduction_percent": 60.294002003016644,
+        "call_reduction_percent": 86.9905702029976
+      }
+    }
+  },
+  "natural_ai": {
+    "variants": {
+      "esco4": {
+        "runs": 2,
+        "mean_tick_ms": 33.0074880175,
+        "run_mean_tick_min_ms": 6.362507095000001,
+        "run_mean_tick_max_ms": 59.65246894,
+        "run_mean_tick_stdev_ms": 37.68169338977188,
+        "mean_call_ms": 0.049447609999999996,
+        "mean_run_p95_tick_ms": 180.344736,
+        "main_cpu_ms": 6884.765206,
+        "worker_cpu_ms": 0.0,
+        "mean_main_allocated_bytes": 42603360,
+        "peak_parallel_workers": 0,
+        "peak_live_workers": 0,
+        "mean_gc_millis": 0,
+        "server_jar_sha256": [
+          "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8"
+        ]
+      },
+      "esco_all": {
+        "runs": 2,
+        "mean_tick_ms": 3.1966586325,
+        "run_mean_tick_min_ms": 2.2666283050000002,
+        "run_mean_tick_max_ms": 4.12668896,
+        "run_mean_tick_stdev_ms": 1.3152615025687913,
+        "mean_call_ms": 0.0036837125,
+        "mean_run_p95_tick_ms": 6.7849725,
+        "main_cpu_ms": 642.2245285,
+        "worker_cpu_ms": 0.0,
+        "mean_main_allocated_bytes": 42898316,
+        "peak_parallel_workers": 0,
+        "peak_live_workers": 0,
+        "mean_gc_millis": 0,
+        "server_jar_sha256": [
+          "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8"
+        ]
+      },
+      "leaf": {
+        "runs": 2,
+        "mean_tick_ms": 4.281463179999999,
+        "run_mean_tick_min_ms": 3.222462685,
+        "run_mean_tick_max_ms": 5.340463675,
+        "run_mean_tick_stdev_ms": 1.4976528625888208,
+        "mean_call_ms": 0.0034560625,
+        "mean_run_p95_tick_ms": 12.354214,
+        "main_cpu_ms": 895.7777715,
+        "worker_cpu_ms": 0.0,
+        "mean_main_allocated_bytes": 57321240,
+        "peak_parallel_workers": 0,
+        "peak_live_workers": null,
+        "mean_gc_millis": 0,
+        "server_jar_sha256": [
+          "bfc308dc53560fe2d0158564b5382c81bc2c22cc1d714a40ee6304d7e40c385e"
+        ]
+      }
+    },
+    "versus_paper": {},
+    "deterministic_outputs_equal": null,
+    "versus_leaf": {
+      "esco4": {
+        "tick_reduction_percent": -670.9394342496718,
+        "call_reduction_percent": -1330.749877931895
+      },
+      "esco_all": {
+        "tick_reduction_percent": 25.33723874042517,
+        "call_reduction_percent": -6.586975785304805
+      }
+    }
+  },
+  "potential_dense": {
+    "variants": {
+      "esco4": {
+        "runs": 2,
+        "mean_tick_ms": 2.3737262175000002,
+        "run_mean_tick_min_ms": 1.892122645,
+        "run_mean_tick_max_ms": 2.8553297900000003,
+        "run_mean_tick_stdev_ms": 0.6810903039168344,
+        "mean_call_ms": 0.037085149375,
+        "mean_run_p95_tick_ms": 2.9058315,
+        "main_cpu_ms": 507.88372100000004,
+        "worker_cpu_ms": 0.0,
+        "mean_main_allocated_bytes": 1472556,
+        "peak_parallel_workers": 0,
+        "peak_live_workers": 0,
+        "mean_gc_millis": 0,
+        "server_jar_sha256": [
+          "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8"
+        ]
+      },
+      "esco_all": {
+        "runs": 2,
+        "mean_tick_ms": 1.856609605,
+        "run_mean_tick_min_ms": 1.83893702,
+        "run_mean_tick_max_ms": 1.8742821900000002,
+        "run_mean_tick_stdev_ms": 0.024992809389191507,
+        "mean_call_ms": 0.036545439375,
+        "mean_run_p95_tick_ms": 2.341253,
+        "main_cpu_ms": 395.881035,
+        "worker_cpu_ms": 0.0,
+        "mean_main_allocated_bytes": 1469192,
+        "peak_parallel_workers": 0,
+        "peak_live_workers": 0,
+        "mean_gc_millis": 0,
+        "server_jar_sha256": [
+          "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8"
+        ]
+      },
+      "leaf": {
+        "runs": 2,
+        "mean_tick_ms": 2.0444933875,
+        "run_mean_tick_min_ms": 2.016101125,
+        "run_mean_tick_max_ms": 2.07288565,
+        "run_mean_tick_stdev_ms": 0.04015272269395694,
+        "mean_call_ms": 0.03631175921875,
+        "mean_run_p95_tick_ms": 3.000001,
+        "main_cpu_ms": 426.73190150000005,
+        "worker_cpu_ms": 0.0,
+        "mean_main_allocated_bytes": 1471540,
+        "peak_parallel_workers": 0,
+        "peak_live_workers": null,
+        "mean_gc_millis": 0,
+        "server_jar_sha256": [
+          "bfc308dc53560fe2d0158564b5382c81bc2c22cc1d714a40ee6304d7e40c385e"
+        ]
+      }
+    },
+    "versus_paper": {},
+    "deterministic_outputs_equal": true,
+    "versus_leaf": {
+      "esco4": {
+        "tick_reduction_percent": -16.10339422044229,
+        "call_reduction_percent": -2.129861435770497
+      },
+      "esco_all": {
+        "tick_reduction_percent": 9.189747623969758,
+        "call_reduction_percent": -0.6435385155598272
+      }
+    }
+  },
+  "potential_large": {
+    "variants": {
+      "esco4": {
+        "runs": 2,
+        "mean_tick_ms": 8.70518492,
+        "run_mean_tick_min_ms": 7.95453839,
+        "run_mean_tick_max_ms": 9.45583145,
+        "run_mean_tick_stdev_ms": 1.0615745032743025,
+        "mean_call_ms": 0.23897599265625,
+        "mean_run_p95_tick_ms": 10.754422,
+        "main_cpu_ms": 1238.6063585000002,
+        "worker_cpu_ms": 2094.162234,
+        "mean_main_allocated_bytes": 2269824,
+        "peak_parallel_workers": 3,
+        "peak_live_workers": 4,
+        "mean_gc_millis": 0,
+        "server_jar_sha256": [
+          "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8"
+        ]
+      },
+      "esco_all": {
+        "runs": 2,
+        "mean_tick_ms": 9.028227977499999,
+        "run_mean_tick_min_ms": 8.976826234999999,
+        "run_mean_tick_max_ms": 9.07962972,
+        "run_mean_tick_stdev_ms": 0.07269304137311008,
+        "mean_call_ms": 0.2483044871875,
+        "mean_run_p95_tick_ms": 11.833366999999999,
+        "main_cpu_ms": 1184.4385579999998,
+        "worker_cpu_ms": 2078.578898,
+        "mean_main_allocated_bytes": 2273268,
+        "peak_parallel_workers": 3,
+        "peak_live_workers": 6,
+        "mean_gc_millis": 0,
+        "server_jar_sha256": [
+          "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8"
+        ]
+      },
+      "leaf": {
+        "runs": 2,
+        "mean_tick_ms": 10.950400027499999,
+        "run_mean_tick_min_ms": 10.53296047,
+        "run_mean_tick_max_ms": 11.367839584999999,
+        "run_mean_tick_stdev_ms": 0.5903486836875219,
+        "mean_call_ms": 0.30006068859375,
+        "mean_run_p95_tick_ms": 15.081114,
+        "main_cpu_ms": 2306.6137495000003,
+        "worker_cpu_ms": 0.0,
+        "mean_main_allocated_bytes": 1464252,
+        "peak_parallel_workers": 0,
+        "peak_live_workers": null,
+        "mean_gc_millis": 0,
+        "server_jar_sha256": [
+          "bfc308dc53560fe2d0158564b5382c81bc2c22cc1d714a40ee6304d7e40c385e"
+        ]
+      }
+    },
+    "versus_paper": {},
+    "deterministic_outputs_equal": true,
+    "versus_leaf": {
+      "esco4": {
+        "tick_reduction_percent": 20.503498519337526,
+        "call_reduction_percent": 20.357447096377946
+      },
+      "esco_all": {
+        "tick_reduction_percent": 17.55344138271483,
+        "call_reduction_percent": 17.248577828974575
+      }
+    }
+  },
+  "potential_xlarge": {
+    "variants": {
+      "esco0": {
+        "runs": 2,
+        "mean_tick_ms": 45.8269749775,
+        "run_mean_tick_min_ms": 43.71792104,
+        "run_mean_tick_max_ms": 47.936028914999994,
+        "run_mean_tick_stdev_ms": 2.9826526821888737,
+        "mean_call_ms": 1.3806930559375,
+        "mean_run_p95_tick_ms": 50.789584000000005,
+        "main_cpu_ms": 9183.527921500001,
+        "worker_cpu_ms": 0.0,
+        "mean_main_allocated_bytes": 1922504,
+        "peak_parallel_workers": 0,
+        "peak_live_workers": 0,
+        "mean_gc_millis": 0,
+        "server_jar_sha256": [
+          "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8"
+        ]
+      },
+      "esco4": {
+        "runs": 2,
+        "mean_tick_ms": 26.6049322175,
+        "run_mean_tick_min_ms": 25.37854758,
+        "run_mean_tick_max_ms": 27.831316855,
+        "run_mean_tick_stdev_ms": 1.7343697870385129,
+        "mean_call_ms": 0.777610889609375,
+        "mean_run_p95_tick_ms": 35.6196955,
+        "main_cpu_ms": 3845.9159815,
+        "worker_cpu_ms": 7908.08321,
+        "mean_main_allocated_bytes": 2271012,
+        "peak_parallel_workers": 4,
+        "peak_live_workers": 4,
+        "mean_gc_millis": 0,
+        "server_jar_sha256": [
+          "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8"
+        ]
+      },
+      "esco_all": {
+        "runs": 2,
+        "mean_tick_ms": 26.691917605,
+        "run_mean_tick_min_ms": 22.336810970000002,
+        "run_mean_tick_max_ms": 31.04702424,
+        "run_mean_tick_stdev_ms": 6.15905086879805,
+        "mean_call_ms": 0.786885564453125,
+        "mean_run_p95_tick_ms": 35.7295525,
+        "main_cpu_ms": 2861.1766005,
+        "worker_cpu_ms": 8147.8360685,
+        "mean_main_allocated_bytes": 2281644,
+        "peak_parallel_workers": 8,
+        "peak_live_workers": 8,
+        "mean_gc_millis": 0,
+        "server_jar_sha256": [
+          "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8"
+        ]
+      },
+      "leaf": {
+        "runs": 2,
+        "mean_tick_ms": 36.859699265,
+        "run_mean_tick_min_ms": 36.791863925,
+        "run_mean_tick_max_ms": 36.927534605,
+        "run_mean_tick_stdev_ms": 0.09593365783618794,
+        "mean_call_ms": 1.117513487578125,
+        "mean_run_p95_tick_ms": 43.1327215,
+        "main_cpu_ms": 7423.2654595,
+        "worker_cpu_ms": 0.0,
+        "mean_main_allocated_bytes": 1460992,
+        "peak_parallel_workers": 0,
+        "peak_live_workers": null,
+        "mean_gc_millis": 0,
+        "server_jar_sha256": [
+          "bfc308dc53560fe2d0158564b5382c81bc2c22cc1d714a40ee6304d7e40c385e"
+        ]
+      }
+    },
+    "versus_paper": {},
+    "deterministic_outputs_equal": true,
+    "versus_leaf": {
+      "esco0": {
+        "tick_reduction_percent": -24.3281304278433,
+        "call_reduction_percent": -23.55046013178219
+      },
+      "esco4": {
+        "tick_reduction_percent": 27.82108170165507,
+        "call_reduction_percent": 30.415972759790744
+      },
+      "esco_all": {
+        "tick_reduction_percent": 27.58509120462299,
+        "call_reduction_percent": 29.586034244789005
+      }
+    }
+  },
+  "sensor_dense": {
+    "variants": {
+      "esco4": {
+        "runs": 2,
+        "mean_tick_ms": 20.33938248,
+        "run_mean_tick_min_ms": 19.44878676,
+        "run_mean_tick_max_ms": 21.2299782,
+        "run_mean_tick_stdev_ms": 1.259492545815432,
+        "mean_call_ms": 1.763878633125,
+        "mean_run_p95_tick_ms": 30.58754,
+        "main_cpu_ms": 4093.1884935,
+        "worker_cpu_ms": 0.0,
+        "mean_main_allocated_bytes": 260544336,
+        "peak_parallel_workers": 0,
+        "peak_live_workers": 0,
+        "mean_gc_millis": 0,
+        "server_jar_sha256": [
+          "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8"
+        ]
+      },
+      "esco_all": {
+        "runs": 2,
+        "mean_tick_ms": 56.9237262875,
+        "run_mean_tick_min_ms": 35.445011725,
+        "run_mean_tick_max_ms": 78.40244085,
+        "run_mean_tick_stdev_ms": 30.375489436628,
+        "mean_call_ms": 9.256598005625001,
+        "mean_run_p95_tick_ms": 47.029613499999996,
+        "main_cpu_ms": 11623.9852245,
+        "worker_cpu_ms": 0.0,
+        "mean_main_allocated_bytes": 261136916,
+        "peak_parallel_workers": 0,
+        "peak_live_workers": 0,
+        "mean_gc_millis": 0,
+        "server_jar_sha256": [
+          "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8"
+        ]
+      },
+      "leaf": {
+        "runs": 2,
+        "mean_tick_ms": 19.949197185,
+        "run_mean_tick_min_ms": 19.93829993,
+        "run_mean_tick_max_ms": 19.96009444,
+        "run_mean_tick_stdev_ms": 0.015411045813637623,
+        "mean_call_ms": 1.8746496162500002,
+        "mean_run_p95_tick_ms": 25.233206,
+        "main_cpu_ms": 4000.2635435,
+        "worker_cpu_ms": 0.0,
+        "mean_main_allocated_bytes": 389812828,
+        "peak_parallel_workers": 0,
+        "peak_live_workers": null,
+        "mean_gc_millis": 0,
+        "server_jar_sha256": [
+          "bfc308dc53560fe2d0158564b5382c81bc2c22cc1d714a40ee6304d7e40c385e"
+        ]
+      }
+    },
+    "versus_paper": {},
+    "deterministic_outputs_equal": true,
+    "versus_leaf": {
+      "esco4": {
+        "tick_reduction_percent": -1.9558947228883294,
+        "call_reduction_percent": 5.908889968813669
+      },
+      "esco_all": {
+        "tick_reduction_percent": -185.3434439472157,
+        "call_reduction_percent": -393.7774998264293
+      }
+    }
+  },
+  "sensor_large": {
+    "variants": {
+      "esco4": {
+        "runs": 2,
+        "mean_tick_ms": 91.22959928,
+        "run_mean_tick_min_ms": 89.94730868500001,
+        "run_mean_tick_max_ms": 92.511889875,
+        "run_mean_tick_stdev_ms": 1.8134327503524545,
+        "mean_call_ms": 7.403330669375,
+        "mean_run_p95_tick_ms": 119.5667805,
+        "main_cpu_ms": 18189.558657499998,
+        "worker_cpu_ms": 0.0,
+        "mean_main_allocated_bytes": 1049518340,
+        "peak_parallel_workers": 0,
+        "peak_live_workers": 0,
+        "mean_gc_millis": 46,
+        "server_jar_sha256": [
+          "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8"
+        ]
+      },
+      "esco_all": {
+        "runs": 2,
+        "mean_tick_ms": 91.15517217,
+        "run_mean_tick_min_ms": 90.02949088,
+        "run_mean_tick_max_ms": 92.28085346,
+        "run_mean_tick_stdev_ms": 1.591953747227645,
+        "mean_call_ms": 7.7980874799999995,
+        "mean_run_p95_tick_ms": 117.8182055,
+        "main_cpu_ms": 18198.6093815,
+        "worker_cpu_ms": 0.0,
+        "mean_main_allocated_bytes": 1048969568,
+        "peak_parallel_workers": 0,
+        "peak_live_workers": 0,
+        "mean_gc_millis": 42,
+        "server_jar_sha256": [
+          "2bca7fbad7670879b55986de52e75f7a763e82e4afc2236f843460f924f4bef8"
+        ]
+      },
+      "leaf": {
+        "runs": 2,
+        "mean_tick_ms": 90.825032215,
+        "run_mean_tick_min_ms": 90.01197078999999,
+        "run_mean_tick_max_ms": 91.63809364000001,
+        "run_mean_tick_stdev_ms": 1.1498424942774061,
+        "mean_call_ms": 8.1075594325,
+        "mean_run_p95_tick_ms": 106.544055,
+        "main_cpu_ms": 18135.494262,
+        "worker_cpu_ms": 0.0,
+        "mean_main_allocated_bytes": 1663558788,
+        "peak_parallel_workers": 0,
+        "peak_live_workers": null,
+        "mean_gc_millis": 35.5,
+        "server_jar_sha256": [
+          "bfc308dc53560fe2d0158564b5382c81bc2c22cc1d714a40ee6304d7e40c385e"
+        ]
+      }
+    },
+    "versus_paper": {},
+    "deterministic_outputs_equal": true,
+    "versus_leaf": {
+      "esco4": {
+        "tick_reduction_percent": -0.44543564162171645,
+        "call_reduction_percent": 8.686075865223087
+      },
+      "esco_all": {
+        "tick_reduction_percent": -0.3634900499881022,
+        "call_reduction_percent": 3.8170790492074613
+      }
+    }
+  }
+}

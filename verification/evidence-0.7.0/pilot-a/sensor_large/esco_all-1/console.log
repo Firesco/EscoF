@@ -1,0 +1,140 @@
+Applying patches
+Starting org.bukkit.craftbukkit.Main
+[05:34:41 INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.4.1+1-LTS; Eclipse Adoptium Temurin-25.0.4.1+1) on Linux 6.18.44 (amd64)
+[05:34:41 INFO]: [bootstrap] Loading Esco'S Fork 26.2-DEV-HEAD@4b38592 (2026-09-22T05:25:57Z) for Minecraft 26.2
+[05:34:41 INFO]: [LeafConfig] Loading config...
+[05:34:42 INFO]: [LeafConfig] Using 4 threads for Async Pathfinding
+[05:34:42 INFO]: [LeafConfig] Using 4 threads for Async Entity Tracker
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.joml.MemUtil$MemUtilUnsafe (file:/local-build/runs/pilot-a/sensor_large/esco_all-1/libraries/org/joml/joml/1.10.8/joml-1.10.8.jar)
+WARNING: Please consider reporting this to the maintainers of class org.joml.MemUtil$MemUtilUnsafe
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+[05:34:42 WARN]: [LeafConfig] You have following experimental module(s) enabled: [MultithreadedTracker.enabled], please proceed with caution!
+[05:34:42 INFO]: [LeafConfig] Successfully loaded config in 271ms.
+[05:34:42 INFO]: [PluginInitializerManager] Initializing plugins...
+[05:34:42 INFO]: [PluginInitializerManager] Initialized 1 plugin
+[05:34:42 INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - EscoBenchmark (0.3.0)
+[05:34:45 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[05:34:45 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[05:34:46 ERROR]: Failed to request yggdrasil public key
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to api.minecraftservices.com
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readServiceResponse(MinecraftClient.java:151) ~[authlib-9.0.75.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.getWithEtag(MinecraftClient.java:81) ~[authlib-9.0.75.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:65) ~[authlib-9.0.75.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) ~[authlib-9.0.75.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) ~[authlib-9.0.75.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:309) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.net.UnknownHostException: api.minecraftservices.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:569) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:284) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:659) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:161) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:524) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:612) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:207) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:289) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:196) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1011) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:902) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:875) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:181) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1379) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1305) ~[?:?]
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:493) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readServiceResponse(MinecraftClient.java:130) ~[authlib-9.0.75.jar:?]
+	... 10 more
+[05:34:46 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 361.4ms
+[05:34:46 INFO]: Found new data pack paper, loading it automatically
+[05:34:46 INFO]: No existing world data, creating new world
+[05:34:47 INFO]: Loaded 1585 recipes
+[05:34:47 INFO]: Loaded 1688 advancements
+[05:34:47 INFO]: Resource reload finished after 224 ms
+[05:34:47 INFO]: RecipeManager took approximately 2 tasks/83 ms (1 tasks/82 ms preparing, 1 tasks/1 ms applying)
+[05:34:47 INFO]: ServerFunctionLibrary took approximately 3 tasks/1 ms (2 tasks/1 ms preparing, 1 tasks/0 ms applying)
+[05:34:47 INFO]: ServerAdvancementManager took approximately 2 tasks/212 ms (1 tasks/198 ms preparing, 1 tasks/14 ms applying)
+[05:34:47 INFO]: Total blocking time: 15 ms
+[05:34:47 INFO]: Starting minecraft server version 26.2
+[05:34:47 WARN]: ****************************
+[05:34:47 WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[05:34:47 WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[05:34:47 WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[05:34:47 WARN]: ****************************
+[05:34:47 INFO]: Loading properties
+[05:34:47 INFO]: This server is running Esco'S Fork version 26.2-DEV-HEAD@4b38592 (2026-09-22T05:25:57Z) (Implementing API version 26.2.local-SNAPSHOT)
+[05:34:47 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[05:34:47 INFO]: Server Ping Player Sample Count: 12
+[05:34:47 INFO]: Using 4 threads for Netty based IO
+[05:34:48 INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[05:34:48 INFO]: Default game type: SURVIVAL
+[05:34:48 INFO]: Generating keypair
+[05:34:48 INFO]: Starting Minecraft server on 127.0.0.1:0
+[05:34:48 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[05:34:48 INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[05:34:48 WARN]: [io.netty.util.internal.MacAddressUtil] Failed to find a usable hardware address from the network interfaces; using random bytes: 7d:74:a5:33:4c:61:8c:0b
+[05:34:48 INFO]: [EscoBenchmark] Loading server plugin EscoBenchmark v0.3.0
+[05:34:48 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:34:48 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:34:48 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:34:48 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:34:48 INFO]: Preparing level "world"
+[05:34:48 INFO]: Selecting spawn point for level 'minecraft:overworld'...
+[05:34:49 INFO]: Selecting spawn point for level 'minecraft:the_nether'...
+[05:34:49 INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[05:34:49 INFO]: Preparing spawn area: 100%
+[05:34:49 INFO]: Prepared spawn area in 770 ms
+[05:34:49 INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[05:34:49 INFO]: Preparing spawn area: 100%
+[05:34:49 INFO]: Prepared spawn area in 430 ms
+[05:34:49 INFO]: Done preparing level "world" (1.128s)
+[05:34:49 INFO]: [EscoBenchmark] Enabling EscoBenchmark v0.3.0
+[05:34:49 INFO]: [spark] The spark profiler will not be enabled because it is currently disabled in the configuration.
+[05:34:49 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05:34:49 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[05:34:49 INFO]: ThreadedChunkStorage (world): All chunks are saved
+[05:34:49 INFO]: ThreadedChunkStorage (DIM-1): All chunks are saved
+[05:34:49 INFO]: ThreadedChunkStorage: All dimensions are saved
+[05:34:49 INFO]: Running delayed init tasks
+[05:34:49 INFO]: Done (8.485s)! For help, type "help"
+[05:34:49 INFO]: *************************************************************************************
+[05:34:49 INFO]: This is the first time you're starting this server.
+[05:34:49 INFO]: It's recommended you read our 'Getting Started' documentation for guidance.
+[05:34:49 INFO]: View this and more helpful information here: https://docs.papermc.io/paper/next-steps
+[05:34:49 INFO]: *************************************************************************************
+[05:34:51 INFO]: [EscoBenchmark] BENCH_READY mode=sensor entities=32768 synthetic_player_positions=0
+[05:35:14 INFO]: [EscoBenchmark] BENCH_COMPLETE sensor mean_mspt=86.228259825
+[05:35:14 INFO]: Stopping server
+[05:35:14 INFO]: [EscoBenchmark] Disabling EscoBenchmark v0.3.0
+[05:35:14 INFO]: Saving players
+[05:35:14 INFO]: Saving worlds
+[05:35:14 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05:35:14 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:overworld'
+[05:35:14 INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:overworld'
+[05:35:14 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:overworld'
+[05:35:14 INFO]: [ChunkHolderManager] Saved 1520 block chunks, 289 entity chunks, 0 poi chunks in world 'minecraft:overworld' in 0.25s
+[05:35:14 INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:overworld'
+[05:35:14 INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:overworld'
+[05:35:14 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[05:35:14 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_nether'
+[05:35:14 INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_nether'
+[05:35:14 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_nether'
+[05:35:14 INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_nether' in 0.00s
+[05:35:14 INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_nether'
+[05:35:14 INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_nether'
+[05:35:14 INFO]: ThreadedChunkStorage (world): All chunks are saved
+[05:35:14 INFO]: ThreadedChunkStorage (DIM-1): All chunks are saved
+[05:35:14 INFO]: ThreadedChunkStorage: All dimensions are saved
+[05:35:14 INFO]: Waiting for all RegionFile I/O tasks to complete...
+[05:35:14 INFO]: All RegionFile I/O tasks to complete
+[05:35:14 INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[05:35:14 INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[05:35:14 INFO]: [Leaf] Waiting for mob spawning thread to shutdown...
+[05:35:14 INFO]: [Leaf] Waiting for entity tracker executor to shutdown...
+[05:35:14 INFO]: [Leaf] Waiting for mob pathfinding executor to shutdown...

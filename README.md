@@ -1,3 +1,8 @@
+
+<p align="center">
+  <img src="docs/images/escof-logo.png" alt="EscoF" width="480">
+</p>
+
 # ⚡ EscoF
 
 **A multi-core focused Minecraft server fork built for modern CPUs.**

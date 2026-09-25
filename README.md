@@ -20,7 +20,7 @@
 
 EscoF, Leaf ve Paper üzerine kuruludur. Seçilmiş hesaplamaları worker iş parçacıklarına dağıtarak yoğun sunucu yüklerinde işlemci kaynaklarını daha verimli kullanmayı hedefler. Eklenti olaylarını ve dünya işlemlerini bütünüyle paralel çalıştırmaz; Paper/Spigot'un senkron eklenti modeli korunur.
 
-**Beta durumu:** Eklenti uyumluluğu ve performans, kullanılan eklentilere, ayarlara ve sunucu yüküne bağlıdır. Her koşulda Leaf veya Paper'dan hızlı olduğu iddia edilmez. Bu kaynak paketindeki EscoF adlandırma değişiklikleri için yeni bir JAR derlenmemiş ve çalışma zamanı testi yapılmamıştır. Önceki sürümün ölçümleri [test raporunda](docs/TEST-RAPORU-0.7.0.md) bulunur.
+**Beta durumu:** Eklenti uyumluluğu ve performans, kullanılan eklentilere, ayarlara ve sunucu yüküne bağlıdır. Her koşulda Leaf veya Paper'dan hızlı olduğu iddia edilmez. Önceki sürümün ölçümleri [test raporunda](docs/TEST-RAPORU-0.7.0.md) bulunur.
 
 ## İçindekiler
 
@@ -39,7 +39,7 @@ EscoF, Leaf ve Paper üzerine kuruludur. Seçilmiş hesaplamaları worker iş pa
 
 | Bileşen | Gereksinim |
 | --- | --- |
-| Minecraft sürümü | **26.2**; bu paket 1.21.x derlemesi içermez |
+| Minecraft sürümü | **26.2** |
 | Java | **Java 25**; kaynak derleme için JDK 25 |
 | Sunucu dosyası | `escof-26.2-0.7.0.jar` |
 | İşletim sistemi | Java 25 çalıştırabilen bir sistem; hazır BAT dosyası Windows içindir |
